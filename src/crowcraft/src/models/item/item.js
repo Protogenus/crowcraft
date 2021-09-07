@@ -17,7 +17,7 @@ export class Item {
     }
 
     get id() {
-        return [this.name, ...this.craftingMaterials.map(craftingMaterial => craftingMaterial.item.name)].join(".");
+        return [this.name, this.rarity.name, ...this.craftingMaterials.map(craftingMaterial => craftingMaterial.item.name)].join(".");
     }
 
     get baseName() {
