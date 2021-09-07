@@ -7,7 +7,6 @@
 import { CraftingMaterial, Rarities, Professions } from "models";
 import { Item } from "models";
 import { PhilosophersSolution } from "./philosophers-solution";
-import { TransmutationSolution } from "./transmutation-solution";
 
 export class PhilosophersStone extends Item {
     constructor() {
@@ -17,7 +16,7 @@ export class PhilosophersStone extends Item {
             [Rarities.Common],
             [
                 new CraftingMaterial(1, new PhilosophersSolution()),
-				new CraftingMaterial(1, new TransmutationSolution()),
+				new CraftingMaterial(1, new PhilosophersSolution()),
             ],
             1,
             ""
