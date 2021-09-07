@@ -13,7 +13,7 @@ export class PhilosophersStone extends Item {
         super(
             "philosopher's stone",
             [Professions.Alchemist],
-            [Rarities.Common],
+            [Rarities.Common, Rarities.Uncommon, Rarities.Rare, Rarities.Epic, Rarities.Legendary],
             [
                 new CraftingMaterial(1, new PhilosophersSolution()),
 				new CraftingMaterial(1, new PhilosophersSolution()),
