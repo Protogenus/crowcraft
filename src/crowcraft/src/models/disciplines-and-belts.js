@@ -34,10 +34,7 @@ export const getMaterialsAfterDiscsAndBeltsEffects = (craftingMaterial, crafterC
         const newCraftingMaterials = getNewCraftingMaterials(craftingMaterial.item, profession, crafterConfiguration[profession]);
         const newMatsCount = getMatsCount(newCraftingMaterials);
         if (newCraftingMaterials && newMatsCount < bestMatsCount) {
-            for(let i = 0; i < bestNewCraftingMaterials.length; i++) {
-				bestNewCraftingMaterials[i].quantity = newCraftingMaterials[i].quantity;
-			}
-
+            bestNewCraftingMaterials = newCraftingMaterials;
             bestMatsCount = newMatsCount
         }
     }
@@ -2790,13 +2787,13 @@ const DisciplinesAndBelts = {
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-common.stonemason-belt-none": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-common.stonemason-belt-uncommon": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-common.stonemason-belt-rare": [
@@ -2815,13 +2812,13 @@ const DisciplinesAndBelts = {
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-uncommon.stonemason-belt-none": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-uncommon.stonemason-belt-uncommon": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-uncommon.stonemason-belt-rare": [
@@ -2840,13 +2837,13 @@ const DisciplinesAndBelts = {
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-rare.stonemason-belt-none": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-rare.stonemason-belt-uncommon": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-rare.stonemason-belt-rare": [
@@ -2865,13 +2862,13 @@ const DisciplinesAndBelts = {
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-epic.stonemason-belt-none": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-epic.stonemason-belt-uncommon": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-epic.stonemason-belt-rare": [
@@ -2890,13 +2887,13 @@ const DisciplinesAndBelts = {
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-legendary.stonemason-belt-none": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-legendary.stonemason-belt-uncommon": [
-		new CraftingMaterial(6, new Ore()),
-		new CraftingMaterial(2, new CuttingGrit()),
+		new CraftingMaterial(9, new Ore()),
+		new CraftingMaterial(3, new CuttingGrit()),
 		new CraftingMaterial(1, new ChaosEmber()),
 	],
 	"chaos ember cutting blade.stonemason-disc-legendary.stonemason-belt-rare": [
@@ -3147,5 +3144,317 @@ const DisciplinesAndBelts = {
 	"polishing paste.stonemason-disc-legendary.stonemason-belt-legendary": [
 		new CraftingMaterial(4, new PowderedStone()),
 		new CraftingMaterial(1, new WaterFlask()),
+	],
+	"quality assurance control kit.stonemason-disc-none.stonemason-belt-none": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-common.stonemason-belt-none": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-common.stonemason-belt-uncommon": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-common.stonemason-belt-rare": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-common.stonemason-belt-epic": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-common.stonemason-belt-legendary": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-uncommon.stonemason-belt-none": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-uncommon.stonemason-belt-uncommon": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-uncommon.stonemason-belt-rare": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-uncommon.stonemason-belt-epic": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-uncommon.stonemason-belt-legendary": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-rare.stonemason-belt-none": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-rare.stonemason-belt-uncommon": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-rare.stonemason-belt-rare": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-rare.stonemason-belt-epic": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-rare.stonemason-belt-legendary": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-epic.stonemason-belt-none": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-epic.stonemason-belt-uncommon": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-epic.stonemason-belt-rare": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-epic.stonemason-belt-epic": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-epic.stonemason-belt-legendary": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-legendary.stonemason-belt-none": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-legendary.stonemason-belt-uncommon": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(25, new Ore()),
+		new CraftingMaterial(25, new Wood()),
+		new CraftingMaterial(25, new Hide()),
+		new CraftingMaterial(25, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-legendary.stonemason-belt-rare": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-legendary.stonemason-belt-epic": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"quality assurance control kit.stonemason-disc-legendary.stonemason-belt-legendary": [
+		new CraftingMaterial(15, new EtherealDust()),
+		new CraftingMaterial(20, new Ore()),
+		new CraftingMaterial(20, new Wood()),
+		new CraftingMaterial(20, new Hide()),
+		new CraftingMaterial(20, new Stone()),
+	],
+	"tumbling grit.stonemason-disc-none.stonemason-belt-none": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-common.stonemason-belt-none": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-common.stonemason-belt-uncommon": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-common.stonemason-belt-rare": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-common.stonemason-belt-epic": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-common.stonemason-belt-legendary": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-uncommon.stonemason-belt-none": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-uncommon.stonemason-belt-uncommon": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-uncommon.stonemason-belt-rare": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-uncommon.stonemason-belt-epic": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-uncommon.stonemason-belt-legendary": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-rare.stonemason-belt-none": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-rare.stonemason-belt-uncommon": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-rare.stonemason-belt-rare": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-rare.stonemason-belt-epic": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-rare.stonemason-belt-legendary": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-epic.stonemason-belt-none": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-epic.stonemason-belt-uncommon": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-epic.stonemason-belt-rare": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-epic.stonemason-belt-epic": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-epic.stonemason-belt-legendary": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-legendary.stonemason-belt-none": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-legendary.stonemason-belt-uncommon": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-legendary.stonemason-belt-rare": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-legendary.stonemason-belt-epic": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
+	],
+	"tumbling grit.stonemason-disc-legendary.stonemason-belt-legendary": [
+		new CraftingMaterial(8, new Stone()),
+		new CraftingMaterial(3, new WaterFlask()),
+		new CraftingMaterial(1, new CuttingGrit()),
 	],
 }

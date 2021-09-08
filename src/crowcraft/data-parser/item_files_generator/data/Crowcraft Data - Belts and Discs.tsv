@@ -486,28 +486,28 @@ Yes	Yes	Diamond Cutting Blade	3x Ore, 1x Cutting Grit	Stonemason	Orange	Stonemas
 Yes	Yes	Diamond Cutting Blade	3x Ore, 1x Cutting Grit	Stonemason	Orange	Stonemason	Orange
 							
 Yes	Yes	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	None	Stonemason	None
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	None
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	Green
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	None
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	Green
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	Blue
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	Purple
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	White	Stonemason	Orange
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	None
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	Green
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	None
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	Green
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	Blue
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	Purple
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Green	Stonemason	Orange
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	None
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	Green
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	None
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	Green
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	Blue
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	Purple
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Blue	Stonemason	Orange
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	None
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	Green
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	None
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	Green
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	Blue
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	Purple
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Purple	Stonemason	Orange
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	None
-Yes	Yes	Chaos Ember Cutting Blade	6x Ore, 2x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	Green
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	None
+Yes	No	Chaos Ember Cutting Blade	9x Ore, 3x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	Green
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	Blue
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	Purple
 Yes	Yes	Chaos Ember Cutting Blade	3x Ore, 1x Cutting Grit, 1x Chaos Ember	Stonemason	Orange	Stonemason	Orange
@@ -565,3 +565,57 @@ Yes	Yes	Polishing Paste	8x Powdered Stone, 2x Water Flask	Stonemason	Orange	Ston
 Yes	Yes	Polishing Paste	4x Powdered Stone, 1x Water Flask	Stonemason	Orange	Stonemason	Blue
 Yes	Yes	Polishing Paste	4x Powdered Stone, 1x Water Flask	Stonemason	Orange	Stonemason	Purple
 Yes	Yes	Polishing Paste	4x Powdered Stone, 1x Water Flask	Stonemason	Orange	Stonemason	Orange
+							
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	None	Stonemason	None
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	White	Stonemason	None
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	White	Stonemason	Green
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	White	Stonemason	Blue
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	White	Stonemason	Purple
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	White	Stonemason	Orange
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Green	Stonemason	None
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Green	Stonemason	Green
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Green	Stonemason	Blue
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Green	Stonemason	Purple
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Green	Stonemason	Orange
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Blue	Stonemason	None
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Blue	Stonemason	Green
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Blue	Stonemason	Blue
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Blue	Stonemason	Purple
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Blue	Stonemason	Orange
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Purple	Stonemason	None
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Purple	Stonemason	Green
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Purple	Stonemason	Blue
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Purple	Stonemason	Purple
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Purple	Stonemason	Orange
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Orange	Stonemason	None
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	Stonemason	Orange	Stonemason	Green
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Orange	Stonemason	Blue
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Orange	Stonemason	Purple
+No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Orange	Stonemason	Orange
+							
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	None	Stonemason	None
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	None
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Green
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Blue
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Purple
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Orange
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	None
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Green
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Blue
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Purple
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Orange
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	None
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Green
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Blue
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Purple
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Orange
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	None
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Green
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Blue
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Purple
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Orange
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	None
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Green
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Blue
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Purple
+No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Orange

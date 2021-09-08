@@ -1,6 +1,150 @@
 IS IMPLEMENTED	IS CODE UP TO DATE	ITEM NAME	REQUIRED PROF	RARITIES	MATERIALS	QTY PER CRAFT	ITEM EFFECT QLTY	CUSTOMIZABLE	CRAFTING NAME	ITEM TYPE
+		Architecture Components								
+No	No	Architectural Arches	Stonemason	White	2x Bricks, 2x Frame, 1x Carpentry Nails	1	No	No		
+No	No	Architectural Wall	Stonemason	White	2x Bricks, 4x Frame, 2x Wall Insulation, 1x Carpentry Nails	1	No	No		
+No	No	Foundation Segment	Stonemason	White	4x Bricks, 2x Gravel	1	No	No		
+No	No	Frame	Stonemason	White	2x Carpentry Nails, 20x Wood, 20x Wood, 20x Wood, 20x Wood	1	No	No		
+No	No	Roof Segment	Stonemason	White	4x Carpentry Nails, 4x Wood Shingles	1	No	No		
+No	No	Wall Insulation	Stonemason	White	10x Hide, 4x Mulch	1	No	No		
+No	No	Wood Wall Section	Stonemason	White	8x Wood Stakes, 2x Frame	1	No	No	Wall Section	
+No	No	Stone Wall Section	Stonemason	White	8x Bricks, 2x Frame	1	No	No	Wall Section	
+										
+		Geomancy Components								
+No	No	Gravel	Stonemason	White	20x Stone	1	No	No		
+No	No	Mulch	Stonemason	White	20x Wood	1	No	No		
+No	No	Ore Concentrate	Stonemason	White	20x Ore	1	No	No		
+No	No	Soil	Stonemason	White	8x Gravel, 8x Mulch, 8x Ore Concentrate	1	No	No		
+										
 		Stonemasonry Components								
-No	No	Diamond Cutting Blade	Stonemason	white	9x Ore, 3x Cutting Grit	1	No	No		
-No	No	Chaos Ember Cutting Blade	Stonemason	white	9x Ore, 3x Cutting Grit, 1x Chaos Ember	1	No	No	Diamond Cutting Blade	
-No	No	Grinding Wheel	Stonemason	white	8x Stone, 8x Stone, 8x Stone	1	No	No		
-No	No	Polishing Paste	Stonemason	white	16x Powdered Stone, 3x Water Flask	1	No	No		
+No	No	Bricks	Stonemason	White	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	1	No	No		
+No	No	Carpentry Nails	Stonemason	White	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	1	No	No		
+No	No	Diamond Cutting Blade	Stonemason	White	9x Ore, 3x Cutting Grit	1	No	No		
+No	No	Chaos Ember Cutting Blade	Stonemason	White	9x Ore, 3x Cutting Grit, 1x Chaos Ember	1	No	No	Diamond Cutting Blade	
+No	No	Floor Tiles	Stonemason	White	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	1	No	No		
+No	No	Floor Tiles	Stonemason	White	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	1	No	No		
+No	No	Grinding Wheel	Stonemason	White	8x Stone, 8x Stone, 8x Stone	1	No	No		
+No	No	Polishing Paste	Stonemason	White	16x Powdered Stone, 3x Water Flask	1	No	No		
+No	No	Quality Assurance Control Kit	Stonemason	White-Orange	15x Ethereal Dust, 25x Ore, 25x Wood, 25x Hide, 25x Stone	1	Yes	No		
+No	No	Tumbling Grit	Stonemason	White	2x Water Flask, 8x Stone, 1x Cutting Grit	1	No	No		
+No	No	Wood Shingles	Stonemason	White	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	1	No	No		
+No	No	Wood Stakes	Stonemason	White	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	1	No	No		
+										
+		Attachables								
+		Stone Attachable Buttress and Fin Deed	Stonemason	White	1x Foundation Segment, 2x Floor Tiles, 5x Ethereal Dust	1	No	No	Buttress and Fin	
+No	No	Stone Attachable Buttress and Fin Deed	Stonemason	White-Orange	1x Foundation Segment, 2x Floor Tiles, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Buttress and Fin	
+		Stone Attachable Crafting Deck Deed	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 1x Floor Tiles, 5x Ethereal Dust	1	No	No	Crafting Desk	
+No	No	Stone Attachable Crafting Deck Deed	Stonemason	White-Orange	1x Architectural Arches, 1x Foundation Segment, 1x Floor Tiles, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Crafting Desk	
+		Stone Attachable Hanging Banner Deed	Stonemason	White	2x Foundation Segment, 2x Wood Stakes, 5x Ethereal Dust	1	No	No	Hanging Banner	
+No	No	Stone Attachable Hanging Banner Deed	Stonemason	White-Orange	2x Foundation Segment, 2x Wood Stakes, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Hanging Banner	
+		Stone Attachable Merlon Deed	Stonemason	White	3x Foundation Segment, 1x Floor Tiles, 5x Ethereal Dust	1	No	No	Merlon	
+No	No	Stone Attachable Merlon Deed	Stonemason	White-Orange	3x Foundation Segment, 1x Floor Tiles, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Merlon	
+		Stone Attachable Rampart Deed	Stonemason	White	4x Foundation Segment, 3x Floor Tiles, 5x Ethereal Dust	1	No	No	Rampart	
+No	No	Stone Attachable Rampart Deed	Stonemason	White-Orange	4x Foundation Segment, 3x Floor Tiles, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Rampart	
+		Stone Attachable Standing Banner Deed	Stonemason	White	2x Foundation Segment, 2x Wood Stakes, 5x Ethereal Dust	1	No	No	Standing Banner	
+No	No	Stone Attachable Standing Banner Deed	Stonemason	White-Orange	2x Foundation Segment, 2x Wood Stakes, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Standing Banner	
+										
+		Buildings								
+No	No	Cottage Deed	Stonemason	White	2x Chaos Ember, 8x Architectural Wall, 8x Foundation Segment, 4x Carpentry Nails, 8x Floor Tiles, 8x Roof Segment, 8x Architectural Arches	1	No	No	Cottage	
+No	No	Guild Hall Deed	Stonemason	White	16x Floor Tiles, 16x Architectural Arches, 16x Architectural Wall, 16x Roof Segment, 12x Carpentry Nails, 16x Foundation Segment, 6x Chaos Ember, 1x Villa Deed	1	No	No	Guild Hall	
+No	No	Keep Deed	Stonemason	White	20x Floor Tiles, 20x Architectural Arches, 12x Architectural Wall, 2x Roof Segment, 14x Carpentry Nails, 20x Foundation Segment, 10x Chaos Ember, 1x Throne Lodge Deed	1	No	No	Keep	
+No	No	Manor Deed	Stonemason	White	16x Floor Tiles, 16x Architectural Arches, 16x Architectural Wall, 16x Roof Segment, 12x Carpentry nails, 16x Foundation Segment, 4x Chaos Ember, 1x Villa Deed	1	No	No	Manor	
+No	No	Throne Lodge Deed	Stonemason	White	16x Floor Tiles, 16x Architectural Arches, 16x Architectural Wall, 16x Roof Segment, 12x Carpentry Nails, 16x Foundation Segment, 6x Chaos Ember, 1x Villa Deed	1	No	No	Throne Lodge	
+No	No	Training Camp Deed	Stonemason	White	4x Foundation Segment, 35x Ethereal Dust, 4x Carpentry Nails, 4x Floor Tiles, 2x Architectural Wall	1	No	No	Training Camp	
+No	No	Villa Deed	Stonemason	White	8x Floor Tiles, 8x Architectural Arches, 8x Architectural Wall, 8x Roof Segment, 6x Carpentry Nails, 8x Foundation Segment, 3x Chaos Ember, 1x Cottage Deed	1	No	No	Villa	
+										
+		Chests								
+No	No	Guild Member Chest	Stonemason	White	5x Chaos Ember, 36x Ore, 72x Wood, 36x Ore, 72x Wood, 8x Rough Gem	1	No	No		
+No	No	Noble Chest	Stonemason	White	90x Ethereal Dust, 27x Ore, 54x Wood, 27x Ore, 54x Wood, 3x Rough Gem	1	No	No		
+No	No	Personal Chest	Stonemason	White	45x Ethereal Dust, 18x Ore, 36x Wood, 18x Ore, 36x Wood	1	No	No		
+No	No	Public Chest	Stonemason	White	45x Ethereal Dust, 18x Ore, 36x Wood, 18x Ore, 36x Wood	1	No	No		
+No	No	Vassal Chest	Stonemason	White	67x Ethereal Dust, 23x Ore, 45x Wood, 23x Ore, 45x Wood	1	No	No		
+										
+		Crafting Stations								
+No	No	Crafting Station: Alchemy Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Alchemy	
+No	No	Crafting Station: Blacksmithing Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Blacksmithing	
+No	No	Crafting Station: Cooking Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Cooking	
+No	No	Crafting Station: Factory Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Factory	
+No	No	Crafting Station: General Stall	Stonemason	White	15x Ethereal Dust, 18x Stone, 18x Ore, 18x Wood	1	No	No	Crafting Station: General	
+No	No	Crafting Station: Jewelcrafting Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Jewelcrafting	
+No	No	Crafting Station: Leatherworking Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Leatherworking	
+No	No	Crafting Station: Necromancy Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Necromancy	
+No	No	Crafting Station: Runemaking Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Runemaking	
+No	No	Crafting Station: Stonemasonry Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Stonemasonry	
+No	No	Crafting Station: Woodworking Stall	Stonemason	White	15x Ethereal Dust, 18x Ore, 18x Wood, 18x Stone, 18x Wood, 18x Stone, 18x Ore	1	No	No	Crafting Station: Woodworking	
+										
+		Geomancy								
+No	No	Grassland Parcel	Stonemason	Green	10x Soil	1	No	No		
+No	No	Homestead Parcel	Stonemason	Green	1x Grassland Parcel, 1x Grassland Parcel, 1x Grassland Parcel, 5000x Gold	1	No	No		
+No	No	Woodland Grove Parcel	Stonemason	Green	1x Grassland Parcel, 1x Grassland Parcel, 1x Grassland Parcel, 5000x Gold	1	No	No		
+No	No	Woodland Hills Parcel	Stonemason	Green	1x Homestead Parcel, 1x Woodland Grove Parcel, 10000x Gold, 1x Soil	1	No	No		
+No	No	Estate Parcel	Stonemason	Green	1x Woodland Hills Parcel, 1x Woodland Grove Parcel, 10000x Gold, 1x Soil	1	No	No		
+No	No	Woodland Creek Parcel	Stonemason	Green	1x Estate Parcel, 1x Woodland Grove Parcel, 20000x Gold, 2x Soil	1	No	No		
+No	No	Hamlet Parcel	Stonemason	Green	1x Estate Parcel, 1x Woodland Hills Parcel, 25000x Gold, 2x Soil	1	No	No		
+No	No	Shire Parcel	Stonemason	Green	1x Hamlet Parcel, 1x Hamlet Parcel, 30000x Gold, 2x Soil	1	No	No		
+No	No	Village Parcel	Stonemason	Green	1x Shire Parcel, 1x hamlet Parcel, 35000x Gold, 3x Soil	1	No	No		
+No	No	Town Parcel	Stonemason	Green	1x Village Parcel, 1x Hamlet Parcel, 40000x Gold, 3x Soil	1	No	No		
+No	No	Fief Parcel	Stonemason	Green	1x Shire Parcel, 1x Town Parcel, 45000x Gold, 3x Soil	1	No	No		
+No	No	City Parcel	Stonemason	Green	1x Fief Parcel, 1x Fief Parcel, 55000x Gold, 4x Soil	1	No	No		
+No	No	Capital Parcel	Stonemason	Green	1x City Parcel, 1x City Parcel, 50000x Gold, 4x Soil	1	No	No		
+No	No	Mountain Citadel Parcel	Stonemason	Green	1x Capital Parcel, 1x Capital Parcel, 1x Capital Parcel, 60000x Gold	1	No	No		
+No	No	Caldera Parcel	Stonemason	Green	1x Capital Parcel, 1x Capital Parcel, 1x Capital Parcel, 60000x Gold	1	No	No		
+										
+		Stone Walls and Defenses								
+		Stone Attachable Battlement Panel: Stone 1x1 Deed	Stonemason	White	2x Stone Wall Section, 3x Carpentry Nails, 5x Ethereal Dust	1	No	No	Battlement Panel: Stone	
+No	No	Stone Attachable Battlement Panel: Stone 1x1 Deed	Stonemason	White-Orange	2x Stone Wall Section, 3x Carpentry Nails, 5x Ethereal Dust, 1x Quality Assurance Control Kit	1	Yes	No	Battlement Panel: Stone	
+		Stone Attachable Battlement Panel: Wood 1x1 Deed	Stonemason	White	1x Stone Wall Section, 5x Ethereal Dust, 1x Wood Wall Section, 3x Carpentry Nails	1	No	No	Battlement Panel: Wood	
+No	No	Stone Attachable Battlement Panel: Wood 1x1 Deed	Stonemason	White-Orange	1x Stone Wall Section, 5x Ethereal Dust, 1x Wood Wall Section, 1x Quality Assurance Control Kit, 3x Carpentry Nails	1	Yes	No	Battlement Panel: Wood	
+		Stone Bridge and Ramp Deed	Stonemason	White	3x Stone Wall Section, 5x Ethereal Dust, 2x Floor Tiles, 1x Carpentry Nails, 3x Foundation Segment, 2x Architectural Arches	1	No	No	Bridge and Ramp	
+No	No	Stone Bridge and Ramp Deed	Stonemason	White-Orange	3x Stone Wall Section, 5x Ethereal Dust, 2x Floor Tiles, 1x Carpentry Nails, 3x Foundation Segment, 2x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Bridge and Ramp	
+		Stone Corner and Tower Deed	Stonemason	White	6x Stone Wall Section, 6x Floor Tiles, 2x Carpentry Nails, 4x Foundation Segment, 4x Architectural Arches, 1x Roof Segment, 5x Ethereal Dust	1	No	No	Corner and Tower	
+No	No	Stone Corner and Tower Deed	Stonemason	White-Orange	6x Stone Wall Section, 1x Quality Assurance Control Kit, 6x Floor Tiles, 2x Carpentry Nails, 4x Foundation Segment, 4x Architectural Arches, 1x Roof Segment, 5x Ethereal Dust	1	Yes	No	Corner and Tower	
+		Stone Gatehouse Deed	Stonemason	White	12x Stone Wall Section, 6x Foundation Segment, 6x Carpentry Nails, 6x Architectural Arches, 6x Roof Segment, 8x Floor Tiles, 5x Ethereal Dust	1	No	No	Gatehouse	
+No	No	Stone Gatehouse Deed	Stonemason	White-Orange	12x Stone Wall Section, 1x Quality Assurance Control Kit, 6x Foundation Segment, 6x Carpentry Nails, 6x Architectural Arches, 6x Roof Segment, 8x Floor Tiles, 5x Ethereal Dust	1	Yes	No	Gatehouse	
+		Stone Octagon Tower Deed	Stonemason	White	16x Stone Wall Section, 8x Foundation Segment, 10x Carpentry Nails, 8x Architectural Arches, 10x Roof Segment, 8x Floor Tiles, 5x Ethereal Dust	1	No	No	Octagon Tower	
+No	No	Stone Octagon Tower Deed	Stonemason	White-Orange	16x Stone Wall Section, 1x Quality Assurance Control Kit, 8x Foundation Segment, 10x Carpentry Nails, 8x Architectural Arches, 10x Roof Segment, 8x Floor Tiles, 5x Ethereal Dust	1	Yes	No	Octagon Tower	
+No	No	Stone Round Tower Deed	Stonemason	White	14x Stone Wall Section, 5x Ethereal Dust, 6x Foundation Segment, 8x Carpentry Nails, 6x Architectural Arches, 8x Roof Segment, 6x Floor Tiles	1	No	No	Round Tower	
+		Stone Square Tower Deed	Stonemason	White	6x Stone Wall Section, 4x Foundation Segment, 4x Carpentry Nails, 4x Architectural Arches, 6x Roof Segment, 4x Floor Tiles, 5x Ethereal Dust	1	No	No	Square Tower	
+No	No	Stone Square Tower Deed	Stonemason	White-Orange	6x Stone Wall Section, 1x Quality Assurance Control Kit, 4x Foundation Segment, 4x Carpentry Nails, 4x Architectural Arches, 6x Roof Segment, 4x Floor Tiles, 5x Ethereal Dust	1	Yes	No	Square Tower	
+		Stone Wall 1x1 Deed	Stonemason	White	2x Stone Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 3x Carpentry Nails, 3x Foundation Segment, 3x Architectural Arches	1	No	No	Wall 1x1	
+No	No	Stone Wall 1x1 Deed	Stonemason	White-Orange	2x Stone Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 3x Carpentry Nails, 3x Foundation Segment, 3x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Wall 1x1	
+		Stone Wall 2x1 Deed	Stonemason	White	4x Stone Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 4x Carpentry Nails, 4x Foundation Segment, 4x Architectural Arches	1	No	No	Wall 2x1	
+No	No	Stone Wall 2x1 Deed	Stonemason	White-Orange	4x Stone Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 4x Carpentry Nails, 4x Foundation Segment, 4x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Wall 2x1	
+		Stone Wall 3x1 Deed	Stonemason	White	6x Stone Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 4x Carpentry Nails, 6x Foundation Segment, 4x Architectural Arches	1	No	No	Wall 3x1	
+No	No	Stone Wall 3x1 Deed	Stonemason	White-Orange	6x Stone Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 4x Carpentry Nails, 6x Foundation Segment, 4x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Wall 3x1	
+		Stone Panel: Door Deed	Stonemason	White	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Architectural Arches	1	No	No	Wall Panel: Door	
+No	No	Stone Panel: Door Deed	Stonemason	White-Orange	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Quality Assurance Control Kit, 1x Architectural Arches	1	Yes	No	Wall Panel: Door	
+		Stone Wall Panel: Fence Deed	Stonemason	White	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Architectural Arches	1	No	No	Wall Panel: Fence	
+No	No	Stone Wall Panel: Fence Deed	Stonemason	White-Orange	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Quality Assurance Control Kit, 1x Architectural Arches	1	Yes	No	Wall Panel: Fence	
+		Stone Wall Panel: Solid Deed	Stonemason	White	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Architectural Arches	1	No	No	Wall Panel: Solid	
+No	No	Stone Wall Panel: Solid Deed	Stonemason	White-Orange	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Quality Assurance Control Kit, 1x Architectural Arches	1	Yes	No	Wall Panel: Solid	
+		Stone Wall Panel: Window Deed	Stonemason	White	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Architectural Arches	1	No	No	Wall Panel: Window	
+No	No	Stone Wall Panel: Window Deed	Stonemason	White-Orange	1x Stone Wall Section, 5x Ethereal Dust, 2x Carpentry Nails, 1x Quality Assurance Control Kit, 1x Architectural Arches	1	Yes	No	Wall Panel: Window	
+		Stone Wedge Wall 3x1 Deed	Stonemason	White	6x Stone Wall Section, 5x Ethereal Dust, 4x Floor Tiles, 2x Carpentry Nails, 6x Foundation Segment, 4x Architectural Arches	1	No	No	Wedge Wall 3x1	
+No	No	Stone Wedge Wall 3x1 Deed	Stonemason	White-Orange	6x Stone Wall Section, 5x Ethereal Dust, 4x Floor Tiles, 2x Carpentry Nails, 6x Foundation Segment, 4x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Wedge Wall 3x1	
+										
+		Vendors and Stalls								
+No	No	Alchemy Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Ambrosia	1	No	No		
+No	No	General Vendor Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust	1	No	No		
+No	No	Jewelry Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Rough Gem	1	No	No		
+		Leather Armor Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Piece of Armor	1	No	No		
+		Mail Armor Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Piece of Armor	1	No	No		
+		Melee Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Primary Melee Weapon	1	No	No		
+		Necromancy Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Desiccated Arm	1	No	No		
+		Plate Armor Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Piece of Armor	1	No	No		
+		Ranged Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Ranged Weapon	1	No	No		
+		Rune Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 1x Runestone: Harvesting Tools	1	No	No		
+No	No	Stonemasonry Themed Stall	Stonemason	White	1x Architectural Arches, 1x Foundation Segment, 15x Wood, 2x Frame, 10x Ethereal Dust, 2x Bricks	1	No	No		
+		Vendor NPC	Stonemason	Green	75x Ethereal Dust, 1x Human Vessel	1	No	No		
+										
+		Wooden Walls and Defenses								
+No	No	Archer's Tower Deed	Stonemason	White	4x Wood Wall Section, 5x Ethereal Dust, 3x Foundation Segment, 2x Carpentry Nails, 2x Architectural Arches, 2x Roof Segment, 4x Floor Tiles	1	No	No	Archer's Tower	
+		Wood Bridge and Ramp Deed	Stonemason	White	1x Wood Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 2x Carpentry Nails, 2x Foundation Segment, 2x Architectural Arches	1	No	No	Bridge and Ramp	
+No	No	Wood Bridge and Ramp Deed	Stonemason	White-Orange	1x Wood Wall Section, 5x Ethereal Dust, 3x Floor Tiles, 2x Carpentry Nails, 2x Foundation Segment, 2x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Bridge and Ramp	
+		Wood Corner Deed	Stonemason	White	2x Wood Wall Section, 5x Ethereal Dust, 1x Floor Tiles, 2x Carpentry Nails, 1x Foundation Segment, 1x Architectural Arches	1	No	No	Corner	
+No	No	Wood Corner Deed	Stonemason	White-Orange	2x Wood Wall Section, 5x Ethereal Dust, 1x Floor Tiles, 2x Carpentry Nails, 1x Foundation Segment, 1x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Corner	
+No	No	Wood Open Gate 4x1 Deed	Stonemason	White	3x Wood Wall Section, 5x Ethereal Dust, 1x Foundation Segment, 3x Carpentry Nails, 1x Architectural Arches, 1x Roof Segment, 2x Floor Tiles	1	No	No	Gate 4x1 (Open)	
+		Wood Round Tower Deed	Stonemason	White	5x Wood Wall Section, 5x Ethereal Dust, 4x Foundation Segment, 3x Carpentry Nails, 3x Architectural Arches, 3x Roof Segment, 5x Floor Tiles	1	No	No	Round Tower	
+No	No	Wood Sentry Tower Deed	Stonemason	White	2x Wood Wall Section, 5x Ethereal Dust, 1x Foundation Segment, 1x Carpentry Nails, 1x Architectural Arches, 2x Roof Segment, 4x Floor Tiles	1	No	No	Sentry Tower	
+		Wood Wall 1x1 Deed	Stonemason	White	2x Wood Wall Section, 5x Ethereal Dust, 1x Floor Tiles, 1x Carpentry Nails, 2x Foundation Segment, 1x Architectural Arches	1	No	No	Wall 1x1	
+No	No	Wood Wall 1x1 Deed	Stonemason	White-Orange	2x Wood Wall Section, 5x Ethereal Dust, 1x Floor Tiles, 1x Carpentry Nails, 2x Foundation Segment, 1x Architectural Arches, 1x Quality Assurance Control Kit	1	Yes	No	Wall 1x1	
+No	No	Wood Wall 2x1 Deed	Stonemason	White	3x Wood Wall Section, 2x Floor Tiles, 1x Carpentry Nails, 2x Foundation Segment, 2x Architectural Arches, 5x Ethereal Dust	1	No	No	Wall 2x1	

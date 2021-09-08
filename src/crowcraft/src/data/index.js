@@ -4,7 +4,7 @@ const items = [];
 const itemsContext = require.context("./items", false, /^(?!.*index).*\.js$/);
 for (const itemFileName of itemsContext.keys()) {
     let itemId = itemFileName
-        .match(/\/([a-zA-Z-]*)\.js$/)[1]
+        .match(/\/([0-9a-zA-Z-]*)\.js$/)[1]
         .split("-")
         .map(String.capitalize)
         .join("");
@@ -17,7 +17,7 @@ export { items };
 const assets = {};
 const assetsContext = require.context("./assets", false, /\.svg$/);
 for (const assetFileName of assetsContext.keys()) {
-    const assetId = assetFileName.match(/\.\/([a-zA-Z]*)\.svg$/)[1];
+    const assetId = assetFileName.match(/\.\/([0-9a-zA-Z]*)\.svg$/)[1];
     assets[assetId] = assetsContext(assetFileName).default;
 }
 
