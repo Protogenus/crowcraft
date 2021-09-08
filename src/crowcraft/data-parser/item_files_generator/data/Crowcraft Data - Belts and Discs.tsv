@@ -593,29 +593,137 @@ No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hi
 No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Orange	Stonemason	Purple
 No	No	Quality Assurance Control Kit	15x Ethereal Dust, 20x Ore, 20x Wood, 20x Hide, 20x Stone	Stonemason	Orange	Stonemason	Orange
 							
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	None	Stonemason	None
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	None
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Green
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Blue
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Purple
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	White	Stonemason	Orange
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	None
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Green
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Blue
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Purple
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Green	Stonemason	Orange
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	None
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Green
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Blue
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Purple
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Blue	Stonemason	Orange
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	None
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Green
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Blue
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Purple
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Purple	Stonemason	Orange
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	None
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Green
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Blue
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Purple
-No	No	Tumbling Grit	8x Stone, 3x Water Flask, 1x Cutting Grit	Stonemason	Orange	Stonemason	Orange
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	None	Stonemason	None
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	White	Stonemason	None
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	White	Stonemason	Green
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	White	Stonemason	Blue
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	White	Stonemason	Purple
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	White	Stonemason	Orange
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Green	Stonemason	None
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Green	Stonemason	Green
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Green	Stonemason	Blue
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Green	Stonemason	Purple
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Green	Stonemason	Orange
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Blue	Stonemason	None
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Blue	Stonemason	Green
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Blue	Stonemason	Blue
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Blue	Stonemason	Purple
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Blue	Stonemason	Orange
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Purple	Stonemason	None
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Purple	Stonemason	Green
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Purple	Stonemason	Blue
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Purple	Stonemason	Purple
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Purple	Stonemason	Orange
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Orange	Stonemason	None
+No	No	Wood Stakes	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Orange	Stonemason	Green
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Blue
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Purple
+No	No	Wood Stakes	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Orange
+							
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	None	Stonemason	None
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	White	Stonemason	None
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	White	Stonemason	Green
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	White	Stonemason	Blue
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	White	Stonemason	Purple
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	White	Stonemason	Orange
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Green	Stonemason	None
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Green	Stonemason	Green
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Green	Stonemason	Blue
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Green	Stonemason	Purple
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Green	Stonemason	Orange
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Blue	Stonemason	None
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Blue	Stonemason	Green
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Blue	Stonemason	Blue
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Blue	Stonemason	Purple
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Blue	Stonemason	Orange
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Purple	Stonemason	None
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Purple	Stonemason	Green
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Purple	Stonemason	Blue
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Purple	Stonemason	Purple
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Purple	Stonemason	Orange
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Orange	Stonemason	None
+No	No	Carpentry Nails	5x Ethereal Dust, 20x Ore, 20x Ore, 20x Ore	Stonemason	Orange	Stonemason	Green
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Orange	Stonemason	Blue
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Orange	Stonemason	Purple
+No	No	Carpentry Nails	5x Ethereal Dust, 15x Ore, 15x Ore, 15x Ore	Stonemason	Orange	Stonemason	Orange
+							
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	None	Stonemason	None
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	White	Stonemason	None
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	White	Stonemason	Green
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	White	Stonemason	Blue
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	White	Stonemason	Purple
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	White	Stonemason	Orange
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Green	Stonemason	None
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Green	Stonemason	Green
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Green	Stonemason	Blue
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Green	Stonemason	Purple
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Green	Stonemason	Orange
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Blue	Stonemason	None
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Blue	Stonemason	Green
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Blue	Stonemason	Blue
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Blue	Stonemason	Purple
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Blue	Stonemason	Orange
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Purple	Stonemason	None
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Purple	Stonemason	Green
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Purple	Stonemason	Blue
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Purple	Stonemason	Purple
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Purple	Stonemason	Orange
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Orange	Stonemason	None
+No	No	Bricks	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Orange	Stonemason	Green
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Orange	Stonemason	Blue
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Orange	Stonemason	Purple
+No	No	Bricks	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Orange	Stonemason	Orange
+							
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	None	Stonemason	None
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	White	Stonemason	None
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	White	Stonemason	Green
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	White	Stonemason	Blue
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	White	Stonemason	Purple
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	White	Stonemason	Orange
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Green	Stonemason	None
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Green	Stonemason	Green
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Green	Stonemason	Blue
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Green	Stonemason	Purple
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Green	Stonemason	Orange
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Blue	Stonemason	None
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Blue	Stonemason	Green
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Blue	Stonemason	Blue
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Blue	Stonemason	Purple
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Blue	Stonemason	Orange
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Purple	Stonemason	None
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Purple	Stonemason	Green
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Purple	Stonemason	Blue
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Purple	Stonemason	Purple
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Purple	Stonemason	Orange
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Orange	Stonemason	None
+No	No	Floor Tiles	5x Ethereal Dust, 25x Stone, 25x Stone, 25x Stone	Stonemason	Orange	Stonemason	Green
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Orange	Stonemason	Blue
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Orange	Stonemason	Purple
+No	No	Floor Tiles	5x Ethereal Dust, 20x Stone, 20x Stone, 20x Stone	Stonemason	Orange	Stonemason	Orange
+							
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	None	Stonemason	None
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	White	Stonemason	None
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	White	Stonemason	Green
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	White	Stonemason	Blue
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	White	Stonemason	Purple
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	White	Stonemason	Orange
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Green	Stonemason	None
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Green	Stonemason	Green
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Green	Stonemason	Blue
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Green	Stonemason	Purple
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Green	Stonemason	Orange
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Blue	Stonemason	None
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Blue	Stonemason	Green
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Blue	Stonemason	Blue
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Blue	Stonemason	Purple
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Blue	Stonemason	Orange
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Purple	Stonemason	None
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Purple	Stonemason	Green
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Purple	Stonemason	Blue
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Purple	Stonemason	Purple
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Purple	Stonemason	Orange
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Orange	Stonemason	None
+No	No	Wood Shingles	5x Ethereal Dust, 25x Wood, 25x Wood, 25x Wood	Stonemason	Orange	Stonemason	Green
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Blue
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Purple
+No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Orange
