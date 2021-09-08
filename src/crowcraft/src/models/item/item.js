@@ -86,16 +86,16 @@ export class Item {
         return Math.max(...this.craftingMaterials.map(mat => mat.item.craftingRank)) + 1;
     }
 
-    // This is wierd, but we must pass in 'getMaterialsAfterDiscsAndBeltsEffects' because we can't import it here or else we get a circular dependency
-    getCraftingRundown(getMaterialsAfterDiscsAndBeltsEffects) {
+    // This is wierd, but we must pass in 'applyDiscsAndBeltsDiscounts' because we can't import it here or else we get a circular dependency
+    getCraftingRundown(applyDiscsAndBeltsDiscounts) {
         this.adjustCraftingRanks();
         const initialCraftingMaterial = new CraftingMaterial(this.craftingQuantity, this);
-        initialCraftingMaterial.item._craftingMaterials = getMaterialsAfterDiscsAndBeltsEffects(initialCraftingMaterial);
+        applyDiscsAndBeltsDiscounts(initialCraftingMaterial);
 
         const crafts = [new Craft(initialCraftingMaterial.item.craftingMaterials, initialCraftingMaterial)];
         let craftingMaterials = [...this.craftingMaterials];
         for (const craftingMaterial of craftingMaterials) {
-            craftingMaterial.item._craftingMaterials = getMaterialsAfterDiscsAndBeltsEffects(craftingMaterial);
+            applyDiscsAndBeltsDiscounts(craftingMaterial);
         }
 
         let rank = this.craftingRank;
@@ -121,7 +121,7 @@ export class Item {
                 const numberOfCrafts = Math.ceil(materialToCraft.quantity / materialToCraft.item.craftingQuantity);
                 const materialsForThisCraft = materialToCraft.item.craftingMaterials.map(mat => new CraftingMaterial(mat.quantity * numberOfCrafts, mat.item));
                 for (const materialForThisCraft of materialsForThisCraft) {
-                    materialForThisCraft.item._craftingMaterials = getMaterialsAfterDiscsAndBeltsEffects(materialForThisCraft);
+                    applyDiscsAndBeltsDiscounts(materialForThisCraft);
                 }
 
                 crafts.push(new Craft(materialsForThisCraft, new CraftingMaterial(numberOfCrafts * materialToCraft.item.craftingQuantity, materialToCraft.item)));

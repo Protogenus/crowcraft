@@ -8,7 +8,7 @@ import { ItemCustomizer } from "./item-customizer";
 import { ProfessionsStatus } from "./professions-status";
 import { CrafterConfiguration } from "./crafter-configuration";
 import { useState, useEffect, useCallback } from "react";
-import { getMaterialsAfterDiscsAndBeltsEffects } from "models";
+import { applyDiscsAndBeltsDiscounts } from "models";
 
 export const Crafting = () => {
     const [itemToCraft, setItemToCraft] = useState(null);
@@ -22,7 +22,7 @@ export const Crafting = () => {
     useEffect(
         () => {
             if (triggerItemCraft) {
-                const craftingRundown = itemToCraft.getCraftingRundown(craftingMaterial => getMaterialsAfterDiscsAndBeltsEffects(craftingMaterial, crafterConfiguration));
+                const craftingRundown = itemToCraft.getCraftingRundown(craftingMaterial => applyDiscsAndBeltsDiscounts(craftingMaterial, crafterConfiguration));
                 setRawMaterials(craftingRundown.rawMaterials);
                 setCrafts(craftingRundown.crafts);
                 setTriggerItemCraft(false);

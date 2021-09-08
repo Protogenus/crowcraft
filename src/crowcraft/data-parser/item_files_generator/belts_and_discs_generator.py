@@ -56,7 +56,7 @@ def write_js_code(belts_and_discs_data):
     js_code = auto_generation_header + """import { CraftingMaterial } from "models";
 {imports}
 
-export const getMaterialsAfterDiscsAndBeltsEffects = (craftingMaterial, crafterConfiguration = {}) => {
+export const applyDiscsAndBeltsDiscounts = (craftingMaterial, crafterConfiguration = {}) => {
     let bestNewCraftingMaterials = craftingMaterial.item.craftingMaterials;
     let bestMatsCount = 999_999;
     for (const profession of craftingMaterial.item.professions) {

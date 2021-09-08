@@ -27,7 +27,7 @@ import { Stone } from "data/items/stone";
 import { WaterFlask } from "data/items/water-flask";
 import { Wood } from "data/items/wood";
 
-export const getMaterialsAfterDiscsAndBeltsEffects = (craftingMaterial, crafterConfiguration = {}) => {
+export const applyDiscsAndBeltsDiscounts = (craftingMaterial, crafterConfiguration = {}) => {
     let bestNewCraftingMaterials = craftingMaterial.item.craftingMaterials;
     let bestMatsCount = 999_999;
     for (const profession of craftingMaterial.item.professions) {
@@ -39,7 +39,9 @@ export const getMaterialsAfterDiscsAndBeltsEffects = (craftingMaterial, crafterC
         }
     }
 
-    return bestNewCraftingMaterials;
+	for (let i = 0; i < craftingMaterial.item.craftingMaterials.length; i++) {
+		craftingMaterial.item._craftingMaterials[i].quantity = bestNewCraftingMaterials[i].quantity;
+	}
 };
 
 const getNewCraftingMaterials = (item, profession, professionSetting = {}) => {
