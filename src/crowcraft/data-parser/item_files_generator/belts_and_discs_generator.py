@@ -68,7 +68,9 @@ export const applyDiscsAndBeltsDiscounts = (craftingMaterial, crafterConfigurati
         }
     }
 
-    return bestNewCraftingMaterials;
+    for (let i = 0; i < craftingMaterial.item.craftingMaterials.length; i++) {
+        craftingMaterial.item._craftingMaterials[i].quantity = bestNewCraftingMaterials[i].quantity;
+    }
 };
 
 const getNewCraftingMaterials = (item, profession, professionSetting = {}) => {
