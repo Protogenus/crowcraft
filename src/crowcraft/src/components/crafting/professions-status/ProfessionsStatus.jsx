@@ -11,7 +11,7 @@ const professionsStatus = {
     [Professions.Leatherworker]: true,
     [Professions.Necromancer]: false,
     [Professions.Runemaker]: false,
-    [Professions.Stonemason]: false,
+    [Professions.Stonemason]: true,
     [Professions.Woodworker]: true
 };
 
