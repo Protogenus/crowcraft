@@ -1548,6 +1548,36 @@ class RangedDistanceBonus extends ItemStat {
     }
 }
 
+class Wood extends ItemStat {
+    constructor() {
+        super(
+            "wood",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
+class Stone extends ItemStat {
+    constructor() {
+        super(
+            "stone",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
 export const ItemsStats = {
     AttackPower: new AttackPower(),
 	PhysicalResistance: new PhysicalResistance(),
@@ -1651,4 +1681,6 @@ export const ItemsStats = {
 	SpotWeaknessAll: new SpotWeaknessAll(),
 	PersonalHealingModifier: new PersonalHealingModifier(),
 	RangedDistanceBonus: new RangedDistanceBonus(),
+	Wood: new Wood(),
+	Stone: new Stone(),
 }

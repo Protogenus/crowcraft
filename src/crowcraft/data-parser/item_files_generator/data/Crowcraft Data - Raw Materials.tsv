@@ -65,6 +65,7 @@ No	No	Cutting Grit	Raw Material	white
 No	No	Rough Soulgem	Raw Material	green
 				
 No	No	Blood or Water	Generic Material	white
+No	No	Wood or Stone	Generic Material	white-orange
 				
 No	No	Mineral	Generic Material	white-orange
 No	No	Halite	Mineral	white-orange
@@ -84,3 +85,5 @@ No	No	Scavenged Ingredient	Generic Material	white
 No	No	Mandrake	Scavenged Ingredient	white
 No	No	Nightshade	Scavenged Ingredient	white
 No	No	Bloodworm	Scavenged Ingredient	white
+				
+No	No	Soul Essence	Generic Material	white
