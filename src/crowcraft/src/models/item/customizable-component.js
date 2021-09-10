@@ -1,12 +1,20 @@
 import { CraftingMaterial } from "../crafting-material";
+import { Sorting } from "utils";
 import { Item } from "./item";
 import { String } from "utils";
+import { Rarities } from "models";
 
 export class CustomizableComponent extends Item {
     constructor(name, professions, rarities, craftingMaterials, craftingQuantity, possibleCustomizations, craftingRecipeName) {
         super(name, professions, rarities, craftingMaterials, craftingQuantity, craftingRecipeName);
 
-        this.possibleCustomizations = possibleCustomizations;
+        this.possibleCustomizations = possibleCustomizations.sort(
+            Sorting.ascending(
+                customization => customization.customizationEffects[Rarities.Legendary.name]
+                    .map(itemStat => itemStat.name)
+                    .join("."))
+        );
+
         this.customization = null;
     }
 
