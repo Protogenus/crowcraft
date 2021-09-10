@@ -8,24 +8,24 @@ import { CraftingMaterial, Rarities, Professions } from "models";
 import { Item } from "models";
 import { EtherealDust } from "./ethereal-dust";
 import { PhilosophersStone } from "./philosophers-stone";
-import { RestoredHumanArm } from "./restored-human-arm";
-import { RestoredHumanHead } from "./restored-human-head";
-import { RestoredHumanLeg } from "./restored-human-leg";
-import { RestoredHumanTorso } from "./restored-human-torso";
+import { RestoredElvenArm } from "./restored-elven-arm";
+import { RestoredElvenHead } from "./restored-elven-head";
+import { RestoredElvenLeg } from "./restored-elven-leg";
+import { RestoredElvenTorso } from "./restored-elven-torso";
 
-export class HumanVessel extends Item {
+export class HighElfVessel extends Item {
     constructor() {
         super(
-            "human vessel",
+            "high elf vessel",
             [Professions.Necromancer],
             [Rarities.Common, Rarities.Uncommon, Rarities.Rare, Rarities.Epic, Rarities.Legendary],
             [
-                new CraftingMaterial(1, new RestoredHumanHead()),
-				new CraftingMaterial(1, new RestoredHumanArm()),
-				new CraftingMaterial(1, new RestoredHumanArm()),
-				new CraftingMaterial(1, new RestoredHumanLeg()),
-				new CraftingMaterial(1, new RestoredHumanLeg()),
-				new CraftingMaterial(1, new RestoredHumanTorso()),
+                new CraftingMaterial(1, new RestoredElvenHead()),
+				new CraftingMaterial(1, new RestoredElvenArm()),
+				new CraftingMaterial(1, new RestoredElvenArm()),
+				new CraftingMaterial(1, new RestoredElvenLeg()),
+				new CraftingMaterial(1, new RestoredElvenLeg()),
+				new CraftingMaterial(1, new RestoredElvenTorso()),
 				new CraftingMaterial(75, new EtherealDust()),
 				new CraftingMaterial(1, new PhilosophersStone()),
             ],

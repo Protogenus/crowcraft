@@ -9,7 +9,7 @@ const professionsStatus = {
     [Professions.Armorsmith]: true,
     [Professions.Jewelcrafter]: true,
     [Professions.Leatherworker]: true,
-    [Professions.Necromancer]: false,
+    [Professions.Necromancer]: true,
     [Professions.Runemaker]: false,
     [Professions.Stonemason]: true,
     [Professions.Woodworker]: true

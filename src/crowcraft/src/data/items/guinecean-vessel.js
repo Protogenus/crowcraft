@@ -8,24 +8,24 @@ import { CraftingMaterial, Rarities, Professions } from "models";
 import { Item } from "models";
 import { EtherealDust } from "./ethereal-dust";
 import { PhilosophersStone } from "./philosophers-stone";
-import { RestoredHumanArm } from "./restored-human-arm";
-import { RestoredHumanHead } from "./restored-human-head";
-import { RestoredHumanLeg } from "./restored-human-leg";
-import { RestoredHumanTorso } from "./restored-human-torso";
+import { RestoredGuineceanArm } from "./restored-guinecean-arm";
+import { RestoredGuineceanHead } from "./restored-guinecean-head";
+import { RestoredGuineceanLeg } from "./restored-guinecean-leg";
+import { RestoredGuineceanTorso } from "./restored-guinecean-torso";
 
-export class HumanVessel extends Item {
+export class GuineceanVessel extends Item {
     constructor() {
         super(
-            "human vessel",
+            "guinecean vessel",
             [Professions.Necromancer],
             [Rarities.Common, Rarities.Uncommon, Rarities.Rare, Rarities.Epic, Rarities.Legendary],
             [
-                new CraftingMaterial(1, new RestoredHumanHead()),
-				new CraftingMaterial(1, new RestoredHumanArm()),
-				new CraftingMaterial(1, new RestoredHumanArm()),
-				new CraftingMaterial(1, new RestoredHumanLeg()),
-				new CraftingMaterial(1, new RestoredHumanLeg()),
-				new CraftingMaterial(1, new RestoredHumanTorso()),
+                new CraftingMaterial(1, new RestoredGuineceanHead()),
+				new CraftingMaterial(1, new RestoredGuineceanArm()),
+				new CraftingMaterial(1, new RestoredGuineceanArm()),
+				new CraftingMaterial(1, new RestoredGuineceanLeg()),
+				new CraftingMaterial(1, new RestoredGuineceanLeg()),
+				new CraftingMaterial(1, new RestoredGuineceanTorso()),
 				new CraftingMaterial(75, new EtherealDust()),
 				new CraftingMaterial(1, new PhilosophersStone()),
             ],

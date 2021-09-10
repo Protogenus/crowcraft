@@ -13,10 +13,10 @@ import { RestoredHumanHead } from "./restored-human-head";
 import { RestoredHumanLeg } from "./restored-human-leg";
 import { RestoredHumanTorso } from "./restored-human-torso";
 
-export class HumanVessel extends Item {
+export class HalfGiantVessel extends Item {
     constructor() {
         super(
-            "human vessel",
+            "half giant vessel",
             [Professions.Necromancer],
             [Rarities.Common, Rarities.Uncommon, Rarities.Rare, Rarities.Epic, Rarities.Legendary],
             [

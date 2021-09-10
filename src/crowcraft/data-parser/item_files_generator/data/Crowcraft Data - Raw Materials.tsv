@@ -88,9 +88,43 @@ No	No	Bloodworm	Scavenged Ingredient	white
 				
 No	No	Soul Essence	Generic Material	white
 				
-No	No	Human Vessel	Generic Material	white-orange
 No	No	Advanced Harvesting Tools	Generic Material	white-orange
 No	No	Piece of Armor	Generic Material	white-orange
 No	No	Ranged Weapon	Generic Material	white-orange
 No	No	Primary Melee Weapon	Generic Material	white-orange
-No	No	Desiccated arm	Generic Material	white-orange
+				
+No	No	Restored Arm	Generic Material	white-orange
+No	No	Desiccated Arm	Generic Material	white-orange
+No	No	Desiccated Human Arm	Desiccated Arm	white-orange
+No	No	Desiccated Elven Arm	Desiccated Arm	white-orange
+No	No	Desiccated Guinecean Arm	Desiccated Arm	white-orange
+No	No	Desiccated Stoneborn Arm	Desiccated Arm	white-orange
+				
+No	No	Restored Body	Generic Material	white-orange
+No	No	Desiccated Body	Generic Material	white-orange
+No	No	Desiccated Centaur Body	Desiccated Body	white-orange
+				
+No	No	Restored Head	Generic Material	white-orange
+No	No	Desiccated Head	Generic Material	white-orange
+No	No	Desiccated Human Head	Desiccated Head	white-orange
+No	No	Desiccated Elken Head	Desiccated Head	white-orange
+No	No	Desiccated Elven Head	Desiccated Head	white-orange
+No	No	Desiccated Guinecean Head	Desiccated Head	white-orange
+No	No	Desiccated Minotaur Head	Desiccated Head	white-orange
+No	No	Desiccated Stoneborn Head	Desiccated Head	white-orange
+				
+No	No	Restored Leg	Generic Material	white-orange
+No	No	Desiccated Leg	Generic Material	white-orange
+No	No	Desiccated Human Leg	Desiccated Leg	white-orange
+No	No	Desiccated Beast Leg	Desiccated Leg	white-orange
+No	No	Desiccated Elven Leg	Desiccated Leg	white-orange
+No	No	Desiccated Guinecean Leg	Desiccated Leg	white-orange
+No	No	Desiccated Stoneborn Leg	Desiccated Leg	white-orange
+No	No	Desiccated Centaur Leg	Desiccated Leg	white-orange
+				
+No	No	Restored Torso	Generic Material	white-orange
+No	No	Desiccated Torso	Generic Material	white-orange
+No	No	Desiccated Human Torso	Desiccated Torso	white-orange
+No	No	Desiccated Elven Torso	Desiccated Torso	white-orange
+No	No	Desiccated Guinecean Torso	Desiccated Torso	white-orange
+No	No	Desiccated Stoneborn Torso	Desiccated Torso	white-orange
