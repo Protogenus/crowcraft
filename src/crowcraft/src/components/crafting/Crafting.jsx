@@ -1,5 +1,9 @@
 import "./Crafting.css";
 
+import { useState, useEffect, useCallback } from "react";
+import { applyDiscsAndBeltsDiscounts } from "models";
+import { useLocalState } from "hooks";
+
 import { ItemSearch } from "./item-search";
 import { RawMaterials } from "./raw-materials";
 import { RarityPicker } from "./rarity-picker";
@@ -7,8 +11,6 @@ import { CraftingSteps } from "./CraftingSteps";
 import { ItemCustomizer } from "./item-customizer";
 import { ProfessionsStatus } from "./professions-status";
 import { CrafterConfiguration } from "./crafter-configuration";
-import { useState, useEffect, useCallback } from "react";
-import { applyDiscsAndBeltsDiscounts } from "models";
 
 export const Crafting = () => {
     const [itemToCraft, setItemToCraft] = useState(null);
@@ -17,7 +19,7 @@ export const Crafting = () => {
     const [crafts, setCrafts] = useState(null);
     const [triggerItemCraft, setTriggerItemCraft] = useState(false);
     const [itemIsCustomized, setItemIsCustomized] = useState(false);
-    const [crafterConfiguration, setCrafterConfiguration] = useState(undefined);
+    const [crafterConfiguration, setCrafterConfiguration] = useLocalState("crafterConfiguration");
 
     useEffect(
         () => {
@@ -69,7 +71,7 @@ export const Crafting = () => {
             <div className="flex">
                 <div className="mr5 mobile-hide">
                     <div className="sticky-sidebar">
-                        <CrafterConfiguration onConfigurationChanged={handleConfigurationChanged} />
+                        <CrafterConfiguration crafterConfiguration={crafterConfiguration} onConfigurationChanged={handleConfigurationChanged} />
                     </div>
                 </div>
                 <div>
