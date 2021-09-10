@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 
-export const useLocalState = (name, initialState = null, reviver = null) => {
+export const useLocalState = (name, initialState = undefined, reviver = undefined) => {
     const jsonState = localStorage.getItem(name);
 
     if (jsonState) {
