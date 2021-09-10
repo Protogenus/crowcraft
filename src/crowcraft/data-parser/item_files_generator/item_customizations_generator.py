@@ -11,8 +11,8 @@ class Columns:
     ITEM_NAME = 2
     CUSTOMIZATION_NAME = 3
     MATERIALS = 4
-    EFFECT_1 = 5
-    EFFECT_2 = 6
+    EFFECTS_1 = 5
+    EFFECTS_2 = 6
 
 
 def generate_customizations():
@@ -51,10 +51,10 @@ def extract_customization_data(item_name, customization):
 
     replacement_materials = customization[Columns.MATERIALS].lower().split(", ")
 
-    effect_1 = customization[Columns.EFFECT_1] if customization[Columns.EFFECT_1] != "" else None
-    effect_2 = customization[Columns.EFFECT_2] if customization[Columns.EFFECT_2] != "" else None
+    effects_1 = customization[Columns.EFFECTS_1]
+    effects_2 = customization[Columns.EFFECTS_2]
 
-    return customization_name, customization_class_name, replacement_materials, effect_1, effect_2
+    return customization_name, customization_class_name, replacement_materials, effects_1, effects_2
 
 
 def write_js_code(customization_data, js_file, item_name):
@@ -112,25 +112,26 @@ def generate_customization_classes(customization_data, item_name):
 """
 
     customization_classes = []
-    for customization_name, customization_class_name, replacement_materials, effect_1, effect_2 in customization_data:
+    for customization_name, customization_class_name, replacement_materials, effects_1, effects_2 in customization_data:
         try:
             js_replacement_materials = [f"new {make_class_name(replacement_material)}()," for replacement_material in replacement_materials]
         except:
             js_replacement_materials = []
             print(ConsoleColors.FAIL, f"Cannot create replacement materials properly from replacement_materials {{{replacement_materials}}} for item: {{{item_name}}}", ConsoleColors.ENDC)
 
-        wb_effect = f"ItemsStats.{make_class_name(effect_1)}"
+        try:
+            wgb_effects = [f"ItemsStats.{make_class_name(effect)}" for effect in effects_1.split(", ") if effect != ""]
+            po_effects = [f"ItemsStats.{make_class_name(effect)}" for effect in effects_2.split(", ") if effect != ""]
 
-        po_effects = [make_class_name(effect_1), make_class_name(effect_2)] if effect_2 is not None else [make_class_name(effect_1)]
-        po_effects = [f"ItemsStats.{effect}" for effect in po_effects]
-
-        customization_classes.append(
-            js_template.replace("{customization_class_name}", customization_class_name)
-                .replace("{customization_name}", customization_name)
-                .replace("{replacement_materials}", "\n\t\t\t\t".join(js_replacement_materials))
-                .replace("{wb_effect}", wb_effect)
-                .replace("{po_effects}", ", ".join(po_effects))
-        )
+            customization_classes.append(
+                js_template.replace("{customization_class_name}", customization_class_name)
+                    .replace("{customization_name}", customization_name)
+                    .replace("{replacement_materials}", "\n\t\t\t\t".join(js_replacement_materials))
+                    .replace("{wb_effect}", ", ".join(wgb_effects))
+                    .replace("{po_effects}", ", ".join(wgb_effects + po_effects))
+            )
+        except:
+            debug = True
 
     return customization_classes
 

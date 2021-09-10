@@ -93,9 +93,9 @@ class BrioletteTopazWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.InCombatStaminaRegeneration],
-                [Rarities.Uncommon.name]: [ItemsStats.InCombatStaminaRegeneration],
-                [Rarities.Rare.name]: [ItemsStats.InCombatStaminaRegeneration],
+                [Rarities.Common.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.SupportPower],
             }
@@ -112,9 +112,9 @@ class BrioletteEmeraldWaterGroundExactingGemCustomization extends Customization 
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.OutOfCombatHealthRegeneration],
-                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatHealthRegeneration],
-                [Rarities.Rare.name]: [ItemsStats.OutOfCombatHealthRegeneration],
+                [Rarities.Common.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.SupportPower],
             }
@@ -131,9 +131,9 @@ class BrioletteRubyWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.BasicAttackDamage],
-                [Rarities.Uncommon.name]: [ItemsStats.BasicAttackDamage],
-                [Rarities.Rare.name]: [ItemsStats.BasicAttackDamage],
+                [Rarities.Common.name]: [ItemsStats.BasicAttackDamage, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.BasicAttackDamage, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.BasicAttackDamage, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.BasicAttackDamage, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.BasicAttackDamage, ItemsStats.SupportPower],
             }
@@ -150,9 +150,9 @@ class BrioletteSapphireWaterGroundExactingGemCustomization extends Customization
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalStrikeDamage],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeDamage],
-                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeDamage],
+                [Rarities.Common.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.SupportPower],
             }
@@ -169,9 +169,9 @@ class BrioletteDiamondWaterGroundExactingGemCustomization extends Customization 
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalHealingAmount],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingAmount],
-                [Rarities.Rare.name]: [ItemsStats.CriticalHealingAmount],
+                [Rarities.Common.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.SupportPower],
             }
@@ -188,9 +188,9 @@ class BrioletteTopazBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.InCombatStaminaRegeneration],
-                [Rarities.Uncommon.name]: [ItemsStats.InCombatStaminaRegeneration],
-                [Rarities.Rare.name]: [ItemsStats.InCombatStaminaRegeneration],
+                [Rarities.Common.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.InCombatStaminaRegeneration, ItemsStats.AttackPower],
             }
@@ -207,9 +207,9 @@ class BrioletteEmeraldBloodGroundExactingGemCustomization extends Customization 
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.OutOfCombatHealthRegeneration],
-                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatHealthRegeneration],
-                [Rarities.Rare.name]: [ItemsStats.OutOfCombatHealthRegeneration],
+                [Rarities.Common.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.OutOfCombatHealthRegeneration, ItemsStats.AttackPower],
             }
@@ -226,9 +226,9 @@ class BrioletteRubyBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.BasicAttackDamage],
-                [Rarities.Uncommon.name]: [ItemsStats.BasicAttackDamage],
-                [Rarities.Rare.name]: [ItemsStats.BasicAttackDamage],
+                [Rarities.Common.name]: [ItemsStats.BasicAttackDamage, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.BasicAttackDamage, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.BasicAttackDamage, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.BasicAttackDamage, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.BasicAttackDamage, ItemsStats.AttackPower],
             }
@@ -245,9 +245,9 @@ class BrioletteSapphireBloodGroundExactingGemCustomization extends Customization
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalStrikeDamage],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeDamage],
-                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeDamage],
+                [Rarities.Common.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalStrikeDamage, ItemsStats.AttackPower],
             }
@@ -264,9 +264,9 @@ class BrioletteDiamondBloodGroundExactingGemCustomization extends Customization 
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalHealingAmount],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingAmount],
-                [Rarities.Rare.name]: [ItemsStats.CriticalHealingAmount],
+                [Rarities.Common.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalHealingAmount, ItemsStats.AttackPower],
             }
@@ -283,9 +283,9 @@ class HeartTopazWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -302,9 +302,9 @@ class HeartEmeraldWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -321,9 +321,9 @@ class HeartRubyWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -340,9 +340,9 @@ class HeartSapphireWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -359,9 +359,9 @@ class HeartDiamondWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -378,9 +378,9 @@ class HeartBlueTopazWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -397,9 +397,9 @@ class HeartBlackSapphireWaterGroundExactingGemCustomization extends Customizatio
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -416,9 +416,9 @@ class HeartFireDiamondWaterGroundExactingGemCustomization extends Customization 
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -435,9 +435,9 @@ class HeartTopazBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.BlacksmithingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -454,9 +454,9 @@ class HeartEmeraldBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.RunemakingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -473,9 +473,9 @@ class HeartRubyBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.NecromancyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -492,9 +492,9 @@ class HeartSapphireBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.WoodworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -511,9 +511,9 @@ class HeartDiamondBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.LeatherworkingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -530,9 +530,9 @@ class HeartBlueTopazBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.StonemasonryExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -549,9 +549,9 @@ class HeartBlackSapphireBloodGroundExactingGemCustomization extends Customizatio
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.AlchemyExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -568,9 +568,9 @@ class HeartFireDiamondBloodGroundExactingGemCustomization extends Customization 
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentationPoints],
-                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentationPoints],
-                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentationPoints],
+                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.JewelcraftingExperimentationPoints, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -587,9 +587,9 @@ class TrillionTopazWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.OutOfCombatStaminaRegeneration],
-                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatStaminaRegeneration],
-                [Rarities.Rare.name]: [ItemsStats.OutOfCombatStaminaRegeneration],
+                [Rarities.Common.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.SupportPower],
             }
@@ -606,9 +606,9 @@ class TrillionEmeraldWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.HarvestingEfficiency],
-                [Rarities.Uncommon.name]: [ItemsStats.HarvestingEfficiency],
-                [Rarities.Rare.name]: [ItemsStats.HarvestingEfficiency],
+                [Rarities.Common.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.SupportPower],
             }
@@ -625,9 +625,9 @@ class TrillionRubyWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.HarvestingDamageAll],
-                [Rarities.Uncommon.name]: [ItemsStats.HarvestingDamageAll],
-                [Rarities.Rare.name]: [ItemsStats.HarvestingDamageAll],
+                [Rarities.Common.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.SupportPower],
             }
@@ -644,9 +644,9 @@ class TrillionSapphireWaterGroundExactingGemCustomization extends Customization 
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.HarvestingAll],
-                [Rarities.Uncommon.name]: [ItemsStats.HarvestingAll],
-                [Rarities.Rare.name]: [ItemsStats.HarvestingAll],
+                [Rarities.Common.name]: [ItemsStats.HarvestingAll, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.HarvestingAll, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.HarvestingAll, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.HarvestingAll, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.HarvestingAll, ItemsStats.SupportPower],
             }
@@ -663,9 +663,9 @@ class TrillionDiamondWaterGroundExactingGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.SpotWeaknessAll],
-                [Rarities.Uncommon.name]: [ItemsStats.SpotWeaknessAll],
-                [Rarities.Rare.name]: [ItemsStats.SpotWeaknessAll],
+                [Rarities.Common.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.SupportPower],
+                [Rarities.Uncommon.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.SupportPower],
+                [Rarities.Rare.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.SupportPower],
                 [Rarities.Epic.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.SupportPower],
                 [Rarities.Legendary.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.SupportPower],
             }
@@ -682,9 +682,9 @@ class TrillionTopazBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.OutOfCombatStaminaRegeneration],
-                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatStaminaRegeneration],
-                [Rarities.Rare.name]: [ItemsStats.OutOfCombatStaminaRegeneration],
+                [Rarities.Common.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.OutOfCombatStaminaRegeneration, ItemsStats.AttackPower],
             }
@@ -701,9 +701,9 @@ class TrillionEmeraldBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.HarvestingEfficiency],
-                [Rarities.Uncommon.name]: [ItemsStats.HarvestingEfficiency],
-                [Rarities.Rare.name]: [ItemsStats.HarvestingEfficiency],
+                [Rarities.Common.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.HarvestingEfficiency, ItemsStats.AttackPower],
             }
@@ -720,9 +720,9 @@ class TrillionRubyBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.HarvestingDamageAll],
-                [Rarities.Uncommon.name]: [ItemsStats.HarvestingDamageAll],
-                [Rarities.Rare.name]: [ItemsStats.HarvestingDamageAll],
+                [Rarities.Common.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.HarvestingDamageAll, ItemsStats.AttackPower],
             }
@@ -739,9 +739,9 @@ class TrillionSapphireBloodGroundExactingGemCustomization extends Customization 
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.HarvestingAll],
-                [Rarities.Uncommon.name]: [ItemsStats.HarvestingAll],
-                [Rarities.Rare.name]: [ItemsStats.HarvestingAll],
+                [Rarities.Common.name]: [ItemsStats.HarvestingAll, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.HarvestingAll, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.HarvestingAll, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.HarvestingAll, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.HarvestingAll, ItemsStats.AttackPower],
             }
@@ -758,9 +758,9 @@ class TrillionDiamondBloodGroundExactingGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.SpotWeaknessAll],
-                [Rarities.Uncommon.name]: [ItemsStats.SpotWeaknessAll],
-                [Rarities.Rare.name]: [ItemsStats.SpotWeaknessAll],
+                [Rarities.Common.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.AttackPower],
+                [Rarities.Uncommon.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.AttackPower],
+                [Rarities.Rare.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.AttackPower],
                 [Rarities.Epic.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.AttackPower],
                 [Rarities.Legendary.name]: [ItemsStats.SpotWeaknessAll, ItemsStats.AttackPower],
             }

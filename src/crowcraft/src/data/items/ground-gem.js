@@ -123,9 +123,9 @@ class BaguetteTopazWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -142,9 +142,9 @@ class BaguetteEmeraldWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -161,9 +161,9 @@ class BaguetteRubyWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -180,9 +180,9 @@ class BaguetteSapphireWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentation],
+                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -199,9 +199,9 @@ class BaguetteTopazBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.RunemakingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -218,9 +218,9 @@ class BaguetteEmeraldBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.JewelcraftingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -237,9 +237,9 @@ class BaguetteRubyBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.LeatherworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -256,9 +256,9 @@ class BaguetteSapphireBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentation],
+                [Rarities.Common.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.AlchemyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -275,9 +275,9 @@ class MarquiseTopazWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Mining],
-                [Rarities.Uncommon.name]: [ItemsStats.Mining],
-                [Rarities.Rare.name]: [ItemsStats.Mining],
+                [Rarities.Common.name]: [ItemsStats.Mining, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Mining, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Mining, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Mining, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Mining, ItemsStats.HealingBonus],
             }
@@ -294,9 +294,9 @@ class MarquiseEmeraldWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Quarrying],
-                [Rarities.Uncommon.name]: [ItemsStats.Quarrying],
-                [Rarities.Rare.name]: [ItemsStats.Quarrying],
+                [Rarities.Common.name]: [ItemsStats.Quarrying, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Quarrying, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Quarrying, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Quarrying, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Quarrying, ItemsStats.HealingBonus],
             }
@@ -313,9 +313,9 @@ class MarquiseRubyWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Skinning],
-                [Rarities.Uncommon.name]: [ItemsStats.Skinning],
-                [Rarities.Rare.name]: [ItemsStats.Skinning],
+                [Rarities.Common.name]: [ItemsStats.Skinning, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Skinning, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Skinning, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Skinning, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Skinning, ItemsStats.HealingBonus],
             }
@@ -332,9 +332,9 @@ class MarquiseSapphireWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Logging],
-                [Rarities.Uncommon.name]: [ItemsStats.Logging],
-                [Rarities.Rare.name]: [ItemsStats.Logging],
+                [Rarities.Common.name]: [ItemsStats.Logging, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Logging, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Logging, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Logging, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Logging, ItemsStats.HealingBonus],
             }
@@ -351,9 +351,9 @@ class MarquiseDiamondWaterGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Digging],
-                [Rarities.Uncommon.name]: [ItemsStats.Digging],
-                [Rarities.Rare.name]: [ItemsStats.Digging],
+                [Rarities.Common.name]: [ItemsStats.Digging, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Digging, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Digging, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Digging, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Digging, ItemsStats.HealingBonus],
             }
@@ -370,9 +370,9 @@ class MarquiseTopazBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Mining],
-                [Rarities.Uncommon.name]: [ItemsStats.Mining],
-                [Rarities.Rare.name]: [ItemsStats.Mining],
+                [Rarities.Common.name]: [ItemsStats.Mining, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Mining, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Mining, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Mining, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Mining, ItemsStats.DamageBonus],
             }
@@ -389,9 +389,9 @@ class MarquiseEmeraldBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Quarrying],
-                [Rarities.Uncommon.name]: [ItemsStats.Quarrying],
-                [Rarities.Rare.name]: [ItemsStats.Quarrying],
+                [Rarities.Common.name]: [ItemsStats.Quarrying, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Quarrying, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Quarrying, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Quarrying, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Quarrying, ItemsStats.DamageBonus],
             }
@@ -408,9 +408,9 @@ class MarquiseRubyBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Skinning],
-                [Rarities.Uncommon.name]: [ItemsStats.Skinning],
-                [Rarities.Rare.name]: [ItemsStats.Skinning],
+                [Rarities.Common.name]: [ItemsStats.Skinning, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Skinning, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Skinning, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Skinning, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Skinning, ItemsStats.DamageBonus],
             }
@@ -427,9 +427,9 @@ class MarquiseSapphireBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Logging],
-                [Rarities.Uncommon.name]: [ItemsStats.Logging],
-                [Rarities.Rare.name]: [ItemsStats.Logging],
+                [Rarities.Common.name]: [ItemsStats.Logging, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Logging, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Logging, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Logging, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Logging, ItemsStats.DamageBonus],
             }
@@ -446,9 +446,9 @@ class MarquiseDiamondBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Digging],
-                [Rarities.Uncommon.name]: [ItemsStats.Digging],
-                [Rarities.Rare.name]: [ItemsStats.Digging],
+                [Rarities.Common.name]: [ItemsStats.Digging, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Digging, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Digging, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Digging, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Digging, ItemsStats.DamageBonus],
             }
@@ -465,9 +465,9 @@ class OvalTopazWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalStrikeChance],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeChance],
-                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeChance],
+                [Rarities.Common.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.HealingBonus],
             }
@@ -484,9 +484,9 @@ class OvalEmeraldWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusRanged],
-                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusRanged],
-                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusRanged],
+                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.HealingBonus],
             }
@@ -503,9 +503,9 @@ class OvalRubyWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalHealingChance],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingChance],
-                [Rarities.Rare.name]: [ItemsStats.CriticalHealingChance],
+                [Rarities.Common.name]: [ItemsStats.CriticalHealingChance, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingChance, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.CriticalHealingChance, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.CriticalHealingChance, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalHealingChance, ItemsStats.HealingBonus],
             }
@@ -522,9 +522,9 @@ class OvalSapphireWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusMelee],
-                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusMelee],
-                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusMelee],
+                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.HealingBonus],
             }
@@ -541,9 +541,9 @@ class OvalDiamondWaterGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Stealth],
-                [Rarities.Uncommon.name]: [ItemsStats.Stealth],
-                [Rarities.Rare.name]: [ItemsStats.Stealth],
+                [Rarities.Common.name]: [ItemsStats.Stealth, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Stealth, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Stealth, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Stealth, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Stealth, ItemsStats.HealingBonus],
             }
@@ -560,9 +560,9 @@ class OvalTopazBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalStrikeChance],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeChance],
-                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeChance],
+                [Rarities.Common.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalStrikeChance, ItemsStats.DamageBonus],
             }
@@ -579,9 +579,9 @@ class OvalEmeraldBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusRanged],
-                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusRanged],
-                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusRanged],
+                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PowerDamageBonusRanged, ItemsStats.DamageBonus],
             }
@@ -598,9 +598,9 @@ class OvalRubyBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CriticalHealingChance],
-                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingChance],
-                [Rarities.Rare.name]: [ItemsStats.CriticalHealingChance],
+                [Rarities.Common.name]: [ItemsStats.CriticalHealingChance, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.CriticalHealingChance, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.CriticalHealingChance, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.CriticalHealingChance, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.CriticalHealingChance, ItemsStats.DamageBonus],
             }
@@ -617,9 +617,9 @@ class OvalSapphireBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusMelee],
-                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusMelee],
-                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusMelee],
+                [Rarities.Common.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PowerDamageBonusMelee, ItemsStats.DamageBonus],
             }
@@ -636,9 +636,9 @@ class OvalDiamondBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Stealth],
-                [Rarities.Uncommon.name]: [ItemsStats.Stealth],
-                [Rarities.Rare.name]: [ItemsStats.Stealth],
+                [Rarities.Common.name]: [ItemsStats.Stealth, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Stealth, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Stealth, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Stealth, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Stealth, ItemsStats.DamageBonus],
             }
@@ -655,9 +655,9 @@ class RoundTopazWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessOre],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessOre],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessOre],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.HealingBonus],
             }
@@ -674,9 +674,9 @@ class RoundEmeraldWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessStone],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessStone],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessStone],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.HealingBonus],
             }
@@ -693,9 +693,9 @@ class RoundRubyWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessAnimal],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessAnimal],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessAnimal],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.HealingBonus],
             }
@@ -712,9 +712,9 @@ class RoundSapphireWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessWood],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessWood],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessWood],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.HealingBonus],
             }
@@ -731,9 +731,9 @@ class RoundDiamondWaterGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessGrave],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessGrave],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessGrave],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.HealingBonus],
             }
@@ -750,9 +750,9 @@ class RoundTopazBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessOre],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessOre],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessOre],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessOre, ItemsStats.DamageBonus],
             }
@@ -769,9 +769,9 @@ class RoundEmeraldBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessStone],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessStone],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessStone],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessStone, ItemsStats.DamageBonus],
             }
@@ -788,9 +788,9 @@ class RoundRubyBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessAnimal],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessAnimal],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessAnimal],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessAnimal, ItemsStats.DamageBonus],
             }
@@ -807,9 +807,9 @@ class RoundSapphireBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessWood],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessWood],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessWood],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessWood, ItemsStats.DamageBonus],
             }
@@ -826,9 +826,9 @@ class RoundDiamondBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessGrave],
-                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessGrave],
-                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessGrave],
+                [Rarities.Common.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ExploitWeaknessGrave, ItemsStats.DamageBonus],
             }
@@ -845,9 +845,9 @@ class SquareTopazWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -864,9 +864,9 @@ class SquareEmeraldWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentation],
+                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -883,9 +883,9 @@ class SquareRubyWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentation],
+                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -902,9 +902,9 @@ class SquareSapphireWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.AssemblyDifficultyReduction],
             }
@@ -921,9 +921,9 @@ class SquareTopazBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.BlacksmithingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -940,9 +940,9 @@ class SquareEmeraldBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentation],
+                [Rarities.Common.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.StonemasonryExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -959,9 +959,9 @@ class SquareRubyBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentation],
+                [Rarities.Common.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.NecromancyExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -978,9 +978,9 @@ class SquareSapphireBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentation],
-                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentation],
-                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentation],
+                [Rarities.Common.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Uncommon.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
+                [Rarities.Rare.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Epic.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
                 [Rarities.Legendary.name]: [ItemsStats.WoodworkingExperimentation, ItemsStats.ExperimentationDifficultyReduction],
             }
@@ -997,9 +997,9 @@ class TriangleTopazWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PersonalHealingModifier],
-                [Rarities.Uncommon.name]: [ItemsStats.PersonalHealingModifier],
-                [Rarities.Rare.name]: [ItemsStats.PersonalHealingModifier],
+                [Rarities.Common.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.HealingBonus],
             }
@@ -1016,9 +1016,9 @@ class TriangleEmeraldWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ElementalResistance],
-                [Rarities.Uncommon.name]: [ItemsStats.ElementalResistance],
-                [Rarities.Rare.name]: [ItemsStats.ElementalResistance],
+                [Rarities.Common.name]: [ItemsStats.ElementalResistance, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ElementalResistance, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.ElementalResistance, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.ElementalResistance, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ElementalResistance, ItemsStats.HealingBonus],
             }
@@ -1035,9 +1035,9 @@ class TriangleRubyWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.RangedDistanceBonus],
-                [Rarities.Uncommon.name]: [ItemsStats.RangedDistanceBonus],
-                [Rarities.Rare.name]: [ItemsStats.RangedDistanceBonus],
+                [Rarities.Common.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.HealingBonus],
             }
@@ -1054,9 +1054,9 @@ class TriangleSapphireWaterGroundGemCustomization extends Customization {
 				new WaterFlask(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PhysicalResistance],
-                [Rarities.Uncommon.name]: [ItemsStats.PhysicalResistance],
-                [Rarities.Rare.name]: [ItemsStats.PhysicalResistance],
+                [Rarities.Common.name]: [ItemsStats.PhysicalResistance, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PhysicalResistance, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.PhysicalResistance, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.PhysicalResistance, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PhysicalResistance, ItemsStats.HealingBonus],
             }
@@ -1073,9 +1073,9 @@ class TriangleDiamondWaterGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Perception],
-                [Rarities.Uncommon.name]: [ItemsStats.Perception],
-                [Rarities.Rare.name]: [ItemsStats.Perception],
+                [Rarities.Common.name]: [ItemsStats.Perception, ItemsStats.HealingBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Perception, ItemsStats.HealingBonus],
+                [Rarities.Rare.name]: [ItemsStats.Perception, ItemsStats.HealingBonus],
                 [Rarities.Epic.name]: [ItemsStats.Perception, ItemsStats.HealingBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Perception, ItemsStats.HealingBonus],
             }
@@ -1092,9 +1092,9 @@ class TriangleTopazBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PersonalHealingModifier],
-                [Rarities.Uncommon.name]: [ItemsStats.PersonalHealingModifier],
-                [Rarities.Rare.name]: [ItemsStats.PersonalHealingModifier],
+                [Rarities.Common.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PersonalHealingModifier, ItemsStats.DamageBonus],
             }
@@ -1111,9 +1111,9 @@ class TriangleEmeraldBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.ElementalResistance],
-                [Rarities.Uncommon.name]: [ItemsStats.ElementalResistance],
-                [Rarities.Rare.name]: [ItemsStats.ElementalResistance],
+                [Rarities.Common.name]: [ItemsStats.ElementalResistance, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.ElementalResistance, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.ElementalResistance, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.ElementalResistance, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.ElementalResistance, ItemsStats.DamageBonus],
             }
@@ -1130,9 +1130,9 @@ class TriangleRubyBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.RangedDistanceBonus],
-                [Rarities.Uncommon.name]: [ItemsStats.RangedDistanceBonus],
-                [Rarities.Rare.name]: [ItemsStats.RangedDistanceBonus],
+                [Rarities.Common.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.RangedDistanceBonus, ItemsStats.DamageBonus],
             }
@@ -1149,9 +1149,9 @@ class TriangleSapphireBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PhysicalResistance],
-                [Rarities.Uncommon.name]: [ItemsStats.PhysicalResistance],
-                [Rarities.Rare.name]: [ItemsStats.PhysicalResistance],
+                [Rarities.Common.name]: [ItemsStats.PhysicalResistance, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.PhysicalResistance, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.PhysicalResistance, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.PhysicalResistance, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.PhysicalResistance, ItemsStats.DamageBonus],
             }
@@ -1168,9 +1168,9 @@ class TriangleDiamondBloodGroundGemCustomization extends Customization {
 				new AnimalBlood(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.Perception],
-                [Rarities.Uncommon.name]: [ItemsStats.Perception],
-                [Rarities.Rare.name]: [ItemsStats.Perception],
+                [Rarities.Common.name]: [ItemsStats.Perception, ItemsStats.DamageBonus],
+                [Rarities.Uncommon.name]: [ItemsStats.Perception, ItemsStats.DamageBonus],
+                [Rarities.Rare.name]: [ItemsStats.Perception, ItemsStats.DamageBonus],
                 [Rarities.Epic.name]: [ItemsStats.Perception, ItemsStats.DamageBonus],
                 [Rarities.Legendary.name]: [ItemsStats.Perception, ItemsStats.DamageBonus],
             }
