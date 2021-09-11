@@ -44,11 +44,11 @@ class PiercingArrowheadBundleCustomization extends Customization {
                 new Iron(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.PiercingDamageType],
-                [Rarities.Uncommon.name]: [ItemsStats.PiercingDamageType],
-                [Rarities.Rare.name]: [ItemsStats.PiercingDamageType],
-                [Rarities.Epic.name]: [ItemsStats.PiercingDamageType],
-                [Rarities.Legendary.name]: [ItemsStats.PiercingDamageType],
+                [Rarities.Common.name]: [ItemsStats.PiercingDamage],
+                [Rarities.Uncommon.name]: [ItemsStats.PiercingDamage],
+                [Rarities.Rare.name]: [ItemsStats.PiercingDamage],
+                [Rarities.Epic.name]: [ItemsStats.PiercingDamage],
+                [Rarities.Legendary.name]: [ItemsStats.PiercingDamage],
             }
         )
     }
@@ -62,11 +62,11 @@ class SlashingArrowheadBundleCustomization extends Customization {
                 new Tin(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.SlashingDamageType],
-                [Rarities.Uncommon.name]: [ItemsStats.SlashingDamageType],
-                [Rarities.Rare.name]: [ItemsStats.SlashingDamageType],
-                [Rarities.Epic.name]: [ItemsStats.SlashingDamageType],
-                [Rarities.Legendary.name]: [ItemsStats.SlashingDamageType],
+                [Rarities.Common.name]: [ItemsStats.SlashingDamage],
+                [Rarities.Uncommon.name]: [ItemsStats.SlashingDamage],
+                [Rarities.Rare.name]: [ItemsStats.SlashingDamage],
+                [Rarities.Epic.name]: [ItemsStats.SlashingDamage],
+                [Rarities.Legendary.name]: [ItemsStats.SlashingDamage],
             }
         )
     }
@@ -80,11 +80,11 @@ class CrushingArrowheadBundleCustomization extends Customization {
                 new Copper(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.CrushingDamageType],
-                [Rarities.Uncommon.name]: [ItemsStats.CrushingDamageType],
-                [Rarities.Rare.name]: [ItemsStats.CrushingDamageType],
-                [Rarities.Epic.name]: [ItemsStats.CrushingDamageType],
-                [Rarities.Legendary.name]: [ItemsStats.CrushingDamageType],
+                [Rarities.Common.name]: [ItemsStats.CrushingDamage],
+                [Rarities.Uncommon.name]: [ItemsStats.CrushingDamage],
+                [Rarities.Rare.name]: [ItemsStats.CrushingDamage],
+                [Rarities.Epic.name]: [ItemsStats.CrushingDamage],
+                [Rarities.Legendary.name]: [ItemsStats.CrushingDamage],
             }
         )
     }
@@ -98,11 +98,11 @@ class FireArrowheadBundleCustomization extends Customization {
                 new Aurelium(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.FireDamageType],
-                [Rarities.Uncommon.name]: [ItemsStats.FireDamageType],
-                [Rarities.Rare.name]: [ItemsStats.FireDamageType],
-                [Rarities.Epic.name]: [ItemsStats.FireDamageType],
-                [Rarities.Legendary.name]: [ItemsStats.FireDamageType],
+                [Rarities.Common.name]: [ItemsStats.FireDamage],
+                [Rarities.Uncommon.name]: [ItemsStats.FireDamage],
+                [Rarities.Rare.name]: [ItemsStats.FireDamage],
+                [Rarities.Epic.name]: [ItemsStats.FireDamage],
+                [Rarities.Legendary.name]: [ItemsStats.FireDamage],
             }
         )
     }
@@ -116,11 +116,11 @@ class IceArrowheadBundleCustomization extends Customization {
                 new Silver(),
             ],
             {
-                [Rarities.Common.name]: [ItemsStats.IceDamageType],
-                [Rarities.Uncommon.name]: [ItemsStats.IceDamageType],
-                [Rarities.Rare.name]: [ItemsStats.IceDamageType],
-                [Rarities.Epic.name]: [ItemsStats.IceDamageType],
-                [Rarities.Legendary.name]: [ItemsStats.IceDamageType],
+                [Rarities.Common.name]: [ItemsStats.IceDamage],
+                [Rarities.Uncommon.name]: [ItemsStats.IceDamage],
+                [Rarities.Rare.name]: [ItemsStats.IceDamage],
+                [Rarities.Epic.name]: [ItemsStats.IceDamage],
+                [Rarities.Legendary.name]: [ItemsStats.IceDamage],
             }
         )
     }

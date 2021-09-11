@@ -8,8 +8,9 @@ import { Rarities } from "./rarities";
 import { CustomizationEffect } from "./item";
 
 class ItemStat {
-    constructor(name, valuesByRarity) {
+    constructor(name, type, valuesByRarity) {
         this.name = name;
+        this.type = type;
         this.valuesByRarity = valuesByRarity;
     }
 
@@ -22,6 +23,7 @@ class AttackPower extends ItemStat {
     constructor() {
         super(
             "attack power",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.86,
                 [Rarities.Uncommon.name]: 0.98,
@@ -37,6 +39,7 @@ class PhysicalResistance extends ItemStat {
     constructor() {
         super(
             "physical resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 6.04,
                 [Rarities.Uncommon.name]: 6.87,
@@ -52,6 +55,7 @@ class ElementalResistance extends ItemStat {
     constructor() {
         super(
             "elemental resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 6.04,
                 [Rarities.Uncommon.name]: 6.87,
@@ -67,6 +71,7 @@ class OrganicResistance extends ItemStat {
     constructor() {
         super(
             "organic resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 6.04,
                 [Rarities.Uncommon.name]: 6.87,
@@ -82,6 +87,7 @@ class SupportPower extends ItemStat {
     constructor() {
         super(
             "support power",
+            "Stat",
             {
                 [Rarities.Common.name]: 1.72,
                 [Rarities.Uncommon.name]: 1.96,
@@ -97,6 +103,7 @@ class CriticalStrikeChance extends ItemStat {
     constructor() {
         super(
             "critical strike chance",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.03,
                 [Rarities.Uncommon.name]: 0.04,
@@ -112,6 +119,7 @@ class CriticalStrikeDamage extends ItemStat {
     constructor() {
         super(
             "critical strike damage",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.17,
                 [Rarities.Uncommon.name]: 0.19,
@@ -127,6 +135,7 @@ class FireArmorPenetration extends ItemStat {
     constructor() {
         super(
             "fire armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -142,6 +151,7 @@ class IceArmorPenetration extends ItemStat {
     constructor() {
         super(
             "ice armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -157,6 +167,7 @@ class ElectricityArmorPenetration extends ItemStat {
     constructor() {
         super(
             "electricity armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -172,6 +183,7 @@ class NatureArmorPenetration extends ItemStat {
     constructor() {
         super(
             "nature armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -187,6 +199,7 @@ class SlashingArmorPenetration extends ItemStat {
     constructor() {
         super(
             "slashing armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -202,6 +215,7 @@ class CrushingArmorPenetration extends ItemStat {
     constructor() {
         super(
             "crushing armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -217,6 +231,7 @@ class PiercingArmorPenetration extends ItemStat {
     constructor() {
         super(
             "piercing armor penetration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.08,
                 [Rarities.Uncommon.name]: 0.09,
@@ -232,6 +247,7 @@ class CriticalHealingChance extends ItemStat {
     constructor() {
         super(
             "critical healing chance",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.03,
                 [Rarities.Uncommon.name]: 0.04,
@@ -247,6 +263,7 @@ class CriticalHealingAmount extends ItemStat {
     constructor() {
         super(
             "critical healing amount",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.17,
                 [Rarities.Uncommon.name]: 0.19,
@@ -262,6 +279,7 @@ class Stamina extends ItemStat {
     constructor() {
         super(
             "stamina",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.69,
                 [Rarities.Uncommon.name]: 0.79,
@@ -277,6 +295,7 @@ class OutOfCombatHealthRegeneration extends ItemStat {
     constructor() {
         super(
             "out of combat health regeneration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.59,
                 [Rarities.Uncommon.name]: 0.67,
@@ -292,6 +311,7 @@ class Stealth extends ItemStat {
     constructor() {
         super(
             "stealth",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.3,
                 [Rarities.Uncommon.name]: 0.34,
@@ -307,6 +327,7 @@ class BleedResistance extends ItemStat {
     constructor() {
         super(
             "bleed resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -322,6 +343,7 @@ class FireResistance extends ItemStat {
     constructor() {
         super(
             "fire resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -337,6 +359,7 @@ class IceResistance extends ItemStat {
     constructor() {
         super(
             "ice resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -352,6 +375,7 @@ class ElectricityResistance extends ItemStat {
     constructor() {
         super(
             "electricity resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -367,6 +391,7 @@ class NatureResistance extends ItemStat {
     constructor() {
         super(
             "nature resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -382,6 +407,7 @@ class PoisonResistance extends ItemStat {
     constructor() {
         super(
             "poison resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -397,6 +423,7 @@ class DiseaseResistance extends ItemStat {
     constructor() {
         super(
             "disease resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -412,6 +439,7 @@ class SlashingResistance extends ItemStat {
     constructor() {
         super(
             "slashing resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -427,6 +455,7 @@ class CrushingResistance extends ItemStat {
     constructor() {
         super(
             "crushing resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -442,6 +471,7 @@ class PiercingResistance extends ItemStat {
     constructor() {
         super(
             "piercing resistance",
+            "Stat",
             {
                 [Rarities.Common.name]: 8.31,
                 [Rarities.Uncommon.name]: 9.33,
@@ -457,6 +487,7 @@ class BleedDamageBonus extends ItemStat {
     constructor() {
         super(
             "bleed damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.15,
                 [Rarities.Uncommon.name]: 0.17,
@@ -472,6 +503,7 @@ class FireDamageBonus extends ItemStat {
     constructor() {
         super(
             "fire damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -487,6 +519,7 @@ class IceDamageBonus extends ItemStat {
     constructor() {
         super(
             "ice damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -502,6 +535,7 @@ class ElectricityDamageBonus extends ItemStat {
     constructor() {
         super(
             "electricity damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -517,6 +551,7 @@ class NatureDamageBonus extends ItemStat {
     constructor() {
         super(
             "nature damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -532,6 +567,7 @@ class PoisonDamageBonus extends ItemStat {
     constructor() {
         super(
             "poison damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -547,6 +583,7 @@ class DiseaseDamageBonus extends ItemStat {
     constructor() {
         super(
             "disease damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -562,6 +599,7 @@ class SlashingDamageBonus extends ItemStat {
     constructor() {
         super(
             "slashing damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -577,6 +615,7 @@ class CrushingDamageBonus extends ItemStat {
     constructor() {
         super(
             "crushing damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -592,6 +631,7 @@ class PiercingDamageBonus extends ItemStat {
     constructor() {
         super(
             "piercing damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.36,
                 [Rarities.Uncommon.name]: 0.4,
@@ -607,6 +647,7 @@ class Perception extends ItemStat {
     constructor() {
         super(
             "perception",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -622,6 +663,7 @@ class LifestealBonus extends ItemStat {
     constructor() {
         super(
             "lifesteal bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -633,10 +675,11 @@ class LifestealBonus extends ItemStat {
     }
 }
 
-class FireDamageType extends ItemStat {
+class FireDamage extends ItemStat {
     constructor() {
         super(
-            "fire damage type",
+            "fire damage",
+            "Damage type",
             {
                 [Rarities.Common.name]: 1,
                 [Rarities.Uncommon.name]: 1,
@@ -648,10 +691,11 @@ class FireDamageType extends ItemStat {
     }
 }
 
-class IceDamageType extends ItemStat {
+class IceDamage extends ItemStat {
     constructor() {
         super(
-            "ice damage type",
+            "ice damage",
+            "Damage type",
             {
                 [Rarities.Common.name]: 1,
                 [Rarities.Uncommon.name]: 1,
@@ -663,10 +707,11 @@ class IceDamageType extends ItemStat {
     }
 }
 
-class SlashingDamageType extends ItemStat {
+class SlashingDamage extends ItemStat {
     constructor() {
         super(
-            "slashing damage type",
+            "slashing damage",
+            "Damage type",
             {
                 [Rarities.Common.name]: 1,
                 [Rarities.Uncommon.name]: 1,
@@ -678,10 +723,11 @@ class SlashingDamageType extends ItemStat {
     }
 }
 
-class CrushingDamageType extends ItemStat {
+class CrushingDamage extends ItemStat {
     constructor() {
         super(
-            "crushing damage type",
+            "crushing damage",
+            "Damage type",
             {
                 [Rarities.Common.name]: 1,
                 [Rarities.Uncommon.name]: 1,
@@ -693,10 +739,11 @@ class CrushingDamageType extends ItemStat {
     }
 }
 
-class PiercingDamageType extends ItemStat {
+class PiercingDamage extends ItemStat {
     constructor() {
         super(
-            "piercing damage type",
+            "piercing damage",
+            "Damage type",
             {
                 [Rarities.Common.name]: 1,
                 [Rarities.Uncommon.name]: 1,
@@ -712,6 +759,7 @@ class BeneficialHarvestChance extends ItemStat {
     constructor() {
         super(
             "beneficial harvest chance",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.0625,
                 [Rarities.Uncommon.name]: 0.0688,
@@ -727,6 +775,7 @@ class HarvestCriticalChance extends ItemStat {
     constructor() {
         super(
             "harvest critical chance",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.075,
                 [Rarities.Uncommon.name]: 0.0825,
@@ -742,6 +791,7 @@ class PlethoraOfDust extends ItemStat {
     constructor() {
         super(
             "plethora of dust",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.075,
                 [Rarities.Uncommon.name]: 0.0825,
@@ -757,6 +807,7 @@ class BonusHarvestChance extends ItemStat {
     constructor() {
         super(
             "bonus harvest chance",
+            "Stat",
             {
                 [Rarities.Common.name]: 0.15,
                 [Rarities.Uncommon.name]: 0.165,
@@ -772,6 +823,7 @@ class Strength extends ItemStat {
     constructor() {
         super(
             "strength",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -787,6 +839,7 @@ class Constitution extends ItemStat {
     constructor() {
         super(
             "constitution",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -802,6 +855,7 @@ class Intellect extends ItemStat {
     constructor() {
         super(
             "intellect",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -817,6 +871,7 @@ class Dexterity extends ItemStat {
     constructor() {
         super(
             "dexterity",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -832,6 +887,7 @@ class Spirit extends ItemStat {
     constructor() {
         super(
             "spirit",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -847,6 +903,7 @@ class InCombatStaminaRegeneration extends ItemStat {
     constructor() {
         super(
             "in combat stamina regeneration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -862,6 +919,7 @@ class BasicAttackDamage extends ItemStat {
     constructor() {
         super(
             "basic attack damage",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -877,6 +935,7 @@ class AssemblyDifficultyReduction extends ItemStat {
     constructor() {
         super(
             "assembly difficulty reduction",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -892,6 +951,7 @@ class ExperimentationDifficultyReduction extends ItemStat {
     constructor() {
         super(
             "experimentation difficulty reduction",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -907,6 +967,7 @@ class RunemakingExperimentation extends ItemStat {
     constructor() {
         super(
             "runemaking experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -922,6 +983,7 @@ class JewelcraftingExperimentation extends ItemStat {
     constructor() {
         super(
             "jewelcrafting experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -937,6 +999,7 @@ class LeatherworkingExperimentation extends ItemStat {
     constructor() {
         super(
             "leatherworking experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -952,6 +1015,7 @@ class AlchemyExperimentation extends ItemStat {
     constructor() {
         super(
             "alchemy experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -967,6 +1031,7 @@ class HealingBonus extends ItemStat {
     constructor() {
         super(
             "healing bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -982,6 +1047,7 @@ class DamageBonus extends ItemStat {
     constructor() {
         super(
             "damage bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -997,6 +1063,7 @@ class Mining extends ItemStat {
     constructor() {
         super(
             "mining",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1012,6 +1079,7 @@ class Quarrying extends ItemStat {
     constructor() {
         super(
             "quarrying",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1027,6 +1095,7 @@ class Skinning extends ItemStat {
     constructor() {
         super(
             "skinning",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1042,6 +1111,7 @@ class Logging extends ItemStat {
     constructor() {
         super(
             "logging",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1057,6 +1127,7 @@ class Digging extends ItemStat {
     constructor() {
         super(
             "digging",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1072,6 +1143,7 @@ class IceFormationChance extends ItemStat {
     constructor() {
         super(
             "ice formation chance",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1087,6 +1159,7 @@ class DexterityCap extends ItemStat {
     constructor() {
         super(
             "dexterity cap",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1102,6 +1175,7 @@ class IntellectCap extends ItemStat {
     constructor() {
         super(
             "intellect cap",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1117,6 +1191,7 @@ class SpiritCap extends ItemStat {
     constructor() {
         super(
             "spirit cap",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1132,6 +1207,7 @@ class StrengthCap extends ItemStat {
     constructor() {
         super(
             "strength cap",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1147,6 +1223,7 @@ class ConstitutionCap extends ItemStat {
     constructor() {
         super(
             "constitution cap",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1162,6 +1239,7 @@ class ExploitWeaknessOre extends ItemStat {
     constructor() {
         super(
             "exploit weakness: ore",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1177,6 +1255,7 @@ class ExploitWeaknessStone extends ItemStat {
     constructor() {
         super(
             "exploit weakness: stone",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1192,6 +1271,7 @@ class ExploitWeaknessAnimal extends ItemStat {
     constructor() {
         super(
             "exploit weakness: animal",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1207,6 +1287,7 @@ class ExploitWeaknessWood extends ItemStat {
     constructor() {
         super(
             "exploit weakness: wood",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1222,6 +1303,7 @@ class ExploitWeaknessGrave extends ItemStat {
     constructor() {
         super(
             "exploit weakness: grave",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1237,6 +1319,7 @@ class PowerDamageBonusRanged extends ItemStat {
     constructor() {
         super(
             "power damage bonus: ranged",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1252,6 +1335,7 @@ class PowerDamageBonusMelee extends ItemStat {
     constructor() {
         super(
             "power damage bonus: melee",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1267,6 +1351,7 @@ class BlacksmithingExperimentation extends ItemStat {
     constructor() {
         super(
             "blacksmithing experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1282,6 +1367,7 @@ class StonemasonryExperimentation extends ItemStat {
     constructor() {
         super(
             "stonemasonry experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1297,6 +1383,7 @@ class NecromancyExperimentation extends ItemStat {
     constructor() {
         super(
             "necromancy experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1312,6 +1399,7 @@ class WoodworkingExperimentation extends ItemStat {
     constructor() {
         super(
             "woodworking experimentation",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1327,6 +1415,7 @@ class BlacksmithingExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "blacksmithing experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1342,6 +1431,7 @@ class RunemakingExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "runemaking experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1357,6 +1447,7 @@ class NecromancyExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "necromancy experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1372,6 +1463,7 @@ class WoodworkingExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "woodworking experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1387,6 +1479,7 @@ class LeatherworkingExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "leatherworking experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1402,6 +1495,7 @@ class StonemasonryExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "stonemasonry experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1417,6 +1511,7 @@ class AlchemyExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "alchemy experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1432,6 +1527,7 @@ class JewelcraftingExperimentationPoints extends ItemStat {
     constructor() {
         super(
             "jewelcrafting experimentation points",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1447,6 +1543,7 @@ class OutOfCombatStaminaRegeneration extends ItemStat {
     constructor() {
         super(
             "out of combat stamina regeneration",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1462,6 +1559,7 @@ class HarvestingEfficiency extends ItemStat {
     constructor() {
         super(
             "harvesting efficiency",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1477,6 +1575,7 @@ class HarvestingDamageAll extends ItemStat {
     constructor() {
         super(
             "harvesting damage: all",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1492,6 +1591,7 @@ class HarvestingAll extends ItemStat {
     constructor() {
         super(
             "harvesting: all",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1507,6 +1607,7 @@ class SpotWeaknessAll extends ItemStat {
     constructor() {
         super(
             "spot weakness: all",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1522,6 +1623,7 @@ class PersonalHealingModifier extends ItemStat {
     constructor() {
         super(
             "personal healing modifier",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1537,6 +1639,7 @@ class RangedDistanceBonus extends ItemStat {
     constructor() {
         super(
             "ranged distance bonus",
+            "Stat",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1552,6 +1655,7 @@ class Wood extends ItemStat {
     constructor() {
         super(
             "wood",
+            "Material",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1567,6 +1671,7 @@ class Stone extends ItemStat {
     constructor() {
         super(
             "stone",
+            "Material",
             {
                 [Rarities.Common.name]: 0,
                 [Rarities.Uncommon.name]: 0,
@@ -1620,11 +1725,11 @@ export const ItemsStats = {
 	PiercingDamageBonus: new PiercingDamageBonus(),
 	Perception: new Perception(),
 	LifestealBonus: new LifestealBonus(),
-	FireDamageType: new FireDamageType(),
-	IceDamageType: new IceDamageType(),
-	SlashingDamageType: new SlashingDamageType(),
-	CrushingDamageType: new CrushingDamageType(),
-	PiercingDamageType: new PiercingDamageType(),
+	FireDamage: new FireDamage(),
+	IceDamage: new IceDamage(),
+	SlashingDamage: new SlashingDamage(),
+	CrushingDamage: new CrushingDamage(),
+	PiercingDamage: new PiercingDamage(),
 	BeneficialHarvestChance: new BeneficialHarvestChance(),
 	HarvestCriticalChance: new HarvestCriticalChance(),
 	PlethoraOfDust: new PlethoraOfDust(),

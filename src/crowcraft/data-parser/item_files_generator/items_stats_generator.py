@@ -13,6 +13,7 @@ class Columns:
     BLUE_VALUE = 5
     PURPLE_VALUE = 6
     ORANGE_VALUE = 7
+    TYPE = 8
 
 
 def generate_items_stats():
@@ -44,8 +45,9 @@ def extract_items_stats_data(items_stats):
         blue_value = item_stat[Columns.BLUE_VALUE]
         purple_value = item_stat[Columns.PURPLE_VALUE]
         orange_value = item_stat[Columns.ORANGE_VALUE]
+        stat_type = item_stat[Columns.TYPE]
 
-        items_stats_data.append((stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value))
+        items_stats_data.append((stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value, stat_type))
 
     return items_stats_data
 
@@ -55,8 +57,9 @@ def write_js_code(items_stats):
 import { CustomizationEffect } from "./item";
 
 class ItemStat {
-    constructor(name, valuesByRarity) {
+    constructor(name, type, valuesByRarity) {
         this.name = name;
+        this.type = type;
         this.valuesByRarity = valuesByRarity;
     }
 
@@ -73,19 +76,20 @@ export const ItemsStats = {
 """
     item_stat_classes = []
     exports = []
-    for stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value in items_stats:
-        item_stat_classes.append(make_item_stat_class(stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value))
+    for stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value, stat_type in items_stats:
+        item_stat_classes.append(make_item_stat_class(stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value, stat_type))
         exports.append(f"{stat_class_name}: new {stat_class_name}(),")
 
     return js_code.replace("{item_stat_classes}", "\n\n".join(item_stat_classes))\
         .replace("{exports}", "\n\t".join(exports))
 
 
-def make_item_stat_class(stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value):
+def make_item_stat_class(stat_name, stat_class_name, white_value, green_value, blue_value, purple_value, orange_value, stat_type):
     js_code = """class {stat_class_name} extends ItemStat {
     constructor() {
         super(
             "{stat_name}",
+            "{type}",
             {
                 [Rarities.Common.name]: {white_value},
                 [Rarities.Uncommon.name]: {green_value},
@@ -99,6 +103,7 @@ def make_item_stat_class(stat_name, stat_class_name, white_value, green_value, b
 
     return js_code.replace("{stat_class_name}", stat_class_name)\
         .replace("{stat_name}", stat_name)\
+        .replace("{type}", stat_type)\
         .replace("{white_value}", white_value)\
         .replace("{green_value}", green_value)\
         .replace("{blue_value}", blue_value)\

@@ -25,11 +25,11 @@ Yes	Yes	Metal Bar	Tin	Tin, Tin, Tin	Critical Healing Chance	Support Power
 Yes	Yes	Metal Bar	Silver	Silver, Silver, Silver	Critical Healing Amount	Support Power
 Yes	Yes	Metal Bar	Aurelium	Aurelium, Aurelium, Aurelium	Critical Strike Chance	Critical Strike Damage
 						
-Yes	Yes	Arrowhead Bundle	Piercing	Iron	Piercing Damage Type	
-Yes	Yes	Arrowhead Bundle	Slashing	Tin	Slashing Damage Type	
-Yes	Yes	Arrowhead Bundle	Crushing	Copper	Crushing Damage Type	
-Yes	Yes	Arrowhead Bundle	Fire	Aurelium	Fire Damage Type	
-Yes	Yes	Arrowhead Bundle	Ice	Silver	Ice Damage Type	
+Yes	Yes	Arrowhead Bundle	Piercing	Iron	Piercing Damage	
+Yes	Yes	Arrowhead Bundle	Slashing	Tin	Slashing Damage	
+Yes	Yes	Arrowhead Bundle	Crushing	Copper	Crushing Damage	
+Yes	Yes	Arrowhead Bundle	Fire	Aurelium	Fire Damage	
+Yes	Yes	Arrowhead Bundle	Ice	Silver	Ice Damage	
 						
 Yes	Yes	Metal Rivets	Stealth	Aurelium, Iron	Stealth	Out Of Combat Health Regeneration
 Yes	Yes	Metal Rivets	Out Of Combat Health Regeneration	Ore, Ore	Out Of Combat Health Regeneration	
