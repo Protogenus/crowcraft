@@ -119,19 +119,16 @@ def generate_customization_classes(customization_data, item_name):
             js_replacement_materials = []
             print(ConsoleColors.FAIL, f"Cannot create replacement materials properly from replacement_materials {{{replacement_materials}}} for item: {{{item_name}}}", ConsoleColors.ENDC)
 
-        try:
-            wgb_effects = [f"ItemsStats.{make_class_name(effect)}" for effect in effects_1.split(", ") if effect != ""]
-            po_effects = [f"ItemsStats.{make_class_name(effect)}" for effect in effects_2.split(", ") if effect != ""]
+        wgb_effects = [f"ItemsStats.{make_class_name(effect)}" for effect in effects_1.split(", ") if effect != ""]
+        po_effects = [f"ItemsStats.{make_class_name(effect)}" for effect in effects_2.split(", ") if effect != ""]
 
-            customization_classes.append(
-                js_template.replace("{customization_class_name}", customization_class_name)
-                    .replace("{customization_name}", customization_name)
-                    .replace("{replacement_materials}", "\n\t\t\t\t".join(js_replacement_materials))
-                    .replace("{wb_effect}", ", ".join(wgb_effects))
-                    .replace("{po_effects}", ", ".join(wgb_effects + po_effects))
-            )
-        except:
-            debug = True
+        customization_classes.append(
+            js_template.replace("{customization_class_name}", customization_class_name)
+                .replace("{customization_name}", customization_name)
+                .replace("{replacement_materials}", "\n\t\t\t\t".join(js_replacement_materials))
+                .replace("{wb_effect}", ", ".join(wgb_effects))
+                .replace("{po_effects}", ", ".join(wgb_effects + po_effects))
+        )
 
     return customization_classes
 
