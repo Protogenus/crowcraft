@@ -69,7 +69,7 @@ def extract_item_data(item):
 def generate_js_code(item_data):
     (file_name, _, _, _, _, _, _, is_customizable, _, item_type_name) = item_data
     item_type = make_class_name(item_type_name)
-    js_code = ""
+
     if is_customizable.lower() == "yes":
         js_code = generate_customizable_item(item_data)
     elif item_type in model_item_types and item_type != default_item_type:
