@@ -1,13 +1,13 @@
 export const Professions = {
     Alchemist: "alchemist",
-    Armorsmith: "armorsmith",
+    Armorsmith: "blacksmith",
     Jewelcrafter: "jewelcrafter",
     Leatherworker: "leatherworker",
     Necromancer: "necromancer",
     Runemaker: "runemaker",
     Stonemason: "stonemason",
-    Weaponsmith: "weaponsmith",
+    Weaponsmith: "blacksmith",
     Woodworker: "woodworker",
     Cooking: "cooking",
-    None: "personal crafting (TODO)"
+    None: "basic crafting"
 };

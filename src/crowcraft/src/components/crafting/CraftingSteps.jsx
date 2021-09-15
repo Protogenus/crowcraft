@@ -3,6 +3,7 @@ import { getAsset } from "data";
 import { String } from "utils";
 import { Vendors } from "models";
 import { memo } from "react";
+import { Professions } from "models";
 
 export const CraftingSteps = memo(({ crafts }) => {
     return (
@@ -19,9 +20,21 @@ export const CraftingSteps = memo(({ crafts }) => {
     );
 });
 
+const getActionString = profession => {
+    if (Object.values(Vendors).includes(profession)) {
+        return `At the ${profession}, buy`;
+    }
+
+    if (profession === Professions.None) {
+        return `In the ${profession} window, craft`;
+    }
+
+    return `At the ${profession} station, craft`;
+}
+
 const CraftingStep = ({ craft }) => {
     const profession = craft.craftingResult.item.professions[0]; // We'll ignore duals for this, since the only known combination are at the same station (armorsmith/weaponsmith)
-    const action = Object.values(Vendors).includes(profession) ? ", buy" : " station, craft";
+    const action = getActionString(profession);
     const resultCraftingQuantity = craft.craftingResult.item.craftingQuantity;
     const resultQuantity = craft.craftingResult.quantity;
     const resultName = craft.craftingResult.item.craftingRecipeName;
@@ -29,7 +42,7 @@ const CraftingStep = ({ craft }) => {
 
     return (
         <div className="bg-marine pa2 w11 br2">
-            <div className="mb1">At the {profession}{action} {resultQuantity / resultCraftingQuantity} {resultName} {note}</div>
+            <div className="mb1">{action} {resultQuantity / resultCraftingQuantity} {resultName} {note}</div>
             <div className="flex items-center">
                 <div className="w3 h3 flex items-center justify-center">
                     <img src={getAsset(profession)} alt={String.capitalize(profession)} title={String.capitalize(profession)} />
