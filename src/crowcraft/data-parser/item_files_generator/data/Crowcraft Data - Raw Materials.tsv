@@ -52,6 +52,7 @@ Yes	Yes	Elk Meat	Meat	white
 Yes	Yes	Bear Meat	Meat	white
 Yes	Yes	Spider Meat	Meat	white
 Yes	Yes	Boar Meat	Meat	white
+Yes	Yes	Big Cat Meat	Meat	white
 				
 Yes	Yes	Gold	Raw Material	white
 Yes	Yes	Ethereal Dust	Raw Material	white
@@ -59,13 +60,13 @@ No	No	Animal Blood	Raw Material	white
 No	No	Chaos Ember	Raw Material	white
 No	No	Soul Gem	Raw Material	white
 No	No	Animal Bone	Raw Material	white-orange
-No	No	Apple	Raw Material	white
+				
 No	No	Beeswax	Raw Material	white
 No	No	Cutting Grit	Raw Material	white
 No	No	Rough Soulgem	Raw Material	green
-				
 No	No	Blood or Water	Generic Material	white
 No	No	Wood or Stone	Generic Material	white-orange
+No	No	Meat or Mushroom	Generic Material	white
 				
 No	No	Mineral	Generic Material	white-orange
 No	No	Halite	Mineral	white-orange
@@ -128,3 +129,28 @@ No	No	Desiccated Human Torso	Desiccated Torso	white-orange
 No	No	Desiccated Elven Torso	Desiccated Torso	white-orange
 No	No	Desiccated Guinecean Torso	Desiccated Torso	white-orange
 No	No	Desiccated Stoneborn Torso	Desiccated Torso	white-orange
+				
+No	No	Wood Grub	Raw Material	white
+No	No	Pine Nuts	Raw Material	white
+No	No	Cocoa Beans	Raw Material	white
+No	No	Truffles	Raw Material	white
+No	No	Ginseng	Raw Material	white
+No	No	Crushed Herbs	Generic Material	white
+No	No	Currant Berries	Raw Material	white
+No	No	Satyr Salt Cube	Raw Material	white
+No	No	Hot sauce	Raw Material	white
+No	No	Currant berries	Raw Material	white
+No	No	Olive oil	Raw Material	white
+No	No	Peppermint	Raw Material	white
+No	No	Satyr Salt Cube	Raw Material	white
+No	No	Urgu spice mix	Raw Material	white
+				
+No	No	Produce	Generic Material	white
+No	No	Garlic	Produce	white
+No	No	Apple	Produce	white
+No	No	Wild onion	Produce	white
+No	No	Mushroom	Produce	white
+No	No	Chanterelle mushroom	Mushroom	white
+No	No	Button mushroom	Mushroom	white
+				
+No	No	Sacrifice shard	Raw Material	white-orange

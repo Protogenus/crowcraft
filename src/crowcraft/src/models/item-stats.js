@@ -1683,6 +1683,38 @@ class Stone extends ItemStat {
     }
 }
 
+class Meat extends ItemStat {
+    constructor() {
+        super(
+            "meat",
+            "Ingredient",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
+class Mushroom extends ItemStat {
+    constructor() {
+        super(
+            "mushroom",
+            "Ingredient",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
 export const ItemsStats = {
     AttackPower: new AttackPower(),
 	PhysicalResistance: new PhysicalResistance(),
@@ -1788,4 +1820,6 @@ export const ItemsStats = {
 	RangedDistanceBonus: new RangedDistanceBonus(),
 	Wood: new Wood(),
 	Stone: new Stone(),
+	Meat: new Meat(),
+	Mushroom: new Mushroom(),
 }

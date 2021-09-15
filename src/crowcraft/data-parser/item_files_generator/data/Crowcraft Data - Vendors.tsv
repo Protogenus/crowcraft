@@ -37,9 +37,9 @@ Yes	Yes	Pen and ink	Weapon Crafting Vendor	white	10x gold	1	No	No
 Yes	Yes	Weapon weights	Weapon Crafting Vendor	white	100x gold	1	No	No		
 Yes	Yes	Bottled steam	Weapon Crafting Vendor	white	2000x gold	1	No	No		
 										
-No	No	Carrot	Food Vendor	white	50x gold	1	No	No		
-No	No	Hot Peppers	Food Vendor	white	30x gold	1	No	No		
-No	No	Potato	Food Vendor	white	20x gold	1	No	No		
+No	No	Carrot	Food Vendor	white	50x gold	1	No	No		Produce
+No	No	Hot Peppers	Food Vendor	white	30x gold	1	No	No		Produce
+No	No	Potato	Food Vendor	white	20x gold	1	No	No		Produce
 No	No	Coffee Beans	Food Vendor	white	10x gold	1	No	No		
 No	No	Sugar Cane	Food Vendor	white	10x gold	1	No	No		
 No	No	Seasoning Salt	Food Vendor	white	10x gold	1	No	No		

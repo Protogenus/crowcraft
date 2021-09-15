@@ -12,7 +12,8 @@ const professionsStatus = {
     [Professions.Necromancer]: true,
     [Professions.Runemaker]: false,
     [Professions.Stonemason]: true,
-    [Professions.Woodworker]: true
+    [Professions.Woodworker]: true,
+    [Professions.Cooking]: true
 };
 
 export const ProfessionsStatus = () => {

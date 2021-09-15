@@ -7,5 +7,7 @@ export const Professions = {
     Runemaker: "runemaker",
     Stonemason: "stonemason",
     Weaponsmith: "weaponsmith",
-    Woodworker: "woodworker"
+    Woodworker: "woodworker",
+    Cooking: "cooking",
+    None: "personal crafting (TODO)"
 };

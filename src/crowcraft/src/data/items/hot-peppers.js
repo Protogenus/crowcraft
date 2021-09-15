@@ -5,10 +5,10 @@
 ///////////////////////////////////////////////////
 
 import { CraftingMaterial, Rarities, Vendors } from "models";
-import { Item } from "models";
+import { Produce } from "./produce";
 import { Gold } from "./gold";
 
-export class HotPeppers extends Item {
+export class HotPeppers extends Produce {
     constructor() {
         super(
             "hot peppers",

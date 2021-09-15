@@ -4,16 +4,17 @@
 //                                               //
 ///////////////////////////////////////////////////
 
-import { RawMaterial, Rarities } from "models";
+import { Rarities } from "models";
+import { Produce } from "./produce";
 
-export class Apple extends RawMaterial {
-    constructor(
-        name = "apple",
-        professions = [],
-        rarities = [Rarities.Common],
-        craftingMaterials = [],
-        craftingQuantity = 1
-    ) {
-        super(name, professions, rarities, craftingMaterials, craftingQuantity);
+export class Apple extends Produce {
+    constructor() {
+        super(
+            "apple",
+            [],
+            [Rarities.Common],
+            [],
+            1
+        );
     }
 }
