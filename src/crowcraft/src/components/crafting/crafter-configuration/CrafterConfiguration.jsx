@@ -14,9 +14,12 @@ const Type = {
 
 const initProfessionSettings = value => {
     return Object.values(Professions).reduce((config, profession) => {
-        config[profession] = {
-            [Type.DISCIPLINE]: value,
-            [Type.BELT]: value
+        // TODO Handle this more gracefully
+        if (profession !== Professions.Cooking && profession !== Professions.None) {
+            config[profession] = {
+                [Type.DISCIPLINE]: value,
+                [Type.BELT]: value
+            }
         }
 
         return config;
