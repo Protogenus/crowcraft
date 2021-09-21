@@ -1,0 +1,22 @@
+IS IMPLEMENTED	IS CODE UP TO DATE	ITEM NAME	REQUIRED PROF	RARITIES	MATERIALS	QTY PER CRAFT	ITEM EFFECT QLTY	CUSTOMIZABLE	CRAFTING NAME	ITEM TYPE
+		Stone Processing								
+No	No	Unmarked Runestone	Runemaker	white-orange	6x Wood or Stone, 6x Wood or Stone, 6x Wood or Stone, 6x Ethereal Dust	1	Yes	Yes		
+										
+		Components								
+No	No	Sigil: Axe	Runemaker	white-orange	1x Parchment Paper, 8x Ore, 8x Ore	1	Yes	Yes		Sigil
+		Sigil: Binding	Runemaker	green	1x Parchment Paper, 5x Ethereal Dust, 2x Silver, 2x Soul Essence, 2x Animal Blood	1	Yes	No		
+No	No	Sigil: Hammer	Runemaker	white-orange	1x Parchment Paper, 8x Ore, 8x Ore	1	Yes	Yes		Sigil
+		Sigil: Haste	Runemaker	green	1x Parchment Paper, 8x Ground Sulphur, 8x Ground Sulphur, 5x Aurelium, 5x Soul Essence, 5x Animal Blood	1	Yes	No		
+No	No	Sigil: Knife	Runemaker	white-orange	1x Parchment Paper, 8x Ore, 8x Ore	1	Yes	Yes		Sigil
+		Sigil: Mobility	Runemaker	green	1x Parchment Paper, 8x Ground Dolomite, 8x Ground Dolomite, 5x Aurelium, 5x Soul Essence, 5x Animal Blood	1	Yes	No		
+No	No	Sigil: Pick	Runemaker	white-orange	1x Parchment Paper, 8x Ore, 8x Ore	1	Yes	Yes		Sigil
+No	No	Sigil: Shovel	Runemaker	white-orange	1x Parchment Paper, 8x Ore, 8x Ore	1	Yes	Yes		Sigil
+										
+		Runes								
+No	No	Runestone Axe	Runemaker	white-orange	1x Sigil: Axe, 1x Unmarked Runestone, 5x Ethereal Dust	1	Yes	No	Advanced Harvesting Tools	
+No	No	Runestone Hammer	Runemaker	white-orange	1x Sigil: Hammer, 1x Unmarked Runestone, 5x Ethereal Dust	1	Yes	No	Advanced Harvesting Tools	
+No	No	Runestone Knife	Runemaker	white-orange	1x Sigil: Knife, 1x Unmarked Runestone, 5x Ethereal Dust	1	Yes	No	Advanced Harvesting Tools	
+No	No	Runestone Pick	Runemaker	white-orange	1x Sigil: Pick, 1x Unmarked Runestone, 5x Ethereal Dust	1	Yes	No	Advanced Harvesting Tools	
+No	No	Runestone Shovel	Runemaker	white-orange	1x Sigil: Shovel, 1x Unmarked Runestone, 5x Ethereal Dust	1	Yes	No	Advanced Harvesting Tools	
+		Discipline: Major	Runemaker	white-orange	1x Sigil: Binding, 4x Domination Dust, 1x Unmarked Stone Runestone, 1x Aurelium Bar, 1x Aurelium Bar, 1x Soul Gem: Major	1	Yes	No		
+		Runestone: Haste	Runemaker	green	1x Sigil: Haste, 1x Unmarked Stone Runestone, 1x Chaos Ember	1	Yes	No		

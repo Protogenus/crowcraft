@@ -819,6 +819,86 @@ class BonusHarvestChance extends ItemStat {
     }
 }
 
+class ForagedFruitChance extends ItemStat {
+    constructor() {
+        super(
+            "foraged fruit chance",
+            "Stat",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
+class MineralHarvestChance extends ItemStat {
+    constructor() {
+        super(
+            "mineral harvest chance",
+            "Stat",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
+class HarvestBloodChance extends ItemStat {
+    constructor() {
+        super(
+            "harvest blood chance",
+            "Stat",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
+class GemHarvestChance extends ItemStat {
+    constructor() {
+        super(
+            "gem harvest chance",
+            "Stat",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
+class GraveGoods extends ItemStat {
+    constructor() {
+        super(
+            "grave goods",
+            "Stat",
+            {
+                [Rarities.Common.name]: 0,
+                [Rarities.Uncommon.name]: 0,
+                [Rarities.Rare.name]: 0,
+                [Rarities.Epic.name]: 0,
+                [Rarities.Legendary.name]: 0,
+            }
+        );
+    }
+}
+
 class Strength extends ItemStat {
     constructor() {
         super(
@@ -1766,6 +1846,11 @@ export const ItemsStats = {
 	HarvestCriticalChance: new HarvestCriticalChance(),
 	PlethoraOfDust: new PlethoraOfDust(),
 	BonusHarvestChance: new BonusHarvestChance(),
+	ForagedFruitChance: new ForagedFruitChance(),
+	MineralHarvestChance: new MineralHarvestChance(),
+	HarvestBloodChance: new HarvestBloodChance(),
+	GemHarvestChance: new GemHarvestChance(),
+	GraveGoods: new GraveGoods(),
 	Strength: new Strength(),
 	Constitution: new Constitution(),
 	Intellect: new Intellect(),

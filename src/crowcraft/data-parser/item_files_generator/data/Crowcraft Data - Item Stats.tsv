@@ -49,6 +49,11 @@ No	No	Beneficial Harvest Chance	0.0625	0.0688	0.0719	0.075	0.0781	Stat
 No	No	Harvest Critical Chance	0.075	0.0825	0.0863	0.09	0.0938	Stat
 No	No	Plethora of Dust	0.075	0.0825	0.0863	0.09	0.0938	Stat
 No	No	Bonus Harvest Chance	0.15	0.165	0.1725	0.18	0.1875	Stat
+No	No	Foraged Fruit Chance	0	0	0	0	0	Stat
+No	No	Mineral Harvest Chance	0	0	0	0	0	Stat
+No	No	Harvest Blood Chance	0	0	0	0	0	Stat
+No	No	Gem Harvest Chance	0	0	0	0	0	Stat
+No	No	Grave Goods	0	0	0	0	0	Stat
 No	No	Strength	0	0	0	0	0	Stat
 No	No	Constitution	0	0	0	0	0	Stat
 No	No	Intellect	0	0	0	0	0	Stat
