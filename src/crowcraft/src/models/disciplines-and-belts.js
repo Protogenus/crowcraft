@@ -35,32 +35,7 @@ import { WaterFlask } from "data/items/water-flask";
 import { Wood } from "data/items/wood";
 import { WoodOrStone } from "data/items/wood-or-stone";
 
-export const applyDiscsAndBeltsDiscounts = (craftingMaterial, crafterConfiguration = {}) => {
-    let bestNewCraftingMaterials = craftingMaterial.item.craftingMaterials;
-    let bestMatsCount = 999_999;
-    for (const profession of craftingMaterial.item.professions) {
-        const newCraftingMaterials = getNewCraftingMaterials(craftingMaterial.item, profession, crafterConfiguration[profession]);
-        const newMatsCount = getMatsCount(newCraftingMaterials);
-        if (newCraftingMaterials && newMatsCount < bestMatsCount) {
-            bestNewCraftingMaterials = newCraftingMaterials;
-            bestMatsCount = newMatsCount
-        }
-    }
-
-    for (let i = 0; i < craftingMaterial.item.craftingMaterials.length; i++) {
-        craftingMaterial.item._craftingMaterials[i].quantity = bestNewCraftingMaterials[i].quantity;
-    }
-};
-
-const getNewCraftingMaterials = (item, profession, professionSetting = {}) => {
-    const key = `${item.baseName}.${profession}-disc-${professionSetting.discipline}.${profession}-belt-${professionSetting.belt}`
-
-    return DisciplinesAndBelts[key];
-}
-
-const getMatsCount = (craftingMaterials = []) => craftingMaterials.reduce((count, mat) => count + mat.quantity, 0);
-
-const DisciplinesAndBelts = {
+export const DisciplinesAndBelts = {
     "metal bar.armorsmith-disc-none.armorsmith-belt-none": [
 		new CraftingMaterial(9, new Ore()),
 		new CraftingMaterial(9, new Ore()),
