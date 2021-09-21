@@ -3,9 +3,9 @@ export const Footer = ({ className }) => (
         <div className="flex justify-between items-center bg-marine mh-auto mw9 h-100">
             <div className="mobile-hide | w-100 mw5"></div>
             <div className="flex flex-column justify-between f7 h-100 pv2">
-                <div className="tc">Crowcraft is sponsored by <a href="https://crowfall.com/en-US/guilds/search?name=valeria#VAL" target="_blank" rel="noopener noreferrer">Valeria Gaming</a></div>
                 <div className="tc">Made with ❤ by <a href="https://github.com/Guillaume-Docquier/guillaume-docquier.github.io/projects/1" target="_blank" rel="noopener noreferrer">Guike</a></div>
                 <div className="tc">Special thanks to Upem!</div>
+                <div className="tc">Crowfall 7.100</div>
             </div>
             <div className="w-100 mw5 flex justify-end">
                 <form action="https://www.paypal.com/donate" method="post" target="_top">
