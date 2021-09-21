@@ -26,6 +26,7 @@ export class MetalSheet extends CustomizableComponent {
 				new CraftingMaterial(12, new Coal()),
             ],
             1,
+            "",
             [
                 new SteelMetalSheetCustomization(),
 				new DarkBronzeMetalSheetCustomization(),
@@ -39,8 +40,7 @@ export class MetalSheet extends CustomizableComponent {
 				new DarkElectrumMetalSheetCustomization(),
 				new SterlingMetalSheetCustomization(),
 				new RoseAureliumMetalSheetCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

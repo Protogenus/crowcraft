@@ -12,7 +12,7 @@ export class CrushedTruffles extends CrushedHerbs {
     constructor() {
         super(
             "crushed truffles",
-            [Professions.Cooking],
+            [Professions.None],
             [Rarities.Common],
             [
                 new CraftingMaterial(2, new Truffles()),

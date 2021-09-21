@@ -25,13 +25,13 @@ export class SigilPick extends CustomizableComponent {
 				new CraftingMaterial(8, new Ore()),
             ],
             1,
+            "",
             [
                 new BeneficialHarvestChanceSigilPickCustomization(),
 				new HarvestCriticalChanceSigilPickCustomization(),
 				new PlethoraOfDustSigilPickCustomization(),
 				new GemHarvestChanceSigilPickCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

@@ -76,9 +76,6 @@ export const Crafting = () => {
                 </div>
                 <div>
                     <div className="mb4">
-                        <ProfessionsStatus />
-                    </div>
-                    <div className="mb4">
                         <ItemSearch onItemSelected={selectItemToCraft} />
                     </div>
                     {!!itemToCraft ?

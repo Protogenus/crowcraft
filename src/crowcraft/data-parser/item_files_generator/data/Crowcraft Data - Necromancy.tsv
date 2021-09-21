@@ -1,40 +1,40 @@
-IS IMPLEMENTED	IS CODE UP TO DATE	ITEM NAME	REQUIRED PROF	RARITIES	MATERIALS	QTY PER CRAFT	ITEM EFFECT QLTY	CUSTOMIZABLE	CRAFTING NAME	ITEM TYPE
-		Components								
-No	No	Restored Human Arm	Necromancer	white - orange	1x Desiccated Human Arm, 2x Ambrosia	1	Yes	No	Restored Arm	
-No	No	Restored Elven Arm	Necromancer	white - orange	1x Desiccated Elven Arm, 2x Ambrosia	1	Yes	No	Restored Arm	
-No	No	Restored Guinecean Arm	Necromancer	white - orange	1x Desiccated Guinecean Arm, 2x Ambrosia	1	Yes	No	Restored Arm	
-No	No	Restored Stoneborn Arm	Necromancer	white - orange	1x Desiccated Stoneborn Arm, 2x Ambrosia	1	Yes	No	Restored Arm	
-										
-No	No	Restored Centaur Body	Necromancer	white - orange	1x Desiccated Centaur Body, 2x Ambrosia, 2x Ambrosia, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg	1	Yes	No		
-										
-No	No	Restored Human Head	Necromancer	white - orange	1x Desiccated Human Head, 2x Ambrosia	1	Yes	No	Restored Head	
-No	No	Restored Elken Head	Necromancer	white - orange	1x Desiccated Elken Head, 2x Ambrosia	1	Yes	No	Restored Head	
-No	No	Restored Elven Head	Necromancer	white - orange	1x Desiccated Elven Head, 2x Ambrosia	1	Yes	No	Restored Head	
-No	No	Restored Guinecean Head	Necromancer	white - orange	1x Desiccated Guinecean Head, 2x Ambrosia	1	Yes	No	Restored Head	
-No	No	Restored Minotaur Head	Necromancer	white - orange	1x Desiccated Minotaur Head, 2x Ambrosia	1	Yes	No	Restored Head	
-No	No	Restored Stoneborn Head	Necromancer	white - orange	1x Desiccated Stoneborn Head, 2x Ambrosia	1	Yes	No	Restored Head	
-										
-No	No	Restored Human Leg	Necromancer	white - orange	1x Desiccated Human Leg, 2x Ambrosia	1	Yes	No	Restored Leg	
-No	No	Restored Beast Leg	Necromancer	white - orange	1x Desiccated Beast Leg, 2x Ambrosia	1	Yes	No	Restored Leg	
-No	No	Restored Elven Leg	Necromancer	white - orange	1x Desiccated Elven Leg, 2x Ambrosia	1	Yes	No	Restored Leg	
-No	No	Restored Guinecean Leg	Necromancer	white - orange	1x Desiccated Guinecean Leg, 2x Ambrosia	1	Yes	No	Restored Leg	
-No	No	Restored Stoneborn Leg	Necromancer	white - orange	1x Desiccated Stoneborn Leg, 2x Ambrosia	1	Yes	No	Restored Leg	
-										
-No	No	Restored Human Torso	Necromancer	white - orange	1x Desiccated Human Torso, 2x Ambrosia	1	Yes	No	Restored Torso	
-No	No	Restored Elven Torso	Necromancer	white - orange	1x Desiccated Elven Torso, 2x Ambrosia	1	Yes	No	Restored Torso	
-No	No	Restored Guinecean Torso	Necromancer	white - orange	1x Desiccated Guinecean Torso, 2x Ambrosia	1	Yes	No	Restored Torso	
-No	No	Restored Stoneborn Torso	Necromancer	white - orange	1x Desiccated Stoneborn Torso, 2x Ambrosia	1	Yes	No	Restored Torso	
-										
-		Vessels								
-No	No	Centaur Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Centaur Body, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Elken Vessel	Necromancer	white - orange	1x Restored Elken Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Beast Leg, 1x Restored Beast Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Fae Vessel	Necromancer	white - orange	1x Restored Elven Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Guinecean Vessel	Necromancer	white - orange	1x Restored Guinecean Head, 1x Restored Guinecean Arm, 1x Restored Guinecean Arm, 1x Restored Guinecean Leg, 1x Restored Guinecean Leg, 1x Restored Guinecean Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Half-Elf Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Half-Giant Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Human Leg, 1x Restored Human Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	High-Elf Vessel	Necromancer	white - orange	1x Restored Elven Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Human Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Human Leg, 1x Restored Human Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Minotaur Vessel	Necromancer	white - orange	1x Restored Minotaur Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Beast Leg, 1x Restored Beast Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Nethari Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Human Leg, 1x Restored Human Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Stoneborn Vessel	Necromancer	white - orange	1x Restored Stoneborn Head, 1x Restored Stoneborn Arm, 1x Restored Stoneborn arm, 1x Restored Stoneborn Leg, 1x Restored Stoneborn Leg, 1x Restored Stoneborn Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
-No	No	Wood-Elf Vessel	Necromancer	white - orange	1x Restored Elven Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No		
+IS IMPLEMENTED	IS CODE UP TO DATE	ITEM NAME	REQUIRED PROF	RARITIES	MATERIALS	QTY PER CRAFT	ITEM EFFECT QLTY	CUSTOMIZABLE	CRAFTING NAME	ITEM TYPE	IS CUSTOMIZED
+		Components									
+No	No	Restored Human Arm	Necromancer	white - orange	1x Desiccated Human Arm, 2x Ambrosia	1	Yes	No	Restored Arm		
+No	No	Restored Elven Arm	Necromancer	white - orange	1x Desiccated Elven Arm, 2x Ambrosia	1	Yes	No	Restored Arm		
+No	No	Restored Guinecean Arm	Necromancer	white - orange	1x Desiccated Guinecean Arm, 2x Ambrosia	1	Yes	No	Restored Arm		
+No	No	Restored Stoneborn Arm	Necromancer	white - orange	1x Desiccated Stoneborn Arm, 2x Ambrosia	1	Yes	No	Restored Arm		
+											
+No	No	Restored Centaur Body	Necromancer	white - orange	1x Desiccated Centaur Body, 2x Ambrosia, 2x Ambrosia, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg	1	Yes	No			
+											
+No	No	Restored Human Head	Necromancer	white - orange	1x Desiccated Human Head, 2x Ambrosia	1	Yes	No	Restored Head		
+No	No	Restored Elken Head	Necromancer	white - orange	1x Desiccated Elken Head, 2x Ambrosia	1	Yes	No	Restored Head		
+No	No	Restored Elven Head	Necromancer	white - orange	1x Desiccated Elven Head, 2x Ambrosia	1	Yes	No	Restored Head		
+No	No	Restored Guinecean Head	Necromancer	white - orange	1x Desiccated Guinecean Head, 2x Ambrosia	1	Yes	No	Restored Head		
+No	No	Restored Minotaur Head	Necromancer	white - orange	1x Desiccated Minotaur Head, 2x Ambrosia	1	Yes	No	Restored Head		
+No	No	Restored Stoneborn Head	Necromancer	white - orange	1x Desiccated Stoneborn Head, 2x Ambrosia	1	Yes	No	Restored Head		
+											
+No	No	Restored Human Leg	Necromancer	white - orange	1x Desiccated Human Leg, 2x Ambrosia	1	Yes	No	Restored Leg		
+No	No	Restored Beast Leg	Necromancer	white - orange	1x Desiccated Beast Leg, 2x Ambrosia	1	Yes	No	Restored Leg		
+No	No	Restored Elven Leg	Necromancer	white - orange	1x Desiccated Elven Leg, 2x Ambrosia	1	Yes	No	Restored Leg		
+No	No	Restored Guinecean Leg	Necromancer	white - orange	1x Desiccated Guinecean Leg, 2x Ambrosia	1	Yes	No	Restored Leg		
+No	No	Restored Stoneborn Leg	Necromancer	white - orange	1x Desiccated Stoneborn Leg, 2x Ambrosia	1	Yes	No	Restored Leg		
+											
+No	No	Restored Human Torso	Necromancer	white - orange	1x Desiccated Human Torso, 2x Ambrosia	1	Yes	No	Restored Torso		
+No	No	Restored Elven Torso	Necromancer	white - orange	1x Desiccated Elven Torso, 2x Ambrosia	1	Yes	No	Restored Torso		
+No	No	Restored Guinecean Torso	Necromancer	white - orange	1x Desiccated Guinecean Torso, 2x Ambrosia	1	Yes	No	Restored Torso		
+No	No	Restored Stoneborn Torso	Necromancer	white - orange	1x Desiccated Stoneborn Torso, 2x Ambrosia	1	Yes	No	Restored Torso		
+											
+		Vessels									
+No	No	Centaur Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Centaur Body, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Elken Vessel	Necromancer	white - orange	1x Restored Elken Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Beast Leg, 1x Restored Beast Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Fae Vessel	Necromancer	white - orange	1x Restored Elven Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Guinecean Vessel	Necromancer	white - orange	1x Restored Guinecean Head, 1x Restored Guinecean Arm, 1x Restored Guinecean Arm, 1x Restored Guinecean Leg, 1x Restored Guinecean Leg, 1x Restored Guinecean Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Half-Elf Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Half-Giant Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Human Leg, 1x Restored Human Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	High-Elf Vessel	Necromancer	white - orange	1x Restored Elven Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Human Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Human Leg, 1x Restored Human Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Minotaur Vessel	Necromancer	white - orange	1x Restored Minotaur Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Beast Leg, 1x Restored Beast Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Nethari Vessel	Necromancer	white - orange	1x Restored Human Head, 1x Restored Human Arm, 1x Restored Human Arm, 1x Restored Human Leg, 1x Restored Human Leg, 1x Restored Human Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Stoneborn Vessel	Necromancer	white - orange	1x Restored Stoneborn Head, 1x Restored Stoneborn Arm, 1x Restored Stoneborn arm, 1x Restored Stoneborn Leg, 1x Restored Stoneborn Leg, 1x Restored Stoneborn Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			
+No	No	Wood-Elf Vessel	Necromancer	white - orange	1x Restored Elven Head, 1x Restored Elven Arm, 1x Restored Elven Arm, 1x Restored Elven Leg, 1x Restored Elven Leg, 1x Restored Elven Torso, 75x Ethereal Dust, 1x Philosopher's Stone	1	Yes	No			

@@ -33,14 +33,14 @@ export class PhilosophersSolution extends CustomizableComponent {
 				new CraftingMaterial(4, new GroundMineral()),
             ],
             1,
+            "",
             [
                 new DexterityPhilosophersSolutionCustomization(),
 				new IntellectPhilosophersSolutionCustomization(),
 				new SpiritPhilosophersSolutionCustomization(),
 				new StrengthPhilosophersSolutionCustomization(),
 				new ConstitutionPhilosophersSolutionCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

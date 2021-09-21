@@ -12,7 +12,7 @@ export class CrushedNightshade extends CrushedHerbs {
     constructor() {
         super(
             "crushed nightshade",
-            [Professions.Cooking],
+            [Professions.None],
             [Rarities.Common],
             [
                 new CraftingMaterial(2, new Nightshade()),

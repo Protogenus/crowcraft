@@ -26,6 +26,7 @@ export class MetalBar extends CustomizableComponent {
 				new CraftingMaterial(6, new Coal()),
             ],
             1,
+            "",
             [
                 new RoseAureliumMetalBarCustomization(),
 				new SterlingMetalBarCustomization(),
@@ -40,8 +41,7 @@ export class MetalBar extends CustomizableComponent {
 				new TinMetalBarCustomization(),
 				new SilverMetalBarCustomization(),
 				new AureliumMetalBarCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

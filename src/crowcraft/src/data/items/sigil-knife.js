@@ -25,13 +25,13 @@ export class SigilKnife extends CustomizableComponent {
 				new CraftingMaterial(8, new Ore()),
             ],
             1,
+            "",
             [
                 new BeneficialHarvestChanceSigilKnifeCustomization(),
 				new HarvestCriticalChanceSigilKnifeCustomization(),
 				new PlethoraOfDustSigilKnifeCustomization(),
 				new HarvestBloodChanceSigilKnifeCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

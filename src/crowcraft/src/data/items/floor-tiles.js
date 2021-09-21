@@ -23,11 +23,11 @@ export class FloorTiles extends CustomizableComponent {
 				new CraftingMaterial(5, new EtherealDust()),
             ],
             1,
+            "",
             [
                 new WoodFloorTilesCustomization(),
 				new StoneFloorTilesCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

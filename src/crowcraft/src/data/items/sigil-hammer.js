@@ -25,13 +25,13 @@ export class SigilHammer extends CustomizableComponent {
 				new CraftingMaterial(8, new Ore()),
             ],
             1,
+            "",
             [
                 new BeneficialHarvestChanceSigilHammerCustomization(),
 				new HarvestCriticalChanceSigilHammerCustomization(),
 				new PlethoraOfDustSigilHammerCustomization(),
 				new MineralHarvestChanceSigilHammerCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

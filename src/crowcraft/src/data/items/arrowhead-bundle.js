@@ -24,14 +24,14 @@ export class ArrowheadBundle extends CustomizableComponent {
 				new CraftingMaterial(1, new Coal()),
             ],
             1,
+            "",
             [
                 new PiercingArrowheadBundleCustomization(),
 				new SlashingArrowheadBundleCustomization(),
 				new CrushingArrowheadBundleCustomization(),
 				new FireArrowheadBundleCustomization(),
 				new IceArrowheadBundleCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

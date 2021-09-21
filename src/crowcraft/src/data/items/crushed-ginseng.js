@@ -12,7 +12,7 @@ export class CrushedGinseng extends CrushedHerbs {
     constructor() {
         super(
             "crushed ginseng",
-            [Professions.Cooking],
+            [Professions.None],
             [Rarities.Common],
             [
                 new CraftingMaterial(2, new Ginseng()),

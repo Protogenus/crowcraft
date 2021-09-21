@@ -26,6 +26,7 @@ export class MetalSection extends CustomizableComponent {
 				new CraftingMaterial(6, new Coal()),
             ],
             1,
+            "",
             [
                 new RoseAureliumMetalSectionCustomization(),
 				new SterlingMetalSectionCustomization(),
@@ -38,8 +39,7 @@ export class MetalSection extends CustomizableComponent {
 				new TinMetalSectionCustomization(),
 				new SilverMetalSectionCustomization(),
 				new AureliumMetalSectionCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

@@ -26,6 +26,7 @@ export class MetalScales extends CustomizableComponent {
 				new CraftingMaterial(12, new Coal()),
             ],
             1,
+            "",
             [
                 new SteelMetalScalesCustomization(),
 				new DarkBronzeMetalScalesCustomization(),
@@ -37,8 +38,7 @@ export class MetalScales extends CustomizableComponent {
 				new BlueSteelMetalScalesCustomization(),
 				new ForestAureliumMetalScalesCustomization(),
 				new DarkElectrumMetalScalesCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

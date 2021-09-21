@@ -26,14 +26,14 @@ export class BookChapter extends CustomizableComponent {
 				new CraftingMaterial(3, new Stone()),
             ],
             1,
+            "",
             [
                 new RedemptionBookChapterCustomization(),
 				new SinBookChapterCustomization(),
 				new IndulgenceBookChapterCustomization(),
 				new FervorBookChapterCustomization(),
 				new AbsolutionBookChapterCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

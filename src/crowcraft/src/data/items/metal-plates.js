@@ -26,6 +26,7 @@ export class MetalPlates extends CustomizableComponent {
 				new CraftingMaterial(12, new Coal()),
             ],
             1,
+            "",
             [
                 new SteelMetalPlatesCustomization(),
 				new DarkBronzeMetalPlatesCustomization(),
@@ -37,8 +38,7 @@ export class MetalPlates extends CustomizableComponent {
 				new BlueSteelMetalPlatesCustomization(),
 				new ForestAureliumMetalPlatesCustomization(),
 				new DarkElectrumMetalPlatesCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

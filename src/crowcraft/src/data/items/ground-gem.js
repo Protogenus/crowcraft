@@ -51,6 +51,7 @@ export class GroundGem extends CustomizableComponent {
 				new CraftingMaterial(1, new BloodOrWater()),
             ],
             1,
+            "grind gemstone",
             [
                 new BaguetteTopazWaterGroundGemCustomization(),
 				new BaguetteEmeraldWaterGroundGemCustomization(),
@@ -108,8 +109,7 @@ export class GroundGem extends CustomizableComponent {
 				new TriangleRubyBloodGroundGemCustomization(),
 				new TriangleSapphireBloodGroundGemCustomization(),
 				new TriangleDiamondBloodGroundGemCustomization(),
-            ],
-            "grind gemstone"
+            ]
         );
     }
 }

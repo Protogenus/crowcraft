@@ -26,6 +26,7 @@ export class MetalRings extends CustomizableComponent {
 				new CraftingMaterial(12, new Coal()),
             ],
             1,
+            "",
             [
                 new SteelMetalRingsCustomization(),
 				new DarkBronzeMetalRingsCustomization(),
@@ -39,8 +40,7 @@ export class MetalRings extends CustomizableComponent {
 				new DarkElectrumMetalRingsCustomization(),
 				new SterlingMetalRingsCustomization(),
 				new RoseAureliumMetalRingsCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

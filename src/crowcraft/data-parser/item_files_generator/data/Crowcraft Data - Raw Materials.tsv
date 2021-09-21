@@ -87,7 +87,7 @@ No	No	Mandrake	Scavenged Ingredient	white
 No	No	Nightshade	Scavenged Ingredient	white
 No	No	Bloodworm	Scavenged Ingredient	white
 				
-No	No	Soul Essence	Generic Material	white
+No	No	Soul Essence	Generic Material	blue
 				
 No	No	Advanced Harvesting Tools	Generic Material	white-orange
 No	No	Piece of Armor	Generic Material	white-orange
@@ -155,3 +155,4 @@ No	No	Button mushroom	Mushroom	white
 				
 No	No	Sacrifice shard	Raw Material	white-orange
 No	No	Sigil	Generic Material	white-orange
+No	No	Soul Gem: Major	Raw Material	green

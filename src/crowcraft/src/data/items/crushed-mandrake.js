@@ -12,7 +12,7 @@ export class CrushedMandrake extends CrushedHerbs {
     constructor() {
         super(
             "crushed mandrake",
-            [Professions.Cooking],
+            [Professions.None],
             [Rarities.Common],
             [
                 new CraftingMaterial(2, new Mandrake()),

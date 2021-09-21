@@ -26,12 +26,12 @@ export class AdvancedToxin extends CustomizableComponent {
 				new CraftingMaterial(1, new AnimalBlood()),
             ],
             1,
+            "",
             [
                 new PotentPoisonToxinAdvancedToxinCustomization(),
 				new AdvancedPoisonToxinAdvancedToxinCustomization(),
 				new PoisonToxinAdvancedToxinCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

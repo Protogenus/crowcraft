@@ -4,13 +4,13 @@
 //                                               //
 ///////////////////////////////////////////////////
 
-import { GenericMaterial, Rarities } from "models";
+import { RawMaterial, Rarities } from "models";
 
-export class SoulEssence extends GenericMaterial {
+export class SoulGemMajor extends RawMaterial {
     constructor(
-        name = "soul essence",
+        name = "soul gem: major",
         professions = [],
-        rarities = [Rarities.Rare],
+        rarities = [Rarities.Uncommon],
         craftingMaterials = [],
         craftingQuantity = 1
     ) {

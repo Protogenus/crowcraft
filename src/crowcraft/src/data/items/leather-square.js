@@ -26,6 +26,7 @@ export class LeatherSquare extends CustomizableComponent {
 				new CraftingMaterial(6, new LacingSinew()),
             ],
             1,
+            "",
             [
                 new LimberCoriumLeatherSquareCustomization(),
 				new SoftCoriumLeatherSquareCustomization(),
@@ -37,8 +38,7 @@ export class LeatherSquare extends CustomizableComponent {
 				new LimberGrainLeatherSquareCustomization(),
 				new BicastLeatherSquareCustomization(),
 				new SuedeLeatherSquareCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

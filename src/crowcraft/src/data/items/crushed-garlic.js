@@ -12,7 +12,7 @@ export class CrushedGarlic extends CrushedHerbs {
     constructor() {
         super(
             "crushed garlic",
-            [Professions.Cooking],
+            [Professions.None],
             [Rarities.Common],
             [
                 new CraftingMaterial(2, new Garlic()),

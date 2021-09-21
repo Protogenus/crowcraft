@@ -29,11 +29,11 @@ export class BiscuitsAndGravy extends CustomizableComponent {
 				new CraftingMaterial(1, new HotSauce()),
             ],
             1,
+            "",
             [
                 new MeatBiscuitsAndGravyCustomization(),
 				new MushroomBiscuitsAndGravyCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

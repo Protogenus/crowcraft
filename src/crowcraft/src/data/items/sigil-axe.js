@@ -25,13 +25,13 @@ export class SigilAxe extends CustomizableComponent {
 				new CraftingMaterial(8, new Ore()),
             ],
             1,
+            "",
             [
                 new BeneficialHarvestChanceSigilAxeCustomization(),
 				new HarvestCriticalChanceSigilAxeCustomization(),
 				new PlethoraOfDustSigilAxeCustomization(),
 				new ForagedFruitChanceSigilAxeCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

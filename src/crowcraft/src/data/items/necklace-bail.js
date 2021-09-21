@@ -25,14 +25,14 @@ export class NecklaceBail extends CustomizableComponent {
 				new CraftingMaterial(5, new EtherealDust()),
             ],
             1,
+            "",
             [
                 new CopperNecklaceBailCustomization(),
 				new IronNecklaceBailCustomization(),
 				new TinNecklaceBailCustomization(),
 				new SilverNecklaceBailCustomization(),
 				new AureliumNecklaceBailCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

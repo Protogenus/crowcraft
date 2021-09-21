@@ -22,11 +22,11 @@ export class MetalRivets extends CustomizableComponent {
 				new CraftingMaterial(2, new Coal()),
             ],
             1,
+            "",
             [
                 new StealthMetalRivetsCustomization(),
 				new OutOfCombatHealthRegenerationMetalRivetsCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

@@ -36,6 +36,9 @@ rarity_names = [
     "Legendary"
 ]
 
+YES = "yes"
+NO = "no"
+
 data_folder = "./data"
 output_folder = "./generated"
 

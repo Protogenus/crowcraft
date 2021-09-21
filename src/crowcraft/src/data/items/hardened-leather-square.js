@@ -26,6 +26,7 @@ export class HardenedLeatherSquare extends CustomizableComponent {
 				new CraftingMaterial(6, new LacingSinew()),
             ],
             1,
+            "",
             [
                 new LimberCoriumHardenedLeatherSquareCustomization(),
 				new SoftCoriumHardenedLeatherSquareCustomization(),
@@ -39,8 +40,7 @@ export class HardenedLeatherSquare extends CustomizableComponent {
 				new NappaHardenedLeatherSquareCustomization(),
 				new BicastHardenedLeatherSquareCustomization(),
 				new SuedeHardenedLeatherSquareCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

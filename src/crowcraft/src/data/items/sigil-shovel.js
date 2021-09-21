@@ -25,13 +25,13 @@ export class SigilShovel extends CustomizableComponent {
 				new CraftingMaterial(8, new Ore()),
             ],
             1,
+            "",
             [
                 new BeneficialHarvestChanceSigilShovelCustomization(),
 				new HarvestCriticalChanceSigilShovelCustomization(),
 				new PlethoraOfDustSigilShovelCustomization(),
 				new GraveGoodsSigilShovelCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

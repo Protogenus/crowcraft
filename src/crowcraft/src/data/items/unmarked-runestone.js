@@ -23,11 +23,11 @@ export class UnmarkedRunestone extends CustomizableComponent {
 				new CraftingMaterial(6, new EtherealDust()),
             ],
             1,
+            "",
             [
                 new StoneUnmarkedRunestoneCustomization(),
 				new WoodUnmarkedRunestoneCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

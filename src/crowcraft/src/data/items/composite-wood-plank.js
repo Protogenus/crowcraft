@@ -26,6 +26,7 @@ export class CompositeWoodPlank extends CustomizableComponent {
 				new CraftingMaterial(6, new Sandpaper()),
             ],
             1,
+            "",
             [
                 new BattenCompositeWoodPlankCustomization(),
 				new PliableCompositeWoodPlankCustomization(),
@@ -42,8 +43,7 @@ export class CompositeWoodPlank extends CustomizableComponent {
 				new SelectSpruceCompositeWoodPlankCustomization(),
 				new SelectAshCompositeWoodPlankCustomization(),
 				new SelectYewCompositeWoodPlankCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

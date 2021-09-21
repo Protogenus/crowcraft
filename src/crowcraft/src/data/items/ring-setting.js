@@ -25,14 +25,14 @@ export class RingSetting extends CustomizableComponent {
 				new CraftingMaterial(5, new EtherealDust()),
             ],
             1,
+            "",
             [
                 new CopperRingSettingCustomization(),
 				new IronRingSettingCustomization(),
 				new TinRingSettingCustomization(),
 				new SilverRingSettingCustomization(),
 				new AureliumRingSettingCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

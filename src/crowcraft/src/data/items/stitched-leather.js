@@ -26,6 +26,7 @@ export class StitchedLeather extends CustomizableComponent {
 				new CraftingMaterial(6, new LacingSinew()),
             ],
             1,
+            "",
             [
                 new FullGrainStitchedLeatherCustomization(),
 				new TopGrainStitchedLeatherCustomization(),
@@ -38,8 +39,7 @@ export class StitchedLeather extends CustomizableComponent {
 				new GenuineSoftStitchedLeatherCustomization(),
 				new GenuineStrongStitchedLeatherCustomization(),
 				new GenuineFlexibleStitchedLeatherCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

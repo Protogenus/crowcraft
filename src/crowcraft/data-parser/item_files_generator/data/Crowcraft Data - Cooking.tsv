@@ -1,65 +1,65 @@
-IS IMPLEMENTED	IS CODE UP TO DATE	ITEM NAME	REQUIRED PROF	RARITIES	MATERIALS	QTY PER CRAFT	ITEM EFFECT QLTY	CUSTOMIZABLE	CRAFTING NAME	ITEM TYPE
-		Basic Cooking								
-No	No	Apple Juice	None	white	1x Water Flask, 1x Apple	1	No	No	Juice	
-No	No	Carrot Juice	None	white	1x Water Flask, 1x Carrot	1	No	No	Juice	
-No	No	Prepared Bloodworm	None	white	2x Bloodworm	2	No	No	Scavenger's Snacks	
-No	No	Prepared Grub	None	white	2x Wood Grub	2	No	No	Scavenger's Snacks	
-No	No	Prepared Pine Nuts	None	white	2x Pine Nuts	2	No	No	Scavenger's Snacks	
-No	No	Prepared Cocoa Beans	None	white	2x Cocoa Beans	1	No	No	Shell Cocoa Beans	
-										
-		Food Processing								
-No	No	Pulverized Potatoes	Cooking	white	2x Potato	1	No	No	Grind Food Items	
-No	No	Crushed Truffles	Cooking	white	2x Truffles	1	No	No	Grind Food Items	Crushed Herbs
-No	No	Crushed mandrake	Cooking	white	2x Mandrake	1	No	No	Grind Food Items	Crushed Herbs
-No	No	Crushed Garlic	Cooking	white	2x Garlic	1	No	No	Grind Food Items	Crushed Herbs
-No	No	Crushed Ginseng	Cooking	white	2x Ginseng	1	No	No	Grind Food Items	Crushed Herbs
-No	No	Crushed Nightshade	Cooking	white	2x Nightshade	1	No	No	Grind Food Items	Crushed Herbs
-										
-		Food Processing								
-No	No	Fresh Butter	Cooking	white	5x Raw Milk, 1x Cooking Foil, 2x Ethereal Dust, 2x Water Flask	5	No	No		
-No	No	Pasteurized Milk	Cooking	white	5x Raw Milk, 1x Large Cooking Pot, 2x Ethereal Dust	5	No	No		
-No	No	Potato Flour	Cooking	white	5x Pulverized Potatoes, 1x Cooking Foil, 2x Ethereal Dust	5	No	No		
-No	No	Yeast	Cooking	white	2x Mushroom, 1x Cooking Foil, 2x Ethereal Dust, 2x Water Flask	5	No	No		
-										
-		Campfire Cooking								
-No	No	Bread	Cooking	white	1x Yeast, 2x Potato Flour, 1x Cooking Foil, 2x Water Flask	1	No	No		
-No	No	Campfire Mushroom Stew	Cooking	white	1x Large Cooking Pot, 2x Mushroom, 2x Seasoning Salt, 2x Water Flask	1	No	No	Campfire Stew	
-No	No	Campfire Meaty Stew	Cooking	white	1x Large Cooking Pot, 2x Meat, 2x Seasoning Salt, 2x Water Flask	1	No	No	Campfire Stew	
-No	No	Chocolate Bar	Cooking	white	2x Raw Milk, 1x Cooking Foil, 1x Sugar cane, 1x Cocoa Beans	1	No	No		
-No	No	Premium Roasted Coffee	Cooking	white	1x Coffee Beans, 1x Empty Flask, 1x Water Flask	1	No	No	Coffee	
-No	No	Auroch Meat Kebab	Cooking	white	2x Auroch Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Bear Meat Kebab	Cooking	white	2x Bear Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Boar Meat Kebab	Cooking	white	2x Boar Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Elk Meat Kebab	Cooking	white	2x Elk Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Big Cat Meat Kebab	Cooking	white	2x Big Cat Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Mushroom Kebab	Cooking	white	2x Mushroom, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Spider Meat Kebab	Cooking	white	2x Spider Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Wolf Meat Kebab	Cooking	white	2x Wolf Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers	
-No	No	Trail Mix	Cooking	white	1x Cooking Foil, 1x Apple, 1x Pine Nuts	1	No	No		
-										
-		Sous Chef								
-No	No	Artisan Cheese	Cooking	white	2x Pasteurized Milk, 1x Yeast, 1x Cooking Foil, 1x Beeswax	1	No	No		
-No	No	Bone Broth	Cooking	white	1x Large Cooking Pot, 2x Water Flask, 1x Animal Bone, 2x Ground Black Pepper, 2x Seasoning Salt, 1x Animal Blood	1	No	No		
-No	No	Cake	Cooking	white	1x Large Cooking Pot, 1x Fresh Butter, 1x Pasteurized Milk, 2x Potato Flour, 1x Sugar cane, 1x Water Flask	1	No	No		
-No	No	Chocolate Milk	Cooking	white	1x Chocolate Bar, optional: 1x Hot Peppers, 1x Pasteurized Milk, 1x Empty Flask, 1x Sugar cane, 1x Peppermint	1	No	No		
-No	No	Cookie	Cooking	white	1x Fresh Butter, 1x Cooking Foil, 1x Water Flask, 1x Pasteurized Milk, 1x Potato Flour, 1x Sugar cane	1	No	No		
-No	No	Gnocchi	Cooking	white	1x Large Cooking Pot, 1x Potato Flour, 2x Pulverized Potatoes, 1x Water Flask	1	No	No		
-No	No	Auroch Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Auroch Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Bear Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Bear Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Boar Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Boar Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Elk Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Elk Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Big Cat Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Big Cat Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Mushroom Sandwich	Cooking	green	1x Cooking Foil, 1x Mushroom, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Spider Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Spider Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Wolf Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Wolf Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich	
-No	No	Ice Cream	Cooking	white	1x Large Cooking Pot, 1x Sacrifice Shard, 1x Pasteurized Milk, 1x Sugar cane, 1x Water Flask	1	No	No		
-No	No	Red Wine	Cooking	white	1x Water Flask, 1x Apple, 1x Empty Flask, 1x Sugar cane, 1x Yeast	1	No	No		
-										
-		Head Chef								
-No	No	Baked Ice Cream	Cooking	green	1x Large Cooking pot, 1x Peppermint, 1x Ice Cream, 1x Potato Flour, 1x Hot Peppers	1	No	No		
-No	No	Biscuits and Gravy	Cooking	green	1x Large Cooking Pot, 1x Pasteurized Milk, 1x Meat or Mushroom, 1x Potato Flour, 1x Bone Broth, 1x Hot Sauce	1	No	Yes		
-No	No	Bon Tippers	Cooking	green	2x Pasteurized Milk, 1x Currant Berries, 2x Red Wine, 10x Tippers, 1x Ground Black Pepper	1	No	No		
-No	No	Meat Burgundy	Cooking	green	1x Large Cooking Pot, 1x Currant Berries, 1x Red Wine, 2x Meat, 1x Gnocchi, 1x Crushed Herbs, 1x Produce	1	No	No		
-No	No	Pesto Gnocchi	Cooking	green	1x Large Cooking Pot, 1x mushroom, 2x Gnocchi, 1x Olive Oil, 2x Crushed Herbs, 1x Fresh Butter	1	No	No		
-No	No	Pot Roast	Cooking	green	1x Large Cooking Pot, 1x Bone Broth, 2x Meat, 1x Gnocchi, 1x Satyr Salt Cube, 1x Crushed Herbs	1	No	No		
-No	No	Sumptuous Pot Pie	Cooking	green	1x Large Cooking Pot, 1x Urgu Spice Mix, 2x Meat or Mushroom, 1x Water Flask, 1x Fresh Butter, 1x Bread, 1x Produce	1	No	Yes		
+IS IMPLEMENTED	IS CODE UP TO DATE	ITEM NAME	REQUIRED PROF	RARITIES	MATERIALS	QTY PER CRAFT	ITEM EFFECT QLTY	CUSTOMIZABLE	CRAFTING NAME	ITEM TYPE	IS CUSTOMIZED
+		Basic Cooking									
+No	No	Apple Juice	None	white	1x Water Flask, 1x Apple	1	No	No	Juice		
+No	No	Carrot Juice	None	white	1x Water Flask, 1x Carrot	1	No	No	Juice		
+No	No	Prepared Bloodworm	None	white	2x Bloodworm	2	No	No	Scavenger's Snacks		
+No	No	Prepared Grub	None	white	2x Wood Grub	2	No	No	Scavenger's Snacks		
+No	No	Prepared Pine Nuts	None	white	2x Pine Nuts	2	No	No	Scavenger's Snacks		
+No	No	Prepared Cocoa Beans	None	white	2x Cocoa Beans	1	No	No	Shell Cocoa Beans		
+											
+		Food Processing									
+No	No	Pulverized Potatoes	None	white	2x Potato	1	No	No	Grind Food Items		
+No	No	Crushed Truffles	None	white	2x Truffles	1	No	No	Grind Food Items	Crushed Herbs	
+No	No	Crushed mandrake	None	white	2x Mandrake	1	No	No	Grind Food Items	Crushed Herbs	
+No	No	Crushed Garlic	None	white	2x Garlic	1	No	No	Grind Food Items	Crushed Herbs	
+No	No	Crushed Ginseng	None	white	2x Ginseng	1	No	No	Grind Food Items	Crushed Herbs	
+No	No	Crushed Nightshade	None	white	2x Nightshade	1	No	No	Grind Food Items	Crushed Herbs	
+											
+		Food Processing									
+No	No	Fresh Butter	Cooking	white	5x Raw Milk, 1x Cooking Foil, 2x Ethereal Dust, 2x Water Flask	5	No	No			
+No	No	Pasteurized Milk	Cooking	white	5x Raw Milk, 1x Large Cooking Pot, 2x Ethereal Dust	5	No	No			
+No	No	Potato Flour	Cooking	white	5x Pulverized Potatoes, 1x Cooking Foil, 2x Ethereal Dust	5	No	No			
+No	No	Yeast	Cooking	white	2x Mushroom, 1x Cooking Foil, 2x Ethereal Dust, 2x Water Flask	5	No	No			
+											
+		Campfire Cooking									
+No	No	Bread	Cooking	white	1x Yeast, 2x Potato Flour, 1x Cooking Foil, 2x Water Flask	1	No	No			
+No	No	Campfire Mushroom Stew	Cooking	white	1x Large Cooking Pot, 2x Mushroom, 2x Seasoning Salt, 2x Water Flask	1	No	No	Campfire Stew		
+No	No	Campfire Meaty Stew	Cooking	white	1x Large Cooking Pot, 2x Meat, 2x Seasoning Salt, 2x Water Flask	1	No	No	Campfire Stew		
+No	No	Chocolate Bar	Cooking	white	2x Raw Milk, 1x Cooking Foil, 1x Sugar cane, 1x Cocoa Beans	1	No	No			
+No	No	Premium Roasted Coffee	Cooking	white	1x Coffee Beans, 1x Empty Flask, 1x Water Flask	1	No	No	Coffee		
+No	No	Auroch Meat Kebab	Cooking	white	2x Auroch Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Bear Meat Kebab	Cooking	white	2x Bear Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Boar Meat Kebab	Cooking	white	2x Boar Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Elk Meat Kebab	Cooking	white	2x Elk Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Big Cat Meat Kebab	Cooking	white	2x Big Cat Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Mushroom Kebab	Cooking	white	2x Mushroom, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Spider Meat Kebab	Cooking	white	2x Spider Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Wolf Meat Kebab	Cooking	white	2x Wolf Meat, 1x Roasting Stick, 1x Seasoning Salt, 1x Produce	1	No	No	Kebab Skewers		
+No	No	Trail Mix	Cooking	white	1x Cooking Foil, 1x Apple, 1x Pine Nuts	1	No	No			
+											
+		Sous Chef									
+No	No	Artisan Cheese	Cooking	white	2x Pasteurized Milk, 1x Yeast, 1x Cooking Foil, 1x Beeswax	1	No	No			
+No	No	Bone Broth	Cooking	white	1x Large Cooking Pot, 2x Water Flask, 1x Animal Bone, 2x Ground Black Pepper, 2x Seasoning Salt, 1x Animal Blood	1	No	No			
+No	No	Cake	Cooking	white	1x Large Cooking Pot, 1x Fresh Butter, 1x Pasteurized Milk, 2x Potato Flour, 1x Sugar cane, 1x Water Flask	1	No	No			
+No	No	Chocolate Milk	Cooking	white	1x Chocolate Bar, optional: 1x Hot Peppers, 1x Pasteurized Milk, 1x Empty Flask, 1x Sugar cane, 1x Peppermint	1	No	No			
+No	No	Cookie	Cooking	white	1x Fresh Butter, 1x Cooking Foil, 1x Water Flask, 1x Pasteurized Milk, 1x Potato Flour, 1x Sugar cane	1	No	No			
+No	No	Gnocchi	Cooking	white	1x Large Cooking Pot, 1x Potato Flour, 2x Pulverized Potatoes, 1x Water Flask	1	No	No			
+No	No	Auroch Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Auroch Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Bear Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Bear Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Boar Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Boar Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Elk Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Elk Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Big Cat Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Big Cat Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Mushroom Sandwich	Cooking	green	1x Cooking Foil, 1x Mushroom, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Spider Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Spider Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Wolf Meat Sandwich	Cooking	green	1x Cooking Foil, 1x Wolf Meat, 1x bread, 1x Produce, 1x Fresh Butter, 3x Ground Black Pepper	1	No	No	Grilled Sandwich		
+No	No	Ice Cream	Cooking	white	1x Large Cooking Pot, 1x Sacrifice Shard, 1x Pasteurized Milk, 1x Sugar cane, 1x Water Flask	1	No	No			
+No	No	Red Wine	Cooking	white	1x Water Flask, 1x Apple, 1x Empty Flask, 1x Sugar cane, 1x Yeast	1	No	No			
+											
+		Head Chef									
+No	No	Baked Ice Cream	Cooking	green	1x Large Cooking pot, 1x Peppermint, 1x Ice Cream, 1x Potato Flour, 1x Hot Peppers	1	No	No			
+No	No	Biscuits and Gravy	Cooking	green	1x Large Cooking Pot, 1x Pasteurized Milk, 1x Meat or Mushroom, 1x Potato Flour, 1x Bone Broth, 1x Hot Sauce	1	No	Yes			
+No	No	Bon Tippers	Cooking	green	2x Pasteurized Milk, 1x Currant Berries, 2x Red Wine, 10x Tippers, 1x Ground Black Pepper	1	No	No			
+No	No	Meat Burgundy	Cooking	green	1x Large Cooking Pot, 1x Currant Berries, 1x Red Wine, 2x Meat, 1x Gnocchi, 1x Crushed Herbs, 1x Produce	1	No	No			
+No	No	Pesto Gnocchi	Cooking	green	1x Large Cooking Pot, 1x mushroom, 2x Gnocchi, 1x Olive Oil, 2x Crushed Herbs, 1x Fresh Butter	1	No	No			
+No	No	Pot Roast	Cooking	green	1x Large Cooking Pot, 1x Bone Broth, 2x Meat, 1x Gnocchi, 1x Satyr Salt Cube, 1x Crushed Herbs	1	No	No			
+No	No	Sumptuous Pot Pie	Cooking	green	1x Large Cooking Pot, 1x Urgu Spice Mix, 2x Meat or Mushroom, 1x Water Flask, 1x Fresh Butter, 1x Bread, 1x Produce	1	No	Yes			

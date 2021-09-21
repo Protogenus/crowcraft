@@ -5,7 +5,7 @@ import { String } from "utils";
 import { Rarities } from "models";
 
 export class CustomizableComponent extends Item {
-    constructor(name, professions, rarities, craftingMaterials, craftingQuantity, possibleCustomizations, craftingRecipeName) {
+    constructor(name, professions, rarities, craftingMaterials, craftingQuantity, craftingRecipeName, possibleCustomizations) {
         super(name, professions, rarities, craftingMaterials, craftingQuantity, craftingRecipeName);
 
         this.possibleCustomizations = possibleCustomizations.sort(

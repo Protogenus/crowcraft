@@ -41,6 +41,7 @@ export class GroundExactingGem extends CustomizableComponent {
 				new CraftingMaterial(1, new BloodOrWater()),
             ],
             1,
+            "grind gemstone",
             [
                 new BrioletteTopazWaterGroundExactingGemCustomization(),
 				new BrioletteEmeraldWaterGroundExactingGemCustomization(),
@@ -78,8 +79,7 @@ export class GroundExactingGem extends CustomizableComponent {
 				new TrillionRubyBloodGroundExactingGemCustomization(),
 				new TrillionSapphireBloodGroundExactingGemCustomization(),
 				new TrillionDiamondBloodGroundExactingGemCustomization(),
-            ],
-            "grind gemstone"
+            ]
         );
     }
 }

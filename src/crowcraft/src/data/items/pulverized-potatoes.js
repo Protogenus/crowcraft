@@ -12,7 +12,7 @@ export class PulverizedPotatoes extends Item {
     constructor() {
         super(
             "pulverized potatoes",
-            [Professions.Cooking],
+            [Professions.None],
             [Rarities.Common],
             [
                 new CraftingMaterial(2, new Potato()),

@@ -22,12 +22,12 @@ export class MetalBuckles extends CustomizableComponent {
 				new CraftingMaterial(2, new Coal()),
             ],
             1,
+            "",
             [
                 new AureliumStealthMetalBucklesCustomization(),
 				new SilverStealthMetalBucklesCustomization(),
 				new OutOfCombatHealthRegenerationMetalBucklesCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }

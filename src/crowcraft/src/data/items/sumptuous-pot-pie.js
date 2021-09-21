@@ -31,11 +31,11 @@ export class SumptuousPotPie extends CustomizableComponent {
 				new CraftingMaterial(1, new Produce()),
             ],
             1,
+            "",
             [
                 new MeatSumptuousPotPieCustomization(),
 				new MushroomSumptuousPotPieCustomization(),
-            ],
-            ""
+            ]
         );
     }
 }
