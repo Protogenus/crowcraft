@@ -9,7 +9,7 @@ export const Header = ({ className }) => (
             <div className="flex items-center">
                 <img src={logo} alt="Crowcraft logo" className="h2 mr2" />
                 <div className="flex flex-column tag fw5 f7 pt2">
-                    <div>BETA</div>
+                    <div></div>
                     <div>Crowfall 7.100</div>
                 </div>
             </div>
