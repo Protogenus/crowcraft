@@ -8,8 +8,7 @@ export const Header = ({ className }) => (
         <div className="flex justify-between items-center flex-wrap w-100 ph2 mh-auto mw9">
             <div className="flex items-center">
                 <img src={logo} alt="Crowcraft logo" className="h2 mr2" />
-                <div className="flex flex-column tag fw5 f7 pt2">
-                    <div></div>
+                <div className="tag fw5 f7">
                     <div>Crowfall 7.100</div>
                 </div>
             </div>
