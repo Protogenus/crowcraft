@@ -7,7 +7,7 @@
 import { CraftingMaterial, Rarities, Professions } from "models";
 import { RoughGem } from "./rough-gem";
 import { GroundSulphur } from "./ground-sulphur";
-import { RoughRuby } from "./rough-ruby";
+import { RoughDiamond } from "./rough-diamond";
 import { TransmutationSolution } from "./transmutation-solution";
 
 export class RoughFireDiamond extends RoughGem {
@@ -17,7 +17,7 @@ export class RoughFireDiamond extends RoughGem {
             [Professions.Alchemist],
             [Rarities.Common, Rarities.Uncommon, Rarities.Rare, Rarities.Epic, Rarities.Legendary],
             [
-                new CraftingMaterial(1, new RoughRuby()),
+                new CraftingMaterial(1, new RoughDiamond()),
 				new CraftingMaterial(1, new TransmutationSolution()),
 				new CraftingMaterial(2, new GroundSulphur()),
             ],
