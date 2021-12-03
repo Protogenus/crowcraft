@@ -9,7 +9,6 @@ import { RawMaterials } from "./raw-materials";
 import { RarityPicker } from "./rarity-picker";
 import { CraftingSteps } from "./CraftingSteps";
 import { ItemCustomizer } from "./item-customizer";
-import { ProfessionsStatus } from "./professions-status";
 import { CrafterConfiguration } from "./crafter-configuration";
 
 export const Crafting = () => {
