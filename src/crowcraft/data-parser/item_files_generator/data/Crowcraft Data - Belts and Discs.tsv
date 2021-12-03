@@ -728,32 +728,113 @@ No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Or
 No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Purple
 No	No	Wood Shingles	5x Ethereal Dust, 20x Wood, 20x Wood, 20x Wood	Stonemason	Orange	Stonemason	Orange
 							
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	None	Necromancer	None
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	White	Necromancer	None
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	White	Necromancer	Green
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	White	Necromancer	Blue
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	White	Necromancer	Purple
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	White	Necromancer	Orange
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Green	Necromancer	None
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Green	Necromancer	Green
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	None
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	None
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	None
-No	No	Restored arm	1x Desiccated Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
-No	No	Restored arm	1x Desiccated Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Elven Arm	1x Desiccated Elven Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Human Arm	1x Desiccated Human Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Human Arm	1x Desiccated Human Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Stoneborn Arm	1x Desiccated Stoneborn Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Guinecean Arm	1x Desiccated Guinecean Arm, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
 							
 No	No	Restored Centaur Body	1x Desiccated Centaur Body, 2x Ambrosia, 2x Ambrosia, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg	Necromancer	None	Necromancer	None
 No	No	Restored Centaur Body	1x Desiccated Centaur Body, 2x Ambrosia, 2x Ambrosia, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg	Necromancer	White	Necromancer	None
@@ -782,86 +863,437 @@ No	No	Restored Centaur Body	1x Desiccated Centaur Body, 1x Ambrosia, 1x Ambrosia
 No	No	Restored Centaur Body	1x Desiccated Centaur Body, 1x Ambrosia, 1x Ambrosia, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg	Necromancer	Orange	Necromancer	Purple
 No	No	Restored Centaur Body	1x Desiccated Centaur Body, 1x Ambrosia, 1x Ambrosia, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg, 1x Desiccated Centaur Leg	Necromancer	Orange	Necromancer	Orange
 							
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	None	Necromancer	None
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	White	Necromancer	None
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
-No	No	Restored Head	1x Desiccated Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
-No	No	Restored Head	1x Desiccated Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Human Torso	1x Desiccated Human Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Human Torso	1x Desiccated Human Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
 							
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
-No	No	Restored Leg	1x Desiccated Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
-No	No	Restored Leg	1x Desiccated Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Elven Torso	1x Desiccated Elven Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
 							
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	None	Necromancer	None
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	White	Necromancer	None
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	White	Necromancer	Green
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	White	Necromancer	Blue
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	White	Necromancer	Purple
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	White	Necromancer	Orange
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Green	Necromancer	None
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Green	Necromancer	Green
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	None
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	None
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	None
-No	No	Restored Torso	1x Desiccated Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
-No	No	Restored Torso	1x Desiccated Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Guinecean Torso	1x Desiccated Guinecean Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Stoneborn Torso	1x Desiccated Stoneborn Torso, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Centaur Leg	1x Desiccated Centaur Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Human Leg	1x Desiccated Human Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Human Leg	1x Desiccated Human Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Beast Leg	1x Desiccated Beast Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Elven Leg	1x Desiccated Elven Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Guinecean Leg	1x Desiccated Guinecean Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Stoneborn Leg	1x Desiccated Stoneborn Leg, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Human Head	1x Desiccated Human Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Human Head	1x Desiccated Human Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Elken Head	1x Desiccated Elken Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Elken Head	1x Desiccated Elken Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Elven Head	1x Desiccated Elven Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Elven Head	1x Desiccated Elven Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Guinecean Head	1x Desiccated Guinecean Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Minotaur Head	1x Desiccated Minotaur Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
+							
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	None	Necromancer	None
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	White	Necromancer	None
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	White	Necromancer	Green
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	White	Necromancer	Blue
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	White	Necromancer	Purple
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	White	Necromancer	Orange
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Green	Necromancer	None
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Green	Necromancer	Green
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Green	Necromancer	Blue
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Green	Necromancer	Purple
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Green	Necromancer	Orange
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Blue	Necromancer	None
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Blue	Necromancer	Green
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Blue
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Purple
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Blue	Necromancer	Orange
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Purple	Necromancer	None
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Purple	Necromancer	Green
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Blue
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Purple
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Purple	Necromancer	Orange
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Orange	Necromancer	None
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 2x Ambrosia	Necromancer	Orange	Necromancer	Green
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Blue
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Purple
+No	No	Restored Stoneborn Head	1x Desiccated Stoneborn Head, 1x Ambrosia	Necromancer	Orange	Necromancer	Orange
 							
 No	No	Unmarked Runestone	6x Wood or Stone, 6x Wood or Stone, 6x Wood or Stone, 6x Ethereal Dust	Runemaker	None	Runemaker	None
 No	No	Unmarked Runestone	3x Wood or Stone, 3x Wood or Stone, 3x Wood or Stone, 3x Ethereal Dust	Runemaker	White	Runemaker	None

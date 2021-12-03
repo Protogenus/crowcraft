@@ -11,12 +11,27 @@ import { Aurelium } from "data/items/aurelium";
 import { ChaosEmber } from "data/items/chaos-ember";
 import { Coal } from "data/items/coal";
 import { CuttingGrit } from "data/items/cutting-grit";
-import { DesiccatedArm } from "data/items/desiccated-arm";
+import { DesiccatedBeastLeg } from "data/items/desiccated-beast-leg";
 import { DesiccatedCentaurBody } from "data/items/desiccated-centaur-body";
 import { DesiccatedCentaurLeg } from "data/items/desiccated-centaur-leg";
-import { DesiccatedHead } from "data/items/desiccated-head";
-import { DesiccatedLeg } from "data/items/desiccated-leg";
-import { DesiccatedTorso } from "data/items/desiccated-torso";
+import { DesiccatedElkenHead } from "data/items/desiccated-elken-head";
+import { DesiccatedElvenArm } from "data/items/desiccated-elven-arm";
+import { DesiccatedElvenHead } from "data/items/desiccated-elven-head";
+import { DesiccatedElvenLeg } from "data/items/desiccated-elven-leg";
+import { DesiccatedElvenTorso } from "data/items/desiccated-elven-torso";
+import { DesiccatedGuineceanArm } from "data/items/desiccated-guinecean-arm";
+import { DesiccatedGuineceanHead } from "data/items/desiccated-guinecean-head";
+import { DesiccatedGuineceanLeg } from "data/items/desiccated-guinecean-leg";
+import { DesiccatedGuineceanTorso } from "data/items/desiccated-guinecean-torso";
+import { DesiccatedHumanArm } from "data/items/desiccated-human-arm";
+import { DesiccatedHumanHead } from "data/items/desiccated-human-head";
+import { DesiccatedHumanLeg } from "data/items/desiccated-human-leg";
+import { DesiccatedHumanTorso } from "data/items/desiccated-human-torso";
+import { DesiccatedMinotaurHead } from "data/items/desiccated-minotaur-head";
+import { DesiccatedStonebornArm } from "data/items/desiccated-stoneborn-arm";
+import { DesiccatedStonebornHead } from "data/items/desiccated-stoneborn-head";
+import { DesiccatedStonebornLeg } from "data/items/desiccated-stoneborn-leg";
+import { DesiccatedStonebornTorso } from "data/items/desiccated-stoneborn-torso";
 import { EmptyFlask } from "data/items/empty-flask";
 import { EtherealDust } from "data/items/ethereal-dust";
 import { GroundCinnabar } from "data/items/ground-cinnabar";
@@ -4092,108 +4107,420 @@ export const DisciplinesAndBelts = {
 		new CraftingMaterial(20, new Wood()),
 		new CraftingMaterial(20, new Wood()),
 	],
-	"restored arm.necromancer-disc-none.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-common.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-common.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-common.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-common.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-common.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-uncommon.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-uncommon.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-uncommon.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-uncommon.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-uncommon.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-rare.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-rare.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-rare.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-rare.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-rare.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-epic.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-epic.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-epic.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-epic.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-epic.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-legendary.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-legendary.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-legendary.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-legendary.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored arm.necromancer-disc-legendary.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedArm()),
+	"restored elven arm.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human arm.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn arm.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean arm.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanArm()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
 	"restored centaur body.necromancer-disc-none.necromancer-belt-none": [
@@ -4430,316 +4757,1668 @@ export const DisciplinesAndBelts = {
 		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
 		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
 	],
-	"restored head.necromancer-disc-none.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-common.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-common.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-common.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-common.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-common.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-uncommon.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-uncommon.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-uncommon.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-uncommon.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-rare.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-rare.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-rare.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-rare.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-rare.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-epic.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-epic.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-epic.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-epic.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-epic.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-legendary.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-legendary.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-legendary.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-legendary.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored head.necromancer-disc-legendary.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedHead()),
+	"restored human torso.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-none.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-common.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-common.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-common.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-common.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-common.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-uncommon.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-uncommon.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-uncommon.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-rare.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-rare.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-rare.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-rare.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-rare.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-epic.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-epic.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-epic.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-epic.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-epic.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-legendary.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-legendary.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-legendary.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored leg.necromancer-disc-legendary.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedLeg()),
+	"restored elven torso.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-none.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-common.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-common.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-common.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-common.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-common.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-uncommon.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-uncommon.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-uncommon.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-uncommon.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-uncommon.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-rare.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-rare.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-rare.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-rare.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-rare.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-epic.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-epic.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-epic.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-epic.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-epic.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-legendary.necromancer-belt-none": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-legendary.necromancer-belt-uncommon": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(2, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-legendary.necromancer-belt-rare": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-legendary.necromancer-belt-epic": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
-	"restored torso.necromancer-disc-legendary.necromancer-belt-legendary": [
-		new CraftingMaterial(1, new DesiccatedTorso()),
+	"restored guinecean torso.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn torso.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornTorso()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored centaur leg.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedCentaurLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human leg.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored beast leg.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedBeastLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven leg.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean leg.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn leg.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornLeg()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored human head.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedHumanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elken head.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElkenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored elven head.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedElvenHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored guinecean head.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedGuineceanHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored minotaur head.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedMinotaurHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-none.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-common.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-common.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-common.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-common.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-common.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-uncommon.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-uncommon.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-uncommon.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-uncommon.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-uncommon.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-rare.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-rare.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-rare.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-rare.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-rare.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-epic.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-epic.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-epic.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-epic.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-epic.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-legendary.necromancer-belt-none": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-legendary.necromancer-belt-uncommon": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(2, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-legendary.necromancer-belt-rare": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-legendary.necromancer-belt-epic": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
+		new CraftingMaterial(1, new Ambrosia()),
+	],
+	"restored stoneborn head.necromancer-disc-legendary.necromancer-belt-legendary": [
+		new CraftingMaterial(1, new DesiccatedStonebornHead()),
 		new CraftingMaterial(1, new Ambrosia()),
 	],
 	"unmarked runestone.runemaker-disc-none.runemaker-belt-none": [
