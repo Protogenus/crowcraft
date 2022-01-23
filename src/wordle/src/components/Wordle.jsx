@@ -1,7 +1,7 @@
 import "./Wordle.css"
 
-import { Word } from "./Word";
-import { Keyboard } from "./Keyboard";
+import { Word } from "./grid";
+import { Keyboard } from "./keyboard";
 
 const MAX_GUESSES = 6;
 const WORD_LENGTH = 5;
