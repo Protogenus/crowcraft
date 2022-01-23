@@ -1,5 +1,9 @@
 import "./Wordle.css"
 
+import { Row } from "./Row";
+
+const MAX_GUESSES = 6
+
 export const Wordle = () => {
     return (
         <div className="container | flex flex-column items-center justify-between">
@@ -8,8 +12,8 @@ export const Wordle = () => {
                 <div className="w-33 | flex justify-center ttu">Wordle</div>
                 <div className="w-33 | flex justify-end">Settings</div>
             </div>
-            <div className="grid | flex items-center">
-                Grid
+            <div className="grid | flex flex-column justify-center">
+                {[...Array(MAX_GUESSES)].map((_, i) => <Row key={i} />)}
             </div>
             <div className="keyboard | flex items-center">
                 Keyboard
