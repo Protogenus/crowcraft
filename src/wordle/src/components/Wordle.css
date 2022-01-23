@@ -1,0 +1,20 @@
+.container {
+    height: 100vh;
+    max-width: 500px;
+    margin: auto;
+}
+
+.header {
+    background-color: brown;
+    height: 50px;
+}
+
+.grid {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+.keyboard {
+    background-color: darkgoldenrod;
+    height: 50px;
+}
