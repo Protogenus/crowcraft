@@ -1,0 +1,11 @@
+.key {
+    background-color: #d3d6da;
+    border-radius: 4px;
+    height: 58px;
+    min-width: 43px;
+    cursor: pointer;
+}
+
+.key:not(:last-child) {
+    margin-right: 0.50rem;
+}

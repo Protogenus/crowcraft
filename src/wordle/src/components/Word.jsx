@@ -14,8 +14,8 @@ export const Word = ({ word, targetWord, wordLength }) => {
     return (
         <div className="flex">
             {letters.map((letter, i) => (
-                <div className={i !== wordLength - 1 ? "mr1" : ""}>
-                    <Letter key={`${letter}-${i}`} letter={letter.value} letterState={letter.state} />
+                <div key={`${letter.value}-${i}`} className={i !== wordLength - 1 ? "mr1" : ""}>
+                    <Letter letter={letter.value} letterState={letter.state} />
                 </div>
             ))}
         </div>

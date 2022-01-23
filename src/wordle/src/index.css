@@ -26,3 +26,12 @@ code {
 .w-33 {
   width: 33%
 }
+
+/* Pointer */
+.pen {
+  pointer-events: none;
+}
+
+.usn {
+  user-select: none;
+}

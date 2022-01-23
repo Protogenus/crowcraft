@@ -5,15 +5,14 @@
 }
 
 .header {
-    background-color: brown;
-    height: 50px;
+    min-height: 50px;
+    border-bottom: 1px solid #d3d6da;
+}
+
+.header .title {
+    letter-spacing: 0.2rem;
 }
 
 .grid {
     flex-grow: 1;
-}
-
-.keyboard {
-    background-color: darkgoldenrod;
-    height: 50px;
 }
