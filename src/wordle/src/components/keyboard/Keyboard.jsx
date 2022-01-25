@@ -1,9 +1,11 @@
 import { Key } from "./Key";
 import { EnterKey } from "./EnterKey";
 import { BackspaceKey } from "./BackspaceKey";
+import { useCallback, useEffect } from "react";
 
-const BACKSPACE_KEY = "backspace";
-const ENTER_KEY = "enter";
+const BACKSPACE_KEY = "Backspace";
+const ENTER_KEY = "Enter";
+const SUPPORTED_KEYS = [..."qwertyuiopasdfghjklzxcvbnm", BACKSPACE_KEY, ENTER_KEY];
 
 export const Keyboard = ({ input, onInputChanged, onInputSubmitted }) => {
     const keys = [
@@ -12,7 +14,7 @@ export const Keyboard = ({ input, onInputChanged, onInputSubmitted }) => {
         [..."zxcvbnm"]
     ];
 
-    const onKeyPressed = key => () => {
+    const onKeyPressed = useCallback(key => () => {
         switch(key) {
             case BACKSPACE_KEY:
                 onInputChanged(input.slice(0, -1));
@@ -23,7 +25,19 @@ export const Keyboard = ({ input, onInputChanged, onInputSubmitted }) => {
             default:
                 onInputChanged(input + key);
         }
-    };
+    }, [input, onInputChanged, onInputSubmitted]);
+
+    useEffect(() => {
+        const onKeydown = ({ key }) => { 
+            if (SUPPORTED_KEYS.includes(key)) {
+                onKeyPressed(key)();
+            }
+        }
+
+        document.addEventListener("keydown", onKeydown);
+
+        return () => document.removeEventListener("keydown", onKeydown);
+    }, [onKeyPressed]);
 
     return (
         <div>
