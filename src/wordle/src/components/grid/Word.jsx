@@ -2,10 +2,10 @@ import { Letter, LetterStates } from "./Letter";
 
 const FILL_LETTER = " ";
 
-export const Word = ({ word, targetWord, wordLength }) => {
+export const Word = ({ word, targetWord }) => {
     let letters = getLetterStates(word, targetWord);
     if (!word) {
-        letters = [...Array(wordLength)].map(() => ({
+        letters = [...Array(targetWord.length)].map(() => ({
             value: FILL_LETTER,
             state: LetterStates.UNKNOWN
         }));
@@ -14,7 +14,7 @@ export const Word = ({ word, targetWord, wordLength }) => {
     return (
         <div className="flex">
             {letters.map((letter, i) => (
-                <div key={`${letter.value}-${i}`} className={i !== wordLength - 1 ? "mr1" : ""}>
+                <div key={`${letter.value}-${i}`} className={i !== targetWord.length - 1 ? "mr1" : ""}>
                     <Letter letter={letter.value} letterState={letter.state} />
                 </div>
             ))}
@@ -22,7 +22,7 @@ export const Word = ({ word, targetWord, wordLength }) => {
     );
 }
 
-const getLetterStates = (word, targetWord) => {
+const getLetterStates = (word = "", targetWord) => {
     const lettersToValidate = [...targetWord].reduce((acc, letter) => {
         if (!acc[letter]) {
             acc[letter] = 0;

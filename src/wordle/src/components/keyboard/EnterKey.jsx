@@ -1,7 +1,7 @@
 import { Key } from "./Key";
 
-export const EnterKey = () => {
+export const EnterKey = ({ onClick }) => {
     return (
-        <Key char="enter" />
+        <Key char="enter" onClick={onClick} />
     );
 }
