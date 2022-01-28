@@ -42,7 +42,7 @@ export const Wordle = () => {
 
     return (
         <div className="container | flex flex-column items-center justify-between">
-            <div className="header w-100 | flex justify-between items-center">
+            <div className="header w-100 | flex justify-between items-center ph2">
                 <div className="w-33 | flex">
                     <div className="button | pointer pa2 flex items-center justify-center" onClick={restart}>
                         New Game
