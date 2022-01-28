@@ -3,27 +3,27 @@ import "./Wordle.css"
 import { Grid } from "./grid";
 import { Keyboard } from "./keyboard";
 import { useState } from "react";
-import { english_words } from "./words.english";
+import { englishWords } from "./words.english";
 import { shuffleInPlace, encode, decode } from "./utils";
 
 const QUERY = "seed";
 const MAX_GUESSES = 6;
 
 export const Wordle = () => {
-    const [target_word] = useState(getTargetWord());
+    const [targetWord] = useState(getTargetWord());
     const [input, setInput] = useState("");
     const [words, setWords] = useState([]);
-    console.log(target_word);
-    setQueryParam(QUERY, encode(target_word));
+
+    setQueryParam(QUERY, encode(targetWord));
 
     const updateInput = input =>  {
-        if (input.length <= target_word.length) {
+        if (input.length <= targetWord.length) {
             setInput(input);
         }
     }
 
     const submitInput = input =>  {
-        if (input.length === target_word.length && english_words.includes(input)) {
+        if (input.length === targetWord.length && englishWords.includes(input)) {
             setInput("");
             setWords([...words, input]);
         }
@@ -37,7 +37,7 @@ export const Wordle = () => {
                 <div className="w-33 | flex justify-end">Settings</div>
             </div>
             <div className="grid usn | flex flex-column justify-center">
-                <Grid words={words} input={input} targetWord={target_word} maxGuesses={MAX_GUESSES} />
+                <Grid words={words} input={input} targetWord={targetWord} maxGuesses={MAX_GUESSES} />
             </div>
             <div className="keyboard usn | flex items-center">
                 <Keyboard input={input} onInputChanged={updateInput} onInputSubmitted={submitInput} />
@@ -48,12 +48,12 @@ export const Wordle = () => {
 
 function getTargetWord() {
     const queryParams = new URLSearchParams(window.location.search);
-    const target_word = decode(queryParams.get(QUERY) || "");
-    if (target_word && english_words.includes(target_word)) {
-        return target_word;
+    const targetWord = decode(queryParams.get(QUERY) || "");
+    if (targetWord && englishWords.includes(targetWord)) {
+        return targetWord;
     }
 
-    return shuffleInPlace([...english_words])[0];
+    return shuffleInPlace([...englishWords])[0];
 }
 
 function setQueryParam(key, value) {
