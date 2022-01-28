@@ -6,8 +6,8 @@ export const Grid = ({ words, input, targetWord, maxGuesses }) => {
 
     return (
         <>
-            {words.map(word => (
-                <div key={word} className="mb1">
+            {words.map((word, i) => (
+                <div key={`${word}-${i}`} className="mb1">
                     <Word word={word} targetWord={targetWord} />
                 </div>
             ))}

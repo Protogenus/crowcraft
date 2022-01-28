@@ -7,7 +7,7 @@ const BACKSPACE_KEY = "Backspace";
 const ENTER_KEY = "Enter";
 const SUPPORTED_KEYS = [..."qwertyuiopasdfghjklzxcvbnm", BACKSPACE_KEY, ENTER_KEY];
 
-export const Keyboard = ({ input, onInputChanged, onInputSubmitted }) => {
+export const Keyboard = ({ input, onInputChanged, onInputSubmitted, disabled }) => {
     const keys = [
         [..."qwertyuiop"],
         [..."asdfghjkl"],
@@ -15,6 +15,10 @@ export const Keyboard = ({ input, onInputChanged, onInputSubmitted }) => {
     ];
 
     const onKeyPressed = useCallback(key => () => {
+        if (disabled) {
+            return;
+        }
+
         switch(key) {
             case BACKSPACE_KEY:
                 onInputChanged(input.slice(0, -1));
@@ -25,7 +29,7 @@ export const Keyboard = ({ input, onInputChanged, onInputSubmitted }) => {
             default:
                 onInputChanged(input + key);
         }
-    }, [input, onInputChanged, onInputSubmitted]);
+    }, [input, onInputChanged, onInputSubmitted, disabled]);
 
     useEffect(() => {
         const onKeydown = ({ key }) => { 
