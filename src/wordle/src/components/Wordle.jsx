@@ -16,6 +16,7 @@ export const Wordle = () => {
     const [gameOver, setGameOver] = useState(false);
 
     useEffect(() => {
+        console.log(targetWord);
         setQueryParam(QUERY, encode(targetWord));
     }, [targetWord]);
 

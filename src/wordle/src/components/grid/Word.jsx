@@ -23,6 +23,10 @@ export const Word = ({ word, targetWord }) => {
 }
 
 const getLetterStates = (word = "", targetWord) => {
+    if (!word) {
+        return [];
+    }
+
     const lettersToValidate = [...targetWord].reduce((acc, letter) => {
         if (!acc[letter]) {
             acc[letter] = 0;
@@ -47,10 +51,11 @@ const getLetterStates = (word = "", targetWord) => {
         }
     });
 
-    // Check for present
+    // Check for present, only override LetterStates.ABSENT
+    // Can only show 1 occurence of a present letter, even if there's two
     letters.forEach((letter, i) => {
-        if (targetWord.includes(letter.value) && lettersToValidate[letter.value] > 0) {
-            lettersToValidate[letter.value] -= 1;
+        if (letter.state === LetterStates.ABSENT && lettersToValidate[letter.value] > 0 && targetWord.includes(letter.value)) {
+            lettersToValidate[letter.value] = 0;
             letter.state = LetterStates.PRESENT;
         }
     });
