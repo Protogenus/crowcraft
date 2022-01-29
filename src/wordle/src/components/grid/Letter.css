@@ -5,24 +5,24 @@
     color: white;
 }
 
-.absent {
+.letter.absent {
     background-color: #787c7e;
 }
 
-.present {
+.letter.present {
     background-color: #c9b458;
 }
 
-.correct {
+.letter.correct {
     background-color: #6aaa64;
 }
 
-.unknown {
+.letter.unknown {
     color: black;
     background-color: white;
     border: 2px solid #d3d6da;
 }
 
-.unknown:not(.empty) {
+.letter.unknown:not(.empty) {
     border: 2px solid #878a8c;
 }

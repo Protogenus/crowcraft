@@ -1,11 +1,6 @@
 import "./Letter.css";
 
-export const LetterStates = {
-    UNKNOWN: "unknown",
-    ABSENT: "absent",
-    PRESENT: "present",
-    CORRECT: "correct"
-};
+import { LetterStates } from "components/utils";
 
 export const Letter = ({ letter, letterState = LetterStates.UNKNOWN }) => {
     const emptyClassName = !letter || letter === " " ? "empty" : "";

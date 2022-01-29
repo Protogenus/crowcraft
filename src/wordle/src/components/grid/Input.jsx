@@ -1,4 +1,5 @@
-import { Letter, LetterStates } from "./Letter";
+import { Letter } from "./Letter";
+import { LetterStates } from "components/utils";
 
 const FILL_LETTER = " ";
 

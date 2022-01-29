@@ -56,7 +56,7 @@ export const Wordle = () => {
                 <Grid words={words} input={input} targetWord={targetWord} maxGuesses={MAX_GUESSES} />
             </div>
             <div className="keyboard usn | flex items-center">
-                <Keyboard input={input} onInputChanged={updateInput} onInputSubmitted={submitInput} disabled={gameOver} />
+                <Keyboard input={input} onInputChanged={updateInput} onInputSubmitted={submitInput} disabled={gameOver} words={words} targetWord={targetWord} />
             </div>
         </div>
     );
