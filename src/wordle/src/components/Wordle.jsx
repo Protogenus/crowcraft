@@ -37,7 +37,7 @@ export const Wordle = () => {
 
     const submitInput = input =>  {
         if (input.length === targetWord.length && dictionary.includes(input)) {
-            setGameOver(input === targetWord);
+            setGameOver(input === targetWord || words.length + 1 === MAX_GUESSES);
             setWords([...words, input]);
             setInput("");
         }
@@ -56,6 +56,7 @@ export const Wordle = () => {
 
         setLanguage(newLanguage);
         setDictionary(newDictionary);
+
         setInput("");
         setWords([]);
         setGameOver(false)
