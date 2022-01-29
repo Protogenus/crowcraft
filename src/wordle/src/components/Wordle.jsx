@@ -23,21 +23,10 @@ export const Wordle = () => {
         console.log("Target word:", targetWord);
         setQueryParam(QUERY, encode(targetWord));
     }, [targetWord]);
-
     
     useEffect(() => {
         console.log("Language:", language);
         setQueryParam(LANGUAGE, language);
-    }, [language]);
-
-    useEffect(() => {
-        const newDictionary = Dictionaries[language];
-
-        setDictionary(newDictionary);
-        setInput("");
-        setWords([]);
-        setGameOver(false)
-        setTargetWord(getRandomWord(newDictionary));
     }, [language]);
 
     const updateInput = input =>  {
@@ -62,7 +51,15 @@ export const Wordle = () => {
     };
 
     const changeLanguage = (e) => {
-        setLanguage(e.target.value);
+        const newLanguage = e.target.value;
+        const newDictionary = Dictionaries[newLanguage];
+
+        setLanguage(newLanguage);
+        setDictionary(newDictionary);
+        setInput("");
+        setWords([]);
+        setGameOver(false)
+        setTargetWord(getRandomWord(newDictionary));
     }
 
     return (
