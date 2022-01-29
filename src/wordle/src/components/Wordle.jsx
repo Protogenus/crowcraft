@@ -3,22 +3,42 @@ import "./Wordle.css"
 import { Grid } from "./grid";
 import { Keyboard } from "./keyboard";
 import { useEffect, useState } from "react";
-import { englishWords } from "./words.english";
+
+import { Languages, Dictionaries } from "dictionaries";
 import { shuffleInPlace, encode, decode } from "./utils";
 
 const QUERY = "seed";
+const LANGUAGE = "lang";
 const MAX_GUESSES = 6;
 
 export const Wordle = () => {
-    const [targetWord, setTargetWord] = useState(getTargetWord());
+    const [language, setLanguage] = useState(getLanguage(Languages.FRENCH));
+    const [dictionary, setDictionary] = useState(Dictionaries[language]);
+    const [targetWord, setTargetWord] = useState(getTargetWord(dictionary));
     const [input, setInput] = useState("");
     const [words, setWords] = useState([]);
     const [gameOver, setGameOver] = useState(false);
 
     useEffect(() => {
-        console.log(targetWord);
+        console.log("Target word:", targetWord);
         setQueryParam(QUERY, encode(targetWord));
     }, [targetWord]);
+
+    
+    useEffect(() => {
+        console.log("Language:", language);
+        setQueryParam(LANGUAGE, language);
+    }, [language]);
+
+    useEffect(() => {
+        const newDictionary = Dictionaries[language];
+
+        setDictionary(newDictionary);
+        setInput("");
+        setWords([]);
+        setGameOver(false)
+        setTargetWord(getRandomWord(newDictionary));
+    }, [language]);
 
     const updateInput = input =>  {
         if (input.length <= targetWord.length) {
@@ -27,7 +47,7 @@ export const Wordle = () => {
     };
 
     const submitInput = input =>  {
-        if (input.length === targetWord.length && englishWords.includes(input)) {
+        if (input.length === targetWord.length && dictionary.includes(input)) {
             setGameOver(input === targetWord);
             setWords([...words, input]);
             setInput("");
@@ -38,42 +58,58 @@ export const Wordle = () => {
         setInput("");
         setWords([]);
         setGameOver(false)
-        setTargetWord(getRandomWord());
+        setTargetWord(getRandomWord(dictionary));
     };
+
+    const changeLanguage = (e) => {
+        setLanguage(e.target.value);
+    }
 
     return (
         <div className="container | flex flex-column items-center justify-between">
             <div className="header w-100 | flex justify-between items-center ph2">
                 <div className="w-33 | flex">
-                    <div className="button | pointer pa2 flex items-center justify-center" onClick={restart}>
+                    <div className="button usn | pointer pa2 flex items-center justify-center" onClick={restart}>
                         New Game
                     </div>
                 </div>
                 <div className="w-33 title pen | flex justify-center ttu f2 fw6">Wordle</div>
-                <div className="w-33 | flex justify-end">Settings</div>
+                <div className="w-33 | flex justify-end">
+                <select value={language} onChange={changeLanguage}>
+                    <option value={Languages.ENGLISH}>English</option>
+                    <option value={Languages.FRENCH}>Français</option>
+                    <option value={Languages.SPANISH}>Español</option>
+                </select>
+                </div>
             </div>
             <div className="grid usn | flex flex-column justify-center">
                 <Grid words={words} input={input} targetWord={targetWord} maxGuesses={MAX_GUESSES} />
             </div>
             <div className="keyboard usn | flex items-center">
-                <Keyboard input={input} onInputChanged={updateInput} onInputSubmitted={submitInput} disabled={gameOver} words={words} targetWord={targetWord} />
+                <Keyboard input={input} onInputChanged={updateInput} onInputSubmitted={submitInput} disabled={gameOver} words={words} targetWord={targetWord} language={language} />
             </div>
         </div>
     );
 }
 
-function getTargetWord() {
+function getLanguage(defaultLanguage) {
+    const queryParams = new URLSearchParams(window.location.search);
+
+    return queryParams.get(LANGUAGE) || defaultLanguage;
+}
+
+function getTargetWord(dictionary) {
     const queryParams = new URLSearchParams(window.location.search);
     const targetWord = decode(queryParams.get(QUERY) || "");
-    if (targetWord && englishWords.includes(targetWord)) {
+    if (targetWord && dictionary.includes(targetWord)) {
         return targetWord;
     }
 
-    return getRandomWord();
+    return getRandomWord(dictionary);
 }
 
-function getRandomWord() {
-    return shuffleInPlace([...englishWords])[0];
+function getRandomWord(dictionary) {
+    return shuffleInPlace([...dictionary])[0];
 }
 
 function setQueryParam(key, value) {

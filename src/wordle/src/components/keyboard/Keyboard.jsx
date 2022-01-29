@@ -3,17 +3,22 @@ import { EnterKey } from "./EnterKey";
 import { BackspaceKey } from "./BackspaceKey";
 import { useCallback, useEffect } from "react";
 import { getLetterStates, LetterStateRanks } from "components/utils";
+import { Languages } from "dictionaries";
 
 const BACKSPACE_KEY = "Backspace";
 const ENTER_KEY = "Enter";
 const SUPPORTED_KEYS = [..."qwertyuiopasdfghjklzxcvbnm", BACKSPACE_KEY, ENTER_KEY];
 
-export const Keyboard = ({ input, onInputChanged, onInputSubmitted, disabled, words, targetWord }) => {
+export const Keyboard = ({ input, onInputChanged, onInputSubmitted, disabled, words, targetWord, language }) => {
     const keys = [
         [..."qwertyuiop"],
         [..."asdfghjkl"],
         [..."zxcvbnm"]
     ];
+
+    if (language === Languages.SPANISH) {
+        keys[1].push("\xf1");
+    }
 
     const keyboardLetterStates = getKeyboardLetterStates(words, targetWord);
 
